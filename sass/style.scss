@@ -14,17 +14,29 @@
 
 body {
         .section-nav {
-            
+                width: 100vw;
+                height: 50px;
+                background: rgb(255, 168, 0);
+           
             .container-nav {
                 display: flex;
+                align-items: center;
+                justify-content: flex-end; 
+                
+                //justify-content: ;
+
                 ul {
-                    list-style-type: none;
+                    display: flex;
+                     list-style: none;
+
+                    li {
+                        padding: 0 20px;
+                        list-style-type: none;
+                    }
+                    
                 }
             }
-            display: flex;
-            width: 100vw;
-            height: 100px;
-            background: rgb(255, 168, 0);
+            
         }
         /*klasa top zawiera treść gry planszowe, zaczynajmy*/
         .section-top {
@@ -88,6 +100,19 @@ body {
                 text-align: center;
                 text-shadow: 0 0 12px #000;
                 letter-spacing: 4px;
+            }
+        }
+        /*2 sekcja z boxami i historii */
+        .section.history{
+            min-height: 200vw;
+            background: red;
+            .container{
+                background: #000;
+                .box{
+                    width: 50%;
+                    height: 50%;
+                    background: #000;
+                }
             }
         }
         
