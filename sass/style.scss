@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 body {
-    .container {
-        width: 1200px;
-        .nav {
+    
+        .section-nav {
             width: 100vw;
             height: 100px;
             background: #ffa800;
@@ -18,7 +21,8 @@ body {
         .section-top {
             width: 100vw;
             height: 500px;
-            background-image: ;
+           // background-image: url("images/background.jpg");
+           background: rgb(187, 137, 137);
         }
         /*zrobiony, aby mozna bylo zrobic margin od gory*/
         .header {
@@ -49,7 +53,7 @@ body {
             /*drugi element*/
             .header-nd{
                 width: 70%;
-                padding: 20px;
+                padding: 30px;
                 text-align: center;
             }
             /*trzeci element*/
@@ -58,7 +62,7 @@ body {
                 margin: 60px;
                 padding: 15px;
                 background: #133C8B;
-                border-radius: 10px 10px 10px 10px;
+                border-radius: 30px;
                 border: 2px solid #ffffff;
                 box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
                 font-size: 40px;
@@ -68,7 +72,7 @@ body {
         }
         
         .section-footer {
-            
+            background: #303030;
         }
 
     }
