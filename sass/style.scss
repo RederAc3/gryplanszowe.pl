@@ -1,3 +1,5 @@
+@import "variables";
+
 * {
     margin: 0;
     padding: 0;
@@ -7,30 +9,60 @@
 body {
     .container {
         width: 1200px;
-
         .nav {
             width: 100vw;
             height: 100px;
-            background: red;
+            background: #ffa800;
         }
-        .top {
+        /*klasa top zawiera treść gry planszowe, zaczynajmy*/
+        .section-top {
             width: 100vw;
             height: 500px;
             background: #9898;
         }
-        .header{
+
+        .header {
             display: flex;
+            font-family: 'Montserrat';
+            font-weight: bold;
         }
-        .header-container{
+        .header-container {
             width: 100%;
-            margin: 20px;
+            margin: 40px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            color: whitesmoke;
+
             
-            
+            .header-st {
+                width: 80%;
+                padding: 20px;
+                background: rgba(146, 43, 43, 0.8);
+                font-size: 42px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+
+            .header-nd{
+                width: 70%;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .header-rd{
+                display: flex;
+                margin: 60px;
+                padding: 15px;
+                background: #133C8B;
+                border-radius: 10px 10px 10px 10px;
+                border: 2px solid #ffffff;
+                box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+                font-size: 40px;
+                text-align: center;
+                letter-spacing: 3px;
+            }
         }
     }
-    
-    
 }
