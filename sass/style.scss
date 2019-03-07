@@ -1,132 +1,326 @@
 @import "variables";
-
 * {
     margin: 0;
-    padding: 0;
-    //box-sizing: border-box;
+    padding: 0; //box-sizing: border-box;
 }
+a{all: unset;}
 
 .container {
-
     max-width: 1200px;
     margin: 0 auto;
 }
 
 body {
-        .section-nav {
-                width: 100vw;
-                height: 50px;
-                background: rgb(255, 168, 0);
-           
-            .container-nav {
-                display: flex;
-                align-items: center;
-                justify-content: flex-end; 
-                
-                //justify-content: ;
-
-                ul {
-                    display: flex;
-                     list-style: none;
-
-                    li {
-                        padding: 0 20px;
-                        list-style-type: none;
-                    }
-                    
-                }
-            }
-            
-        }
-        /*klasa top zawiera treść gry planszowe, zaczynajmy*/
-        .section-top {
-            width: 100vw;
-            height: 500px;
-            background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) ), url('/images/background.jpg');
-            //background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-position: cover;
-            background-size: 100% 100%;
-
-
-          //background: rgb(187, 137, 137);
-        }
-        /*zrobiony, aby mozna bylo zrobic margin od gory*/
-        .header {
+    .section-nav {
+        width: 100vw;
+        height: 50px;
+        background: #ffa800;
+        .container-nav {
             display: flex;
-            font-family: 'Montserrat';
-            font-weight: bold;
-        }
-        /*cały container z klasy .section-top*/
-        .header-container {
-            width: 100%;
-            margin: 40px;
-            display: flex;
-            flex-direction: column;
             align-items: center;
-            color: whitesmoke;
-            
-
-            /*pierwszy element*/
-            .header-st {
-                width: 80%;
-                padding: 20px;
-                //background: rgba(255, 255, 255, 0.3);
-                text-shadow: 0 0 120px #000;
-                font-size: 42px;
-                font-weight: bold;
-                text-align: center;
-            }
-            /*drugi element*/
-            .header-nd{
-                width: 70%;
-                padding: 30px;
-                font-size: 20px;
-                text-align: center;
-                text-shadow: 0 0 12px #000;
-                letter-spacing: 1px;
-            }
-            /*trzeci element*/
-            .header-rd{
+            justify-content: flex-end;
+            .logo {}
+            ul {
                 display: flex;
-                margin: 60px;
-                padding: 20px 35px 20px 35px;
-                text-align: center;
-                background: #133C8B;
-                border-radius: 30px;
-                border: 2px solid #ffffff;
-                box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
-                font-size: 36px;
-                text-align: center;
-                text-shadow: 0 0 12px #000;
-                letter-spacing: 4px;
-            }
-        }
-        /*2 sekcja z boxami i historii */
-        .section.history{
-            min-height: 200vw;
-            background: red;
-            .container{
-                background: #000;
-                .box{
-                    width: 50%;
-                    height: 50%;
-                    background: #000;
-                }
-            }
-        }
-        
-        .section-footer {
-            background: #303030;
-            
-            .container {
-                
-                .footer-text {
-                    text-align: center;
-                    padding: 20px;
-                    color: #fff;
-                    font-family: $montserrat;
+                list-style: none;
+                li {
+                    padding: 0 20px;
+                    list-style-type: none;
                 }
             }
         }
     }
+    /*klasa top zawiera treść gry planszowe, zaczynajmy*/
+    .section-top {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url('/images/background1.jpg'); //background-attachment: fixed;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*zrobiony, aby mozna bylo zrobic margin od gory*/
+    .header {
+        display: flex;
+        font-family: $montserrat;
+        font-weight: bold;
+    }
+    /*cały container z klasy .section-top*/
+    .header-container {
+        width: 100%;
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: whitesmoke;
+        /*pierwszy element*/
+        .header-st {
+            width: 80%;
+            padding: 20px; //background: rgba(255, 255, 255, 0.3);
+            text-shadow: 0 0 120px #000;
+            font-size: 42px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 80px;
+                height: 80px;
+                margin-right: 20px;
+            }
+            p {
+                display: inline-block;
+                letter-spacing: 1px;
+            }
+        }
+        /*drugi element*/
+        .header-nd {
+            width: 70%;
+            padding: 30px;
+            font-size: 20px;
+            text-align: center;
+            text-shadow: 0 0 12px #000;
+            letter-spacing: 1px;
+        }
+        /*trzeci element*/
+        .header-rd {
+            display: flex;
+            margin: 60px 10px 10px 10px;
+            padding: 15px 35px 15px 35px;
+            text-align: center;
+            background: rgb(6, 56, 17);
+            border-radius: 30px;
+            border: 2px solid #ffffff;
+            box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.75);
+            font-size: 36px;
+            text-align: center;
+            text-shadow: 0 0 12px #000;
+            letter-spacing: 4px;
+            transition: all .3s ease-out;
+            &:hover {
+                background: rgb(0, 47, 7);
+                cursor: pointer;
+            }
+        }
+    }
+    /*2 sekcja z boxami i historii */
+    .section-history {
+        //background: rgb(0, 0, 0);
+        font-family: $montserrat;
+        background: rgb(248, 248, 248);
+        overflow: hidden;
+        &>.container {
+            width: 100%;
+            height: 3200px;
+            display: block;
+            overflow: hidden; //background: rgba(255, 255, 255, 0.904);
+
+            & > :nth-child(4), & > :nth-child(9) {
+                margin-right: 350px;
+                margin-top: -100px;
+                transform: rotate(50deg);
+                background: #0000;
+            }
+
+            & > :nth-child(7) {
+                margin-left: 350px;
+                // margin-top: -100px;
+                transform: rotate(-50deg);
+            }
+
+            // & > :nth-child(9) {
+            //     margin-right: 350px;
+            //     // margin-top: -100px;
+            //     transform: rotate(50deg);
+            // }
+            
+            .box {
+                width: 470px;
+                height: 200px; //display: inline-block;
+                position: relative;
+                display: block;
+                background: #ddd;
+                transition: all .5s linear;
+                box-shadow: -3px 3px 10px 2px #A8A8A8;
+                    
+                &:hover {
+                        box-shadow: -5px 5px 10px 2px #A8A8A8;
+                    }
+            }
+            .first {
+                left: 45%;
+            }
+            .second {
+                left: 20%;
+            }
+            .third{
+                left: 45%;
+            }
+
+            .fourth{
+                left: 10%;
+            }
+
+            .third, .fourth{
+                margin-top: -1%;
+            }
+
+            p.section-history-header {
+                margin: 80px;
+                text-align: center;
+                font-size: 60px;
+                font-weight: bolder;
+            }
+            div.article {
+                padding: 20px;
+            }
+            p.article-upper {
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+            p.article-downner {
+                font-size: 12px;
+            }
+            .arrow{
+                display: flex;
+                justify-content: center;
+
+                &::after {
+
+                }
+
+                
+                //float: left;
+                //background: #000;
+            }
+        } //koniec .container
+    } //koniec .section-history
+
+    .section-games{
+        min-height: 800px;
+        background: rgb(236, 236, 236);
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            div {
+                 width: 40%;
+                 height: 400px;
+            }
+        }
+    }
+    
+    .section-bottom {
+        border-bottom: 1px solid rgb(20, 20, 20);
+        background: #444;
+        color: #e3e3e3;
+        font-family: $montserrat;
+        &>.container {
+            display: flex;
+            .nav-bottom {
+                display: flex;
+                text-align: center;
+                li {
+                    list-style: none;
+                    padding: 10px;
+                }
+                .nav-section-project,
+                .cooperation,
+                .navigation {
+                    width: 250px;
+                    ul {
+                        padding: 10px;
+                        li {
+                            &:nth-child(1) {
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+                .nav-section-project {
+                    &>ul {
+                        &>li {
+                            width: 100px;
+                        }
+                    }
+                }
+                .cooperation {
+                    ul {
+                        li {}
+                    }
+                }
+                .navigation {
+                    position: relative; // display: flex;
+                    align-items: center;
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        height: 140px;
+                        background: #fff;
+                    }
+                    ul {
+                        li {}
+                    }
+                }
+            }
+            .social-media {
+                text-align: center;
+                width: 500px;
+                background: #444;
+                border-left: 1px solid #999;
+                .social-media-text {
+                    padding: 20px;
+                    text-transform: uppercase;
+                }
+                .social-buttons {
+                    display: flex;
+                    justify-content: center;
+
+                    .btn {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .fab {
+                        margin: auto 0;
+                    }
+
+                    .btn {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50px;
+                        margin: 20px 15px;
+                    }
+                    .yt-button {
+                        background: #ff0000;
+                    }
+                    .fb-button {
+                        background: #4267b2;
+                    }
+                    .tw-button {
+                        background: #1da1f2;
+                    }
+                    .ig-button {
+                        background: #6d483e;
+                    }
+                }
+            }
+        }
+    }
+    .section-footer {
+        background: #303030;
+        .container {
+            .footer-text {
+                text-align: center;
+                padding: 20px;
+                color: #fff;
+                font-family: $montserrat;
+            }
+        }
+    }
+}
