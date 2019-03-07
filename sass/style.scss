@@ -3,26 +3,41 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    //box-sizing: border-box;
 }
 
 .container {
+
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 body {
-    
         .section-nav {
+            
+            .container-nav {
+                display: flex;
+                ul {
+                    list-style-type: none;
+                }
+            }
+            display: flex;
             width: 100vw;
             height: 100px;
-            background: #ffa800;
+            background: rgb(255, 168, 0);
         }
         /*klasa top zawiera treść gry planszowe, zaczynajmy*/
         .section-top {
             width: 100vw;
             height: 500px;
-           // background-image: url("images/background.jpg");
-           background: rgb(187, 137, 137);
+            background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1) ), url('/images/background.jpg');
+            //background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: 100% 100%;
+
+
+          //background: rgb(187, 137, 137);
         }
         /*zrobiony, aby mozna bylo zrobic margin od gory*/
         .header {
@@ -38,42 +53,55 @@ body {
             flex-direction: column;
             align-items: center;
             color: whitesmoke;
+            
 
             /*pierwszy element*/
             .header-st {
                 width: 80%;
                 padding: 20px;
-                background: rgba(146, 43, 43, 0.8);
+                //background: rgba(255, 255, 255, 0.3);
+                text-shadow: 0 0 120px #000;
                 font-size: 42px;
                 font-weight: bold;
                 text-align: center;
-                text-shadow: 0 0 12px #000;
             }
-
             /*drugi element*/
             .header-nd{
                 width: 70%;
                 padding: 30px;
+                font-size: 20px;
                 text-align: center;
+                text-shadow: 0 0 12px #000;
+                letter-spacing: 1px;
             }
             /*trzeci element*/
             .header-rd{
                 display: flex;
                 margin: 60px;
-                padding: 15px;
+                padding: 20px 35px 20px 35px;
+                text-align: center;
                 background: #133C8B;
                 border-radius: 30px;
                 border: 2px solid #ffffff;
                 box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
-                font-size: 40px;
+                font-size: 36px;
                 text-align: center;
+                text-shadow: 0 0 12px #000;
                 letter-spacing: 4px;
             }
         }
         
         .section-footer {
             background: #303030;
+            
+            .container {
+                
+                .footer-text {
+                    text-align: center;
+                    padding: 20px;
+                    color: #fff;
+                    font-family: $montserrat;
+                }
+            }
         }
-
     }
-}
