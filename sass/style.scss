@@ -43,13 +43,9 @@ body {
         align-items: center;
         width: 100vw;
         height: 100vh;
-        backgrouand: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url('/images/background1.jpg'); //background-attachment: fixed;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, .1)), url('/images/background1.jpg') no-repeat center fixed;
         background-size: cover;
     }
-    
     /*zrobiony, aby mozna bylo zrobic margin od gory*/
     .header {
         display: flex;
@@ -99,8 +95,7 @@ body {
             display: flex;
             margin: 60px 10px 10px 10px;
             padding: 15px 35px 15px 35px;
-            text-align: center;
-            // background: rgb(6, 56, 17);
+            text-align: center; // background: rgb(6, 56, 17);
             border-radius: 30px;
             border: 2px solid #ffffff;
             box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.75);
@@ -110,12 +105,10 @@ body {
             letter-spacing: 4px;
             transition: all .3s ease-out;
             background-image: linear-gradient(135deg, #5c5c5c 50%, transparent 50%);
-
             &:hover {
                 // background: rgb(0, 47, 7);
                 cursor: pointer;
-                background-position: 200px 100px;
-                // color: #fff;
+                background-position: 200px 100px; // color: #fff;
             }
         }
     }
@@ -228,6 +221,7 @@ body {
                 .nav-section-project,
                 .cooperation,
                 .navigation {
+                    position: relative;
                     width: 250px;
                     ul {
                         padding: 10px;
@@ -237,84 +231,90 @@ body {
                             }
                         }
                     }
-                }
-                .nav-section-project {
-                    &>ul {
-                        &>li {
-                            width: 100px;
+                    .nav-section-project {
+                        &>ul {
+                            &>li {
+                                width: 100px;
+                            }
                         }
                     }
-                }
-                .cooperation {
+                    .cooperation {}
                     ul {
                         li {}
+                    }
+                }
+                .navigation,
+                .cooperation {
+                    &::before {
+                        position: absolute;
+                        top: 45px;
+                        left: 0;
+                        content: '';
+                        display: block;
+                        height: 100px;
+                        width: 1px;
+                        background: #111;
                     }
                 }
                 .navigation {
                     position: relative; // display: flex;
                     align-items: center;
-                    &::after {
-                        position: absolute;
-                        content: "";
-                        display: block;
-                        height: 140px;
-                        background: #fff;
-                    }
-                    ul {
-                        li {}
-                    }
+                }
+                ul {
+                    li {}
                 }
             }
-            .social-media {
-                text-align: center;
-                width: 500px;
-                background: #444;
-                border-left: 1px solid #999;
-                .social-media-text {
-                    padding: 20px;
-                    text-transform: uppercase;
-                }
-                .social-buttons {
+        }
+        .social-media {
+            text-align: center;
+            width: 500px;
+            background: #444;
+            border-left: 1px solid #999;
+            .social-media-text {
+                padding: 20px;
+                text-transform: uppercase;
+            }
+            .social-buttons {
+                display: flex;
+                justify-content: center;
+                .btn {
                     display: flex;
                     justify-content: center;
-                    .btn {
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .fab {
-                        margin: auto 0;
-                    }
-                    .btn {
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50px;
-                        margin: 20px 15px;
-                    }
-                    .yt-button {
-                        background: #ff0000;
-                    }
-                    .fb-button {
-                        background: #4267b2;
-                    }
-                    .tw-button {
-                        background: #1da1f2;
-                    }
-                    .ig-button {
-                        background: #6d483e;
-                    }
+                }
+                .fab {
+                    margin: auto 0;
+                }
+                .btn {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50px;
+                    margin: 20px 15px;
+                }
+                .yt-button {
+                    background: #ff0000;
+                }
+                .fb-button {
+                    background: #4267b2;
+                }
+                .tw-button {
+                    background: #1da1f2;
+                }
+                .ig-button {
+                    background: #6d483e;
                 }
             }
         }
     }
-    .section-footer {
-        background: #303030;
-        .container {
-            .footer-text {
-                text-align: center;
-                padding: 20px;
-                color: #fff;
-                font-family: $montserrat;
-            }
+}
+
+.section-footer {
+    background: #303030;
+    .container {
+        .footer-text {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            font-family: $montserrat;
         }
     }
 }
