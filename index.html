@@ -15,9 +15,35 @@
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <meta name="theme-color" content="#AAA">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function($) {
+			//scroll reset
+			$.scrollTo(0);
+			
+			$('#link1').click(function() { $.scrollTo($('#history'), 500); });
+            $('#scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        }
+		);
+		
+		//show while scrolling
+		$(window).scroll(function() {
+			if($(this).scrollTop()>500) $('#scrollup').fadeIn();
+			else $('#scrollup').fadeOut();		
+		}
+		);
+    </script>
+
 </head>
 
 <body>
+    <a href="#" id="scrollup">
+                <i class="fas fa-angle-up"></i>
+     </a>                    
+   
     <section class="section-nav">
         <div class="container container-nav">
             <div class="logo"></div>
@@ -52,7 +78,7 @@
                     <p>Poznaj historie gier planszowych i odkryj te, których jeszcze nie znałeś</p>
                 </div>
                 <div class="header-rd">
-                    <a href="#history">
+                    <a id="link1" href="#">
                         <p>Zaczynamy</p>
                     </a>
                 </div>
@@ -444,6 +470,7 @@
             <p class="footer-text">Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
             </p>
         </div>
+        
     </section>
 </body>
 
