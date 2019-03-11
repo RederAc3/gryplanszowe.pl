@@ -17,27 +17,6 @@
     <meta name="theme-color" content="#AAA">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-
-    <script type="text/javascript">
-        jQuery(function ($) {
-            //scroll reset
-            $.scrollTo(0);
-
-            $('#link1').click(function () { $.scrollTo($('#history'), 500); });
-            $('#scrollup').click(function () { $.scrollTo($('body'), 1000); });
-        }
-        );
-
-        //show while scrolling
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 500) $('#scrollup').fadeIn();
-            else $('#scrollup').fadeOut();
-        }
-        );
-    </script>
-
 </head>
 
 <body>
@@ -485,7 +464,9 @@
             <hr/>
         </div>
     </div>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

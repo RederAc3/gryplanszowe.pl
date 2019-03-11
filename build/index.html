@@ -20,30 +20,30 @@
     <script src="js/jquery.scrollTo.min.js"></script>
 
     <script type="text/javascript">
-        jQuery(function($) {
-			//scroll reset
-			$.scrollTo(0);
-			
-			$('#link1').click(function() { $.scrollTo($('#history'), 500); });
-            $('#scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        jQuery(function ($) {
+            //scroll reset
+            $.scrollTo(0);
+
+            $('#link1').click(function () { $.scrollTo($('#history'), 500); });
+            $('#scrollup').click(function () { $.scrollTo($('body'), 1000); });
         }
-		);
-		
-		//show while scrolling
-		$(window).scroll(function() {
-			if($(this).scrollTop()>500) $('#scrollup').fadeIn();
-			else $('#scrollup').fadeOut();		
-		}
-		);
+        );
+
+        //show while scrolling
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) $('#scrollup').fadeIn();
+            else $('#scrollup').fadeOut();
+        }
+        );
     </script>
 
 </head>
 
 <body>
     <a href="#" id="scrollup">
-                <i class="fas fa-angle-up"></i>
-     </a>                    
-   
+        <i class="fas fa-angle-up"></i>
+    </a>
+
     <section class="section-nav">
         <div class="container container-nav">
             <div class="logo"></div>
@@ -391,7 +391,6 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <section class="section-quiz">
         <div class="container">
@@ -470,8 +469,16 @@
             <p class="footer-text">Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
             </p>
         </div>
-        
     </section>
+    <div id="loader-wrapper">
+        <div class="load">
+            <hr/>
+            <hr/>
+            <hr/>
+            <hr/>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
