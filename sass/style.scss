@@ -298,20 +298,23 @@ body {
       align-items: center;
       justify-content: center;
       div {
-        min-width: 40%;
+        width: 90%;
         height: 400px;
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
         flex-direction: column;
+        text-align: center;
         
           p{
-            font-variant-caps: small-caps;
+            font-size: 24px;
           }
           .game-first{}
           .game-second{}
           .game-third{}
           .game-fourth{}
+
           .article-upper{
             font-weight: 900;
           }
