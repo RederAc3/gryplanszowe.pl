@@ -36,7 +36,8 @@ body {
     position: fixed;
     right: 45px;
     bottom: 30px;
-    display: none;
+    opacity: 0;
+    transition: .5s;
     
     &:hover {
       cursor: pointer;
