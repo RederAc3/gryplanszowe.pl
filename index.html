@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!--później pobrać i wrzucić do folderu vendor-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <meta name="theme-color" content="#AAA">
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800">
@@ -20,22 +21,21 @@
     <script src="js/jquery.scrollTo.min.js"></script>
 
     <script type="text/javascript">
-        jQuery(function($) {
-			//scroll reset
-			$.scrollTo(0);
-			
-			$('#link1').click(function() { $.scrollTo($('#history'), 500); });
-            $('#scrollup').click(function() { $.scrollTo($('body'), 1000); });
+        jQuery(function ($) {
+            //scroll reset
+            $.scrollTo(0);
+
+            $('#link1').click(function () { $.scrollTo($('#history'), 500); });
+            $('#scrollup').click(function () { $.scrollTo($('body'), 1000); });
         }
-		);
-		
-		//show while scrolling
-		$(window).scroll(function() {
-            
-			if($(this).scrollTop() > 500) $('#scrollup').fadeIn(); 
-			else $('#scrollup').fadeOut(); 
-		}
-		);
+        );
+
+        //show while scrolling
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) $('#scrollup').fadeIn();
+            else $('#scrollup').fadeOut();
+        }
+        );
     </script>
 
 </head>
@@ -47,7 +47,12 @@
    
     <section class="section-nav">
         <div class="container container-nav">
-            <div class="logo"></div>
+            
+            <div class="logo">
+                <img src="images/logo.png" alt="logo image">
+                <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
+                <a href="index.html"></a>
+            </div>
             <ul class="ul">
                 <li>
                     <p>Strona główna</p>
@@ -392,13 +397,12 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <section class="section-quiz">
         <div class="container">
             <div class="text-image-quiz">
                 <p class="text-quiz">
-                    Sprawdź swoją wiedzę! <br> Weźudział w quizie składającym się z 20 pytań.
+                    Sprawdź swoją wiedzę! <br> Weź udział w quizie składającym się z 20 pytań.
                 </p>
                 <img src="images/test.svg" alt="test" class="image-quiz">
             </div>
@@ -473,6 +477,15 @@
         </div>
         
     </section>
+    <div id="loader-wrapper">
+        <div class="load">
+            <hr/>
+            <hr/>
+            <hr/>
+            <hr/>
+        </div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
