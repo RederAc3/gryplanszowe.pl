@@ -1,0 +1,28 @@
+.section-curiosities {
+   padding: 0 0 40px;
+    & > .container {
+        flex-direction: column;
+        align-items: center;
+        
+      .left-text-curiosities {
+
+        .title-curiosities {
+            text-align: center;
+        }
+      }
+
+      .left-text-curiosities,
+      .right-text-curiosities {
+        width: 100vw;
+
+        .couriosities {
+            flex-direction: column;
+          p.text-curiosities {
+            width: 100vw;
+            margin: 0;
+            padding: 20px;
+          }
+        }
+      }
+    }
+  }

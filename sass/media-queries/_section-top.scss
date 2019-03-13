@@ -1,0 +1,34 @@
+.section-top {
+    // display: none;
+    .header {
+
+      .header-container {
+
+        /*pierwszy element*/
+        .header-st {
+            flex-direction: column;
+          img {
+            margin: 0 auto 20px;
+          }
+          p {
+
+          }
+        }
+        /*drugi element*/
+        .header-nd {
+
+        }
+        /*trzeci element*/
+        .header-rd {
+
+          
+          p {
+
+          }
+          &:hover {
+
+          }
+        }
+      }
+    }
+  }

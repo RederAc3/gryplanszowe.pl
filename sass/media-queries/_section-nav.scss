@@ -1,0 +1,47 @@
+.section-nav {
+  & > .container-nav {
+    flex-direction: column;
+    // justify-content: center;
+
+    .logo {
+      // display: block;
+      margin: 15px auto;
+      img {
+      }
+
+      a {
+      }
+    }
+    ul {
+      flex-direction: column;
+      li {
+        padding: 20px;
+        width: 100%;
+        
+
+        &:hover{
+        }
+
+        &:last-child {
+          height: 100%;
+          width: 100%;
+        }
+
+        & > p {
+            margin: 0 auto;
+        }
+
+        .polish {
+          color: #fff;
+          cursor: pointer;
+          margin-right: 5px;
+        }
+
+        .english {
+          cursor: pointer;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
