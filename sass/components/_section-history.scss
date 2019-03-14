@@ -1,81 +1,124 @@
 .section-history {
-    //background: rgb(0, 0, 0);
-    font-family: $montserrat;
-    background: rgb(248, 248, 248);
-    overflow: hidden;
-    // display: none;
-    & > .container {
+  //background: rgb(0, 0, 0);
+  font-family: $montserrat;
+  background: rgb(248, 248, 248);
+  overflow: hidden;
+  // display: none;
+  & > .container {
+    width: 100%;
+    height: 3200px;
+    display: block;
+    overflow: hidden; //background: rgba(255, 255, 255, 0.904);
+    & > :nth-child(3) {
+      display: flex;
+      justify-content: flex-end;
+      overflow: hidden;
+
+      img {
+        margin-right: 27%;
+        transform: rotate(15deg);
+      }
+    }
+    & > :nth-child(4),
+    & > :nth-child(9) {
+      margin-right: 350px;
+      margin-top: -100px;
+    }
+    & > :nth-child(7) {
+      margin-left: 350px; // margin-top: -100px;
+      transform: rotate(-50deg);
+    } // & > :nth-child(9) {
+    //     margin-right: 350px;
+    //     // margin-top: -100px;
+    //     transform: rotate(50deg);
+    // }
+    .content1 {
+      display: flex;
+      justify-content: space-around;
+      min-height: 300px;
+      margin-top: 100px;
+
+      img {
+        // left: 13%;
+        width: 200px;
+        height: 200px;
+      }
+    }
+
+    .content2 {
       width: 100%;
-      height: 3200px;
+      min-height: 300px;
+      display: flex;
+      justify-content: space-around;
+
+      img {
+        width: 230px;
+        height: 230px;
+        align-self: center;
+      }
+    }
+
+    .box {
+      padding-top: 10px;
+      line-height: 23px;
+      width: 530px;
+      height: 220px; //display: inline-block;
+      position: relative;
       display: block;
-      overflow: hidden; //background: rgba(255, 255, 255, 0.904);
-      & > :nth-child(4),
-      & > :nth-child(9) {
-        margin-right: 350px;
-        margin-top: -100px;
-        transform: rotate(50deg);
-        background: #0000;
+      background: #ddd;
+      transition: all 0.5s linear;
+    }
+    .first {
+      // left: 45%;
+      // align-self: center;
+      // right: 12%;
+      position: relative;
+      right: 0px;
+      margin-top: 50px;
+      margin-left: 50px;
+      box-shadow: -8px 8px 10px -2px rgba(130,130,130,1);
+    }
+    .second {
+      // left: 20%;
+      position: relative;
+      left: 10px;
+      margin-right: 10px;
+      box-shadow: 8px 8px 10px -2px  rgba(130,130,130,1);
+    }
+    .third {
+      left: 45%;
+    }
+    .fourth {
+      left: 10%;
+    }
+    .third,
+    .fourth {
+      margin-top: -1%;
+    }
+    p.section-history-header {
+      margin: 80px;
+      text-align: center;
+      font-size: 60px;
+      font-weight: bolder;
+    }
+    div.article {
+      padding: 20px;
+    }
+    p.article-upper {
+      font-size: 24px;
+      padding-bottom: 5px;
+      margin-bottom: 12px;
+    }
+    p.article-downner {
+      font-size: 12px;
+    }
+    .arrow {
+      // display: flex;
+      // justify-content: center;
+      &::after {
       }
-      & > :nth-child(7) {
-        margin-left: 350px; // margin-top: -100px;
-        transform: rotate(-50deg);
-      } // & > :nth-child(9) {
-      //     margin-right: 350px;
-      //     // margin-top: -100px;
-      //     transform: rotate(50deg);
-      // }
-      .box {
-        width: 470px;
-        height: 200px; //display: inline-block;
-        position: relative;
-        display: block;
-        background: #ddd;
-        transition: all 0.5s linear;
-        box-shadow: -3px 3px 10px 2px #a8a8a8;
-        &:hover {
-          box-shadow: -5px 5px 10px 2px #a8a8a8;
-        }
-      }
-      .first {
-        left: 45%;
-      }
-      .second {
-        left: 20%;
-      }
-      .third {
-        left: 45%;
-      }
-      .fourth {
-        left: 10%;
-      }
-      .third,
-      .fourth {
-        margin-top: -1%;
-      }
-      p.section-history-header {
-        margin: 80px;
-        text-align: center;
-        font-size: 60px;
-        font-weight: bolder;
-      }
-      div.article {
-        padding: 20px;
-      }
-      p.article-upper {
-        font-size: 24px;
-        margin-bottom: 12px;
-      }
-      p.article-downner {
-        font-size: 12px;
-      }
-      .arrow {
-        display: flex;
-        justify-content: center;
-        
-        &::after {
-        }
-        //float: left;
-        //background: #000;
-      }
-    } //koniec .container
-  }
+      //float: left;
+      //background: #000;
+    }
+  } //koniec .container
+}
