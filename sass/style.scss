@@ -54,6 +54,17 @@ body {
     @import "media-queries/section-top";
     @import "media-queries/section-quiz";
     @import "media-queries/section-go-game";
-  }
+    .hide-el {
+      height: 0;
+      position: relative;
+      top: -500px;
+      left: 0;
+    }
 
+    .show-el {
+      height: 40vh;
+
+      // transition: 0.5s linear;
+    }
+  }
 }
