@@ -9,8 +9,8 @@
     height: 3200px;
     display: block;
     overflow: hidden; //background: rgba(255, 255, 255, 0.904);
-    
-     > :nth-child(3) {
+
+    > :nth-child(3) {
       display: flex;
       justify-content: flex-end;
       overflow: hidden;
@@ -26,7 +26,7 @@
       margin-top: -145px;
       // justify-content: flex-start;
       overflow: hidden;
-      
+
       img {
         margin-left: -4%;
         transform: rotate(22deg);
@@ -35,20 +35,20 @@
 
     & > :nth-child(7) {
       display: flex;
-      margin-top: -40px;
+      margin: -40px 0 -10px 0;
       justify-content: center;
       overflow: hidden;
-      
+
       img {
-        transform: rotate(-18deg);
+        transform: rotate(-16deg);
       }
     }
-    
-    & > :nth-child(4),
-    & > :nth-child(9) {
-      margin-right: 350px;
-      margin-top: -100px;
-    }
+
+    // & > :nth-child(4),
+    // & > :nth-child(9) {
+    //   margin-right: 350px;
+    //   margin-top: -100px;
+    // }
     & > :nth-child(1) {
       // margin-left: 350px; // margin-top: -100px;
       // transform: rotate(-50deg);
@@ -71,6 +71,7 @@
     }
 
     .content2 {
+      margin-top: -100px;
       width: 100%;
       min-height: 300px;
       display: flex;
@@ -98,20 +99,27 @@
 
     .content4 {
       display: flex;
-      // width: 100%;
-      margin-left: 50%;
-      transform: translateX(-50%);
+      width: 100%;
+      // margin-left: 50%;
+      // transform: translateX(-50%);
       justify-content: space-around;
       // margin-top: 20px;
-      min-height: 300px;
+      min-height: 250px;
       width: 100%;
       img {
-        position: relative;
-        left: 80px;
+        // position: relative;
+        // left: 80px;
         width: 200px;
         height: 200px;
-        
       }
+    }
+
+    .content5 {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 150px;
+      min-height: 350px;
     }
 
     .box {
@@ -122,7 +130,6 @@
       position: relative;
       display: block;
       background: #ddd;
-      transition: all 0.5s linear;
       overflow: hidden;
       text-align: justify;
     }
@@ -134,33 +141,61 @@
       right: 0px;
       margin-top: 50px;
       margin-left: 50px;
-      box-shadow: -8px 8px 10px -2px rgba(130,130,130,1);
+      box-shadow: -8px 8px 10px -2px rgba(130, 130, 130, 1);
     }
     .second {
       // left: 20%;
       position: relative;
       left: 10px;
       margin-right: 10px;
-      box-shadow: 8px 8px 10px -2px  rgba(130,130,130,1);
+      box-shadow: 8px 8px 10px -2px rgba(130, 130, 130, 1);
     }
     .third {
       position: relative;
       left: 35px;
-      margin-right: 35px;
-      box-shadow: 8px 8px 10px -2px  rgba(130,130,130,1);
+      margin-right: 40px;
+      box-shadow: 8px 8px 10px -2px rgba(130, 130, 130, 1);
     }
     .fourth {
-      // position: relative;
-      // left: 100px;
-      // margin-right: 10px;
-      box-shadow: -8px 8px 10px -2px  rgba(130,130,130,1);
+      position: relative;
+      right: 10px;
+      margin-left: 30px;
+      box-shadow: -8px 8px 10px -2px rgba(130, 130, 130, 1);
+    }
+
+    .fifth {
+      background: rgb(69, 54, 54) !important; //69,54,54
+      width: 795px !important;
+      height: 330px !important;
+      color: white;
+      padding: 30px;
+      box-shadow: -5px 5px 15px -3px rgb(84, 77, 77);
+
+      .article-upper {
+        // width: 500px;
+      }
+      .article-downner {
+        width: 550px;
+        float: left;
+      }
+      .mill {
+        width: 120px;
+        margin-left: 20px;
+        img {
+          // width: 100px;
+          height: 100px;
+          // float: right;
+          display: inline-block;
+          margin-left: 20px;
+        }
+      }
     }
     .third,
     .fourth {
       // margin-top: -1%;
     }
     p.section-history-header {
-      margin: 80px;
+      margin: 40px; //margin: 80px;
       text-align: center;
       font-size: 60px;
       font-weight: bolder;
@@ -169,12 +204,14 @@
       padding: 20px;
     }
     p.article-upper {
+      letter-spacing: 1px;
+      font-weight: bold;
       font-size: 24px;
       padding-bottom: 5px;
       margin-bottom: 12px;
     }
     p.article-downner {
-      font-size: 12px;
+      font-size: 13px;
 
       &::first-letter {
         font-size: 15px;
@@ -192,5 +229,3 @@
     }
   } //koniec .container
 }
-
-
