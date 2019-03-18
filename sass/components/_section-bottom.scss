@@ -3,7 +3,7 @@
     background: #444;
     color: #e3e3e3;
     font-family: $montserrat;
-    display: none;
+    // display: none;
     & > .container {
       display: flex;
       .nav-bottom {
@@ -92,6 +92,7 @@
           background: #ff0000;
           transition: 0.3s;
           &:hover {
+            transform: scale(.9);
             opacity: 0.6;
             cursor: pointer;
           }
@@ -100,6 +101,7 @@
           background: #4267b2;
           transition: 0.3s;
           &:hover {
+            transform: scale(.9);
             opacity: 0.6;
             cursor: pointer;
           }
@@ -108,6 +110,7 @@
           background: #1da1f2;
           transition: 0.3s;
           &:hover {
+            transform: scale(.9);
             opacity: 0.6;
             cursor: pointer;
           }
@@ -116,6 +119,7 @@
           background: #6d483e;
           transition: 0.3s;
           &:hover {
+            transform: scale(.9);
             opacity: 0.6;
             cursor: pointer;
             

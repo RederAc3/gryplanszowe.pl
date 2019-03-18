@@ -4,7 +4,7 @@
 
   & > .container-nav {
     flex-direction: column;
-    // height: 0;
+    height: auto;
     .top-logo {
       // height: 10vh;
       .logo {
@@ -43,7 +43,7 @@
       // top: 0;
       // left: 0;
       flex-direction: column;
-      transition: all .5s linear;
+      transition: .5s linear;
       // height: 85vh;
       li {
         transition: all .5s linear;
