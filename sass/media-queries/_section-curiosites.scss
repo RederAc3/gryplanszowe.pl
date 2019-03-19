@@ -8,6 +8,7 @@
 
         .title-curiosities {
             text-align: center;
+            font-size: 30px;
         }
       }
 
@@ -18,9 +19,10 @@
         .couriosities {
             flex-direction: column;
           p.text-curiosities {
+            text-align: center;
             width: 100vw;
             margin: 0;
-            padding: 20px;
+            padding: 20px 45px;
           }
         }
       }

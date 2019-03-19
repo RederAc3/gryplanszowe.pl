@@ -1,24 +1,18 @@
 .section-nav {
     width: 100vw;
-    // height: 10%;
     background: #ffa800;
     z-index: 1000;
 
     & > .container-nav {
       display: flex;
-      // align-items: center;
-      justify-content: flex-end;
+      justify-content: space-between;
       height: 100%;
 
-      // .hamburger {
-      //   display: none;
-      // }
     .top-logo {
       .logo {
         display: flex;
         align-items: center;
         position: relative;
-        // margin-right: auto;
         margin: 15px auto 15px 10px;
         color: white;
         letter-spacing: 2px;
@@ -52,7 +46,7 @@
         font-family: $montserrat;
         font-size: 15px;
         font-weight: 700;
-        // height: 500px;
+        
         li {
           display: flex;
           align-items: center;

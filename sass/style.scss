@@ -48,23 +48,28 @@ body {
   //   @import "media-queries/section-nav";
   // }
 
+  @media (max-width: 700px) {
+    @import "media-queries/section-bottom-700";
+  }
+
   @media (max-width: 880px) {
     @import "media-queries/section-curiosites";
     @import "media-queries/section-nav";
     @import "media-queries/section-top";
     @import "media-queries/section-quiz";
     @import "media-queries/section-go-game";
+    @import "media-queries/section-bottom";
     .hide-el {
+      transform: scaleY(0);
+      // transform-origin: 50% 0;
       height: 0;
-      position: relative;
-      top: -500px;
-      left: 0;
+      // position: relative;
+      // top: -500px;
+      // left: 0;
     }
 
     .show-el {
       height: 40vh;
-
-      // transition: 0.5s linear;
     }
   }
 }
