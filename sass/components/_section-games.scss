@@ -31,7 +31,7 @@
             p.article-upper {
                 //font-size: 54px;
                 font-size: 54px;
-                margin: 0px 10px 20% 10px;
+                margin: 0px 10px 10% 10px;
             }
             p.article-downner {
                 font-size: 16px;
@@ -51,20 +51,19 @@
         /*div:nth-child(odd) {
               background: teal;
           }*/
-
-          //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
+        //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
         .game-first {
             //background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg"); 
-            background: url("../images/szachy3.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/szachy3.jpg") no-repeat center;
         }
         .game-second {
-            background: url("../images/wezeidrabiny.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/wezeidrabiny.jpg") no-repeat center fixed;
         }
         .game-third {
-            background: url("../images/chinczyk.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/chinczyk.jpg") no-repeat center;
         }
         .game-fourth {
-            background: url("../images/monopoly2.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/monopoly2.jpg") no-repeat center fixed;
         }
         .game-first,
         .game-second,
