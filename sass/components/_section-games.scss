@@ -21,8 +21,7 @@
             display: flex;
             align-items: center;
             flex-direction: column;
-            justify-content: center;
-            margin: 0px 24px 0px 0px;
+            justify-content: center; //margin: 0px 24px 0px 0px;
             overflow: hidden;
             text-align: center;
             p {
@@ -30,6 +29,7 @@
                 text-shadow: 0 0 6px #000;
             }
             p.article-upper {
+                //font-size: 54px;
                 font-size: 54px;
                 margin: 0px 10px 20% 10px;
             }
@@ -38,10 +38,6 @@
                 margin: 0px 10px 0px 10px;
                 font-weight: 500;
             }
-            .game-first {}
-            .game-second {}
-            .game-third {}
-            .game-fourth {}
             .article-upper {
                 font-weight: 900;
             }
@@ -49,11 +45,31 @@
                 font-weight: 600;
             }
         } //parzyste
-        div:nth-child(even) {
-            background: red;
-        } // nieparzyste
-        div:nth-child(odd) {
-            background: teal;
+        /*div:nth-child(even) {
+              background: red;
+          }*/ // nieparzyste
+        /*div:nth-child(odd) {
+              background: teal;
+          }*/
+
+          //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
+        .game-first {
+            //background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg"); 
+            background: url("../images/szachy3.jpg") no-repeat center;
+        }
+        .game-second {
+            background: url("../images/wezeidrabiny.jpg") no-repeat center;
+        }
+        .game-third {
+            background: url("../images/chinczyk.jpg") no-repeat center;
+        }
+        .game-fourth {
+            background: url("../images/monopoly2.jpg") no-repeat center;
+        }
+        .game-first,
+        .game-second,
+        .game-third {
+            margin: 0px 12px 0px 0px;
         }
     }
 }
