@@ -37,7 +37,6 @@ hamburger[0].addEventListener('click', function () {
     } else {
         ul.classList.remove("show-el");
         ul.classList.add("hide-el");
-        // nav.classList.add("hide-el");
         click = 0;
     }
 });

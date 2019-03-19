@@ -1,10 +1,9 @@
 .section-nav {
   position: fixed;
-  // height: 300px;
 
   & > .container-nav {
     flex-direction: column;
-    height: auto;
+    
     .top-logo {
       // height: 10vh;
       .logo {
@@ -44,6 +43,7 @@
       // left: 0;
       flex-direction: column;
       transition: .5s linear;
+
       // height: 85vh;
       li {
         transition: all .5s linear;
