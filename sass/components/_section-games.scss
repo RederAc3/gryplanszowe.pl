@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     .container {
         position: relative;
         min-width: 100%;
@@ -75,21 +75,21 @@
         //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
         .game-first {
             //background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg"); 
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 203, 135, 0.8)), url("../images/szachy3.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/szachy3.jpg") no-repeat center;
         }
         .game-second {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/scrable.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/scrable.jpg") no-repeat center;
         }
         .game-third {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/chinczyk.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/chinczyk.jpg") no-repeat center;
         }
         .game-fourth {
             z-index: 1;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/monopoly2.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/monopoly2.jpg") no-repeat center;
         }
         .game-fifth {
             z-index: 1;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url("../images/Rummikub2.jpg") no-repeat center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/Rummikub2.jpg") no-repeat center;
         }
         // .game-first,
         // .game-second,
