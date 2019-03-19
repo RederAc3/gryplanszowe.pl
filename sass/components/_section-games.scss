@@ -54,8 +54,9 @@
             left: -2px;
             right: -2px;
             bottom: -2px;
-            background: #ace;
-            z-index: -1; //zindex nie dziala
+            //background: #ace;
+            border: 33px solid #000000;
+            z-index: 2; //zindex nie dziala
             transform: skew(12deg, 12deg);
         } //parzyste
         /*div:nth-child(even) {
