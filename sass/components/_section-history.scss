@@ -123,6 +123,14 @@
       font-size: 14px;
     }
 
+    .content6 {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      height: 100%;
+      font-size: 14px;
+    }
+
     .box {
       padding-top: 5px;
       line-height: 24px;
@@ -179,6 +187,11 @@
         margin: -40px 0px 15px 15px;
       }
     }
+
+    .sixth {
+      //background
+    }
+
     .third,
     .fourth {
       // margin-top: -1%;
@@ -218,4 +231,3 @@
     }
   } //koniec .container
 }
-
