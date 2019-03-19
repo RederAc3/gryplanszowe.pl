@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     .container {
+        position: relative;
         min-width: 100%;
         width: 100%;
         height: 100%;
@@ -16,6 +17,7 @@
         font-family: $montserrat;
         div {
             // game-first second third fourth
+            position: relative;
             width: 360px;
             height: 600px;
             display: flex;
@@ -44,6 +46,17 @@
             .article-downner {
                 font-weight: 600;
             }
+        }
+        div:before {
+            content: 'sad';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: #ace;
+            z-index: -1; //zindex nie dziala
+            transform: skew(12deg, 12deg);
         } //parzyste
         /*div:nth-child(even) {
               background: red;
