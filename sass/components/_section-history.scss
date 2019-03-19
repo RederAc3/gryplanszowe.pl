@@ -120,6 +120,15 @@
       justify-content: center;
       margin-top: 150px;
       min-height: 350px;
+      font-size: 14px;
+    }
+
+    .content6 {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      height: 100%;
+      font-size: 14px;
     }
 
     .box {
@@ -168,28 +177,21 @@
       width: 795px !important;
       height: 330px !important;
       color: white;
-      padding: 30px;
+      padding: 25px 30px 30px 30px;
       box-shadow: -5px 5px 15px -3px rgb(84, 77, 77);
 
-      .article-upper {
-        // width: 500px;
-      }
-      .article-downner {
-        width: 550px;
-        float: left;
-      }
-      .mill {
+      img {
         width: 120px;
-        margin-left: 20px;
-        img {
-          // width: 100px;
-          height: 100px;
-          // float: right;
-          display: inline-block;
-          margin-left: 20px;
-        }
+        height: 120px;
+        float: right;
+        margin: -40px 0px 15px 15px;
       }
     }
+
+    .sixth {
+      //background
+    }
+
     .third,
     .fourth {
       // margin-top: -1%;
