@@ -2,6 +2,19 @@
     // display: none;
     .header {
 
+      .hamburger {
+        display: flex;
+        position: relative;
+        top: 10px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background: #000;
+        .el-hamburger {
+  
+        }
+      }
+
       .header-container {
 
         /*pierwszy element*/
