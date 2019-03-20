@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,20 +11,15 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <!--później pobrać i wrzucić do folderu vendor-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <meta name="theme-color" content="#ffa800" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800" />
-  </head>
+</head>
 
-  <body>
+<body>
+    <script src="js/pl.js"></script>
     <!-- <module href="./modules/scrollup.html"></module>
     <module href="./modules/section-nav.html"></module>
     <module href="./modules/section-top.html"></module>
@@ -37,7 +33,7 @@
     <module href="./modules/preloader.html"></module> -->
 
     <a href="#" id="scrollup">
-      <i class="fas fa-angle-up"></i>
+        <i class="fas fa-angle-up"></i>
     </a>
 
     <section class="section-nav">
@@ -45,7 +41,8 @@
             <div class="top-logo">
                 <div class="logo">
                     <img src="images/logo.png" alt="logo image">
-                    <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
+                    <span id="nav-title-1" style="color: black; font-weight: 600;">GRY</span><span
+                        id="nav-title-2">planszowe.pl</span>
                     <a href="index.html"></a>
                 </div>
             </div>
@@ -56,16 +53,20 @@
             </div>
             <ul class="ul hide-el" id="ul">
                 <li>
-                    <p>Strona główna</p>
+                    <a href="index.html">
+                        <p id="nav-home">Strona główna</p>
+                    </a>
                 </li>
                 <li>
-                    <p>Sklep</p>
+                    <a href="shop.html">
+                        <p id="nav-shop">Sklep</p>
+                    </a>
                 </li>
                 <li>
-                    <p>Quiz</p>
+                    <p id="nav-quiz">Quiz</p>
                 </li>
                 <li>
-                    <p>O Autorach </p>
+                    <p id="nav-author">O Autorach</p>
                 </li>
                 <li>
                     <p>
@@ -78,37 +79,37 @@
     </section>
 
     <section class="section-top">
-      <div class="container header">
-        <div class="header-container">
-          <div class="header-st">
-            <img src="images/logo.png" alt="logo image" />
-            <p>Gry planszowe</p>
-          </div>
-          <div class="header-nd">
-            <p>
-              Poznaj historie gier planszowych i odkryj te, których jeszcze nie
-              znałeś
-            </p>
-          </div>
-          <div class="header-rd">
-            <a id="link1" href="#">
-              <p>Zaczynamy</p>
-            </a>
-          </div>
+        <div class="container header">
+            <div class="header-container">
+                <div class="header-st">
+                    <img src="images/logo.png" alt="logo image" />
+                    <p id="top-title">Gry planszowe</p>
+                </div>
+                <div class="header-nd">
+                    <p id="top-text">
+                        Poznaj historie gier planszowych i odkryj te, których jeszcze nie
+                        znałeś
+                    </p>
+                </div>
+                <div class="header-rd">
+                    <a id="link1" href="#">
+                        <p id="top-button-text">Zaczynamy</p>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="history" class="section-history">
         <div class="container">
-            <p class="section-history-header">Jak to się zaczęło?</p>
+            <p class="section-history-header" id="history-header">Jak to się zaczęło?</p>
             <div class="content1">
                 <img src="images/scroll.svg" alt="bulb" />
                 <!--Or bulb.svg-->
                 <div class="box first">
                     <div class="article">
-                        <p class="article-upper">Trochę historii</p>
-                        <p class="article-downner">
+                        <p class="article-upper" id="history-title-article-1">Trochę historii</p>
+                        <p class="article-downner" id="history-contents-article-1">
                             Najstarsze elementy do gier planszowych liczą sobie ponad 5000
                             lat! Chodzi tutaj o 49 ociosanych i pomalowanych kamyczków,
                             które znalezione zostały na terenach południowo-wschodniej
@@ -128,8 +129,8 @@
                 <!-- <img src="images/arrow-mirror.png" alt="arrow" /> -->
                 <div class="box second">
                     <div class="article">
-                        <p class="article-upper">Pierwsza gra?</p>
-                        <p class="article-downner">
+                        <p class="article-upper" id="history-title-article-2">Pierwsza gra?</p>
+                        <p class="article-downner" id="history-contents-article-2">
                             Naukowcy są zgodni, że jedną z pierwszych gier planszowych była
                             gra w kości. Gra ta przez wieki przeszła dużą metamorfozę. Na
                             przetrzeni lat wykonywano ją nie tylko z kości ale też z zębów,
@@ -148,12 +149,10 @@
             <div class="content3">
                 <div class="box third">
                     <div class="article">
-                        <p class="article-upper">Jednak nie pierwsza?</p>
-                        <p class="article-downner">
+                        <p class="article-upper" id="history-title-article-3">Jednak nie pierwsza?</p>
+                        <p class="article-downner" id="history-contents-article-3">
                             Inną popularną wtedy grą był tzw. Senet. Pochodził on z krainy
-                            piramid, czyli ze starożytnego Egiptu.
-                            <!--Z racji swojego
-                  metaforycznego wymiaru był on wówczas bardzo popularny.-->Senet
+                            piramid, czyli ze starożytnego Egiptu.Senet
                             był znany już w 3 tys. p.n.e. i cieszył się popularnością
                             zarówno wśród wyższych jak i niższych warstw społecznych. Z
                             racji tego, że w swoim założeniu w dużej mierze opierał się na
@@ -176,8 +175,8 @@
 
                 <div class="box fourth">
                     <div class="article">
-                        <p class="article-upper">Inne gry</p>
-                        <p class="article-downner">
+                        <p class="article-upper" id="history-title-article-4">Inne gry</p>
+                        <p class="article-downner" id="history-contents-article-4">
                             Rzymianie z kolei mieli tzw. Ludus duodecim scriptorum, grę
                             uznawaną za przodka Backgammona, znanego w Polsce pod nazwą
                             Tryktrak. Niektórzy uważają, że to właśnie do tej gry odnosił
@@ -197,27 +196,27 @@
 
                 <div class="box fifth">
                     <div class="article">
-                      <!-- <p class="article-upper">Młynek</p> -->
-        
-                      <p class="article-downner">
-                          <p class="article-upper">Młynek</p> 
-                        <img src="images/mill-game.svg" alt="mill-game" />
-                        
-                        <span style="font-size:16px;font-weight: 700;">W</span>
-                        <p>racając jeszcze do czasów średniowiecza i początków czasów
-                        nowożytnych to ogólnie rzecz biorąc wiele gier, w które
-                        zagrywano się w Europie miało starożytne korzenie. Jedną z
-                        takich gier jest młynek, a wspominał o niej sam Szekspir. Gra,
-                        której angielska nazwa brzmi Nine Nen's Norris wywodzi swoje
-                        korzenie ze starożytnego Rzymu, a możliwe, że nawet z Egiptu.
-                        Wiadomo jednak, że jak wielu innym grom starożytnym przypisywano
-                        jej wyższe znaczenie, a sama plansza pełniła nawet rolę amuletu.
-                        Założenia gry przypominają te znane z Rzymskiej Tabula Rusolia.
-                        Dzięki ustawieniu 3 pionów w 1 linii możemy zdjąć z planszy pion
-                        przeciwnika. Przegrywa osoba, która zostania jedynie z 2 pionami
-                        z początkowych 9.
-                      </p>
-                    </div> 
+                        <!-- <p class="article-upper">Młynek</p> -->
+
+                        <p class="article-downner">
+                            <p class="article-upper" id="history-title-article-5">Młynek</p>
+                            <img src="images/mill-game.svg" alt="mill-game" />
+
+                            <span style="font-size:16px;font-weight: 700;">W</span>
+                            <p id="history-contents-article-5">racając jeszcze do czasów średniowiecza i początków czasów
+                                nowożytnych to ogólnie rzecz biorąc wiele gier, w które
+                                zagrywano się w Europie miało starożytne korzenie. Jedną z
+                                takich gier jest młynek, a wspominał o niej sam Szekspir. Gra,
+                                której angielska nazwa brzmi Nine Nen's Norris wywodzi swoje
+                                korzenie ze starożytnego Rzymu, a możliwe, że nawet z Egiptu.
+                                Wiadomo jednak, że jak wielu innym grom starożytnym przypisywano
+                                jej wyższe znaczenie, a sama plansza pełniła nawet rolę amuletu.
+                                Założenia gry przypominają te znane z Rzymskiej Tabula Rusolia.
+                                Dzięki ustawieniu 3 pionów w 1 linii możemy zdjąć z planszy pion
+                                przeciwnika. Przegrywa osoba, która zostania jedynie z 2 pionami
+                                z początkowych 9.
+                            </p>
+                    </div>
 
                     <!--KONIEC ARTICLE-->
                 </div>
@@ -227,25 +226,25 @@
 
                 <div class="box sixth">
                     <div class="article">
-                      <p class="article-downner">
-                          <p class="article-upper">Młynek</p> 
-                        <img src="images/mill-game.svg" alt="mill-game" />
-                        
-                        <span style="font-size:16px;font-weight: 700;">W</span>
-                        <p>racając jeszcze do czasów średniowiecza i początków czasów
-                        nowożytnych to ogólnie rzecz biorąc wiele gier, w które
-                        zagrywano się w Europie miało starożytne korzenie. Jedną z
-                        takich gier jest młynek, a wspominał o niej sam Szekspir. Gra,
-                        której angielska nazwa brzmi Nine Nen's Norris wywodzi swoje
-                        korzenie ze starożytnego Rzymu, a możliwe, że nawet z Egiptu.
-                        Wiadomo jednak, że jak wielu innym grom starożytnym przypisywano
-                        jej wyższe znaczenie, a sama plansza pełniła nawet rolę amuletu.
-                        Założenia gry przypominają te znane z Rzymskiej Tabula Rusolia.
-                        Dzięki ustawieniu 3 pionów w 1 linii możemy zdjąć z planszy pion
-                        przeciwnika. Przegrywa osoba, która zostania jedynie z 2 pionami
-                        z początkowych 9.
-                      </p>
-                    </div> 
+                        <p class="article-downner">
+                            <p class="article-upper">Młynek</p>
+                            <img src="images/mill-game.svg" alt="mill-game" />
+
+                            <span style="font-size:16px;font-weight: 700;">W</span>
+                            <p>racając jeszcze do czasów średniowiecza i początków czasów
+                                nowożytnych to ogólnie rzecz biorąc wiele gier, w które
+                                zagrywano się w Europie miało starożytne korzenie. Jedną z
+                                takich gier jest młynek, a wspominał o niej sam Szekspir. Gra,
+                                której angielska nazwa brzmi Nine Nen's Norris wywodzi swoje
+                                korzenie ze starożytnego Rzymu, a możliwe, że nawet z Egiptu.
+                                Wiadomo jednak, że jak wielu innym grom starożytnym przypisywano
+                                jej wyższe znaczenie, a sama plansza pełniła nawet rolę amuletu.
+                                Założenia gry przypominają te znane z Rzymskiej Tabula Rusolia.
+                                Dzięki ustawieniu 3 pionów w 1 linii możemy zdjąć z planszy pion
+                                przeciwnika. Przegrywa osoba, która zostania jedynie z 2 pionami
+                                z początkowych 9.
+                            </p>
+                    </div>
 
                     <!--KONIEC ARTICLE-->
                 </div>
@@ -257,8 +256,8 @@
         <div class="container-games container">
             <!-- <p class="title-section-games">Najpopularniejsze gry według rankingu Dserver.pl</p> -->
             <div class="box-game game-first">
-                <p class="article-upper">Szachy</p>
-                <p class="article-downner">Szachy powstały w VI w. n.e.
+                <p class="article-upper" id="game-title-1">Szachy</p>
+                <p class="article-downner" id="game-contents-1">Szachy powstały w VI w. n.e.
                     w Indiach. Do Europy trafiły w okolicach 8/9 w. n.e. i osiadły tu na dobre, chociaż na ich fenomen
                     trzeba było jeszcze
                     sporo poczekać. Aż do XVIw. Wtedy to wprowadzony kilka istotnych zmian w rozgrywce, które
@@ -266,57 +265,69 @@
                     Wprowaszono wtedy m. in. roszadę.</p>
             </div>
             <div class="box-game game-second">
-                <p class="article-upper">Scrable</p>
-                <p class="article-downner">To właśnie Indiom zawdzięczamy powstanie tej gry. W grę tę grano stulecio w
+                <p class="article-upper" id="game-title-2">Scrable</p>
+                <p class="article-downner" id="game-contents-2">To właśnie Indiom zawdzięczamy powstanie tej gry. W grę tę grano stulecio w
                     Indiach, po czym "przyszła" ona do Anglii.
                     Poza aspektem rozgrywkowym gra posiadała również walory edukacyjne. Drabiny symbolizowały cnotę
                     dzięki, którym można
                     zajść daleko. Węże były zaś reprezentacją grzechów, które mogą sprowadzić ludzi na samo dno.</p>
             </div>
             <div class="box-game game-third">
-                <p class="article-upper">Chińczyk</p>
-                <p class="article-downner">Stara hinduska gra planszowa pachisi jest znana i uprawiana w Indiach do dziś. Oparte na niej gry znane są szeroko w
-                Azji, a także na terenie obydwu Ameryk. Josef Friedrich Schmidt upraszczając znacznie tę
-                grę stworzył chińczyka znanego nam we współczesnej postaci. Począwszy od pierwszego wydania w 1914 roku, na całym świecie sprzedano ponad 70
-                milionów egzemplarzy, a jej zasady pozostają niezmienione.(...)</p>
+                <p class="article-upper" id="game-title-3">Chińczyk</p>
+                <p class="article-downner" id="game-contents-3">Stara hinduska gra planszowa pachisi jest znana i uprawiana w Indiach do
+                    dziś. Oparte na niej gry znane są szeroko w
+                    Azji, a także na terenie obydwu Ameryk. Josef Friedrich Schmidt upraszczając znacznie tę
+                    grę stworzył chińczyka znanego nam we współczesnej postaci. Począwszy od pierwszego wydania w 1914
+                    roku, na całym świecie sprzedano ponad 70
+                    milionów egzemplarzy, a jej zasady pozostają niezmienione.(...)</p>
             </div>
 
             <div class="box-game game-fourth">
-                <p class="article-upper">Monopoly</p>
-                <p class="article-downner">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając
-                nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze
-                przeprowadzonych transakcji.</p>
+                <p class="article-upper" id="game-title-4">Monopoly</p>
+                <p class="article-downner" id="game-contents-4">To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie
+                    gracze okrążają planszę, kupując i sprzedając
+                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i
+                    mądrze
+                    przeprowadzonych transakcji.</p>
             </div>
 
             <div class="box-game game-fifth">
-                <p class="article-upper">Rummikub</p>
-                <p class="article-downner">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze
+                <p class="article-upper" id="game-title-5">Rummikub</p>
+                <p class="article-downner" id="game-contents-5">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie
+                    gracze
                     okrążają planszę, kupując i sprzedając
-                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze
+                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i
+                    mądrze
                     przeprowadzonych transakcji.</p>
             </div>
 
             <div class="box-game game-sixth">
-                <p class="article-upper">Twister</p>
-                <p class="article-downner">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze
+                <p class="article-upper" id="game-title-6">Twister</p>
+                <p class="article-downner" id="game-contents-6">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie
+                    gracze
                     okrążają planszę, kupując i sprzedając
-                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze
+                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i
+                    mądrze
                     przeprowadzonych transakcji.</p>
             </div>
 
             <div class="box-game game-seventh">
-                <p class="article-upper">Osadnicy z Catanu</p>
-                <p class="article-downner">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze
+                <p class="article-upper" id="game-title-7">Osadnicy z Catanu</p>
+                <p class="article-downner" id="game-contents-7">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie
+                    gracze
                     okrążają planszę, kupując i sprzedając
-                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze
+                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i
+                    mądrze
                     przeprowadzonych transakcji.</p>
             </div>
 
             <div class="box-game game-eighth">
-                <p class="article-upper">Bierki</p>
-                <p class="article-downner">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze
+                <p class="article-upper" id="game-title-8">Bierki</p>
+                <p class="article-downner" id="game-contents-8">to klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie
+                    gracze
                     okrążają planszę, kupując i sprzedając
-                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze
+                    nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i
+                    mądrze
                     przeprowadzonych transakcji.</p>
             </div>
         </div>
@@ -325,7 +336,7 @@
     <section class="section-curiosities">
         <div class="container">
             <div class="left-text-curiosities">
-                <p class="title-curiosities">Ciekawostki</p>
+                <p class="title-curiosities" id="curiosities-title">Ciekawostki</p>
                 <div class="couriosities">
                     <svg class="image-curiosities" height="40pt" viewBox="0 -21 512 512" width="40pt"
                         xmlns="http://www.w3.org/2000/svg">
@@ -366,7 +377,7 @@
                             d="m346 213.203125c.300781 4.5-1.199219 9-4.5 12l-85.5 85.5v-222l4.5-4.5c5.101562-5.402344 13.199219-6 19.199219-1.800781 6 4.5 8.101562 12.300781 4.800781 18.898437l-24.300781 48.300781 79.203125 52.5c3.597656 2.699219 5.996094 6.601563 6.597656 11.101563zm0 0"
                             fill="#ff9f00" />
                     </svg>
-                    <p class="text-curiosities">Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61
+                    <p class="text-curiosities" id="curiosities-contents-1">Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61
                         godzin i 2 minuty!</p>
                 </div>
                 <div class="couriosities">
@@ -409,7 +420,7 @@
                             d="m346 213.203125c.300781 4.5-1.199219 9-4.5 12l-85.5 85.5v-222l4.5-4.5c5.101562-5.402344 13.199219-6 19.199219-1.800781 6 4.5 8.101562 12.300781 4.800781 18.898437l-24.300781 48.300781 79.203125 52.5c3.597656 2.699219 5.996094 6.601563 6.597656 11.101563zm0 0"
                             fill="#ff9f00" />
                     </svg>
-                    <p class="text-curiosities">Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61
+                    <p class="text-curiosities" id="curiosities-contents-2">Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61
                         godzin i 2 minuty!</p>
                 </div>
             </div>
@@ -454,7 +465,7 @@
                             d="m346 213.203125c.300781 4.5-1.199219 9-4.5 12l-85.5 85.5v-222l4.5-4.5c5.101562-5.402344 13.199219-6 19.199219-1.800781 6 4.5 8.101562 12.300781 4.800781 18.898437l-24.300781 48.300781 79.203125 52.5c3.597656 2.699219 5.996094 6.601563 6.597656 11.101563zm0 0"
                             fill="#ff9f00" />
                     </svg>
-                    <p class="text-curiosities">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
+                    <p class="text-curiosities" id="curiosities-contents-3">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
                         planszę do gry w Monopoly! Jej powierzchnia
                         wynosi aż 900 m²
                     </p>
@@ -499,7 +510,7 @@
                             d="m346 213.203125c.300781 4.5-1.199219 9-4.5 12l-85.5 85.5v-222l4.5-4.5c5.101562-5.402344 13.199219-6 19.199219-1.800781 6 4.5 8.101562 12.300781 4.800781 18.898437l-24.300781 48.300781 79.203125 52.5c3.597656 2.699219 5.996094 6.601563 6.597656 11.101563zm0 0"
                             fill="#ff9f00" />
                     </svg>
-                    <p class="text-curiosities">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
+                    <p class="text-curiosities" id="curiosities-contents-4">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
                         planszę do gry w Monopoly! Jej powierzchnia
                         wynosi aż 900 m²
                     </p>
@@ -544,7 +555,7 @@
                             d="m346 213.203125c.300781 4.5-1.199219 9-4.5 12l-85.5 85.5v-222l4.5-4.5c5.101562-5.402344 13.199219-6 19.199219-1.800781 6 4.5 8.101562 12.300781 4.800781 18.898437l-24.300781 48.300781 79.203125 52.5c3.597656 2.699219 5.996094 6.601563 6.597656 11.101563zm0 0"
                             fill="#ff9f00" />
                     </svg>
-                    <p class="text-curiosities">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
+                    <p class="text-curiosities" id="curiosities-contents-5">30. listopada 2016 roku Holendrzy stworzyli największą na świecie
                         planszę do gry w Monopoly! Jej powierzchnia
                         wynosi aż 900 m²
                     </p>
@@ -553,40 +564,40 @@
         </div>
     </section>
     <section class="section-quiz">
-      <div class="container">
-        <div class="text-image-quiz">
-          <p class="text-quiz">
-            Sprawdź swoją wiedzę!
-            <br />
-            Weź udział w quizie składającym się z 20 pytań.
-          </p>
-          <img src="images/test.svg" alt="test" class="image-quiz" />
+        <div class="container">
+            <div class="text-image-quiz">
+                <p class="text-quiz" id="quiz-title">
+                    Sprawdź swoją wiedzę!
+                    <br />
+                    Weź udział w quizie składającym się z 20 pytań.
+                </p>
+                <img src="images/test.svg" alt="test" class="image-quiz" />
+            </div>
+            <button class="button-quiz">
+                <span id="quiz-button">Participate</span>
+            </button>
         </div>
-        <button class="button-quiz">
-          <span>Participate</span>
-        </button>
-      </div>
     </section>
     <section class="section-go-game">
-      <div class="container">
-        <div class="img-text">
-          <img src="images/man.svg" alt="man" />
-          <p class="text-image">
-            A może myślisz, że grałeś już w sporo <br />
-            gier planszowych i już Ci wystarczy? <br />
-            Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską
-            grę planszową.
-          </p>
+        <div class="container">
+            <div class="img-text">
+                <img src="images/man.svg" alt="man" />
+                <p class="text-image" id="go-game-contents">
+                    A może myślisz, że grałeś już w sporo <br />
+                    gier planszowych i już Ci wystarczy? <br />
+                    Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską
+                    grę planszową.
+                </p>
+            </div>
+            <div class="div-buttons">
+                <div class="text-buttons" id="go-game-text">
+                    Dlaczego wyjątkową? Przekonaj się sam ;)
+                </div>
+                <button class="button-go-game">
+                    <span id="go-game-button">Kliknij mnie</span>
+                </button>
+            </div>
         </div>
-        <div class="div-buttons">
-          <div class="text-buttons">
-            Dlaczego wyjątkową? Przekonaj się sam ;)
-          </div>
-          <button class="button-go-game">
-            <span>Kliknij mnie</span>
-          </button>
-        </div>
-      </div>
     </section>
     <section class="section-bottom">
 
@@ -594,30 +605,30 @@
             <div class="nav-bottom">
                 <div class="nav-section-project">
                     <ul>
-                        <li>O projekcie</li>
-                        <li>f glkjfdgfdg fdgfdgfdgf sdf dsfds fsd
+                        <li id="bottom-title-1">O projekcie</li>
+                        <li id="bottom-text-1">Projekt współfinansowany z Europejskiego Funduszu "Ciekawe skąd wziął na to pieniązki"
                         </li>
                     </ul>
                 </div>
                 <div class="cooperation">
                     <ul>
-                        <li>Współpraca</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
+                        <li id="bottom-title-2">Współpraca</li>
+                        <li id="bottom-text-2">Donate</li>
+                        <li id="bottom-text-3">Donate</li>
+                        <li id="bottom-text-4">Donate</li>
                     </ul>
                 </div>
                 <div class="navigation">
                     <ul>
-                        <li>Nawigacja</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
+                        <li id="bottom-title-3">Nawigacja</li>
+                        <li id="bottom-text-5">Donate</li>
+                        <li id="bottom-text-6">Donate</li>
+                        <li id="bottom-text-7">Donate</li>
                     </ul>
                 </div>
             </div>
             <div class="social-media">
-                <p class="social-media-text">
+                <p class="social-media-text" id="bottom-social-media">
                     social media
                 </p>
                 <div class="social-buttons">
@@ -635,14 +646,14 @@
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
     </section>
     <section class="section-footer">
-      <div class="container">
-        <p class="footer-text">
-          Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
-        </p>
-      </div>
+        <div class="container">
+            <p class="footer-text" id="footer-test">
+                &copy; 2019 zszarki.pl Wszelkie prawa zastrzeżone
+            </p>
+        </div>
     </section>
     <div id="loader-wrapper">
         <div class="load">
@@ -656,5 +667,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
+</body>
+
 </html>
