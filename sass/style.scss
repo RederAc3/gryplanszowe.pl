@@ -54,6 +54,19 @@ body {
   //MEDIA - ARROWS//
   @import "media-queries/arrows.scss";
 
+  //displaying section-top on very small devices
+  @media (max-height: 600px) {
+    .section-top {
+      .header {
+        .header-container {
+          .header-rd {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  
   @media (max-width: 950px) {
     @import "media-queries/section-history";
   }
