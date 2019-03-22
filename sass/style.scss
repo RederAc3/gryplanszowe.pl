@@ -52,6 +52,12 @@ body {
     @import "media-queries/section-bottom-700";
   }
 
+  @import "media-queries/arrows.scss"; //MEDIA - ARROWS
+
+  @media (max-width: 950px) {
+    @import "media-queries/section-history";
+  }
+
   @media (max-width: 880px) {
     @import "media-queries/section-curiosites";
     @import "media-queries/section-nav";
@@ -59,7 +65,7 @@ body {
     @import "media-queries/section-quiz";
     @import "media-queries/section-go-game";
     @import "media-queries/section-bottom";
-    @import "media-queries/section-history";
+
     .hide-el {
       transform: scaleY(0);
       // transform-origin: 50% 0;

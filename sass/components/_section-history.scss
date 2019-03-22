@@ -27,14 +27,16 @@
       overflow: hidden;
 
       img {
-        margin-left: -4%;
+        margin-top: 40px;
+        margin-bottom: -10px;
+        margin-left: -40px;
         transform: rotate(22deg);
       }
     }
 
     & > :nth-child(7) {
       display: flex;
-      margin: -40px 0 -10px 0;
+      margin: -120px 100px -10px 0;
       justify-content: center;
       overflow: hidden;
 
@@ -100,12 +102,15 @@
     .content3 {
       display: flex;
       justify-content: space-around;
-      margin-top: 20px;
+      // margin-top: 20px;
 
       img {
-        // left: 13%;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        margin-right: 60px;
+        transform: translateX(-30px);
       }
     }
 
