@@ -51,8 +51,8 @@ body {
   @media (max-width: 700px) {
     @import "media-queries/section-bottom-700";
   }
-
-  @import "media-queries/arrows.scss"; //MEDIA - ARROWS
+  //MEDIA - ARROWS//
+  @import "media-queries/arrows.scss";
 
   @media (max-width: 950px) {
     @import "media-queries/section-history";

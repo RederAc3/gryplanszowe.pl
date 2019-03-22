@@ -47,13 +47,13 @@
 
     & > :nth-child(9) {
       display: flex;
-      margin-top: -70px;
+      margin-top: -60px;
       margin-bottom: -120px;
       justify-content: center;
       overflow: hidden;
 
       img {
-        margin-left: -28%;
+        margin-left: -24%;
         transform: rotate(30deg);
       }
     }
@@ -95,7 +95,7 @@
         width: 230px;
         height: 230px;
         align-self: center;
-        right: 30px;
+        transform: translateY(30px);
       }
     }
 
