@@ -4,6 +4,7 @@
       flex-direction: column;
       align-items: center;
       margin-top: 100px;
+
       img {
         width: 110px;
         height: 110px;
@@ -15,6 +16,7 @@
       align-items: center;
       margin-top: 100px;
       position: static;
+
       img {
         width: 120px;
         height: 120px;
@@ -27,9 +29,7 @@
       align-items: center;
       margin-top: 100px;
       position: static;
-      .box {
-        box-shadow: -8px 8px 10px -2px rgba(130, 130, 130, 1);
-      }
+
       img {
         margin: 0;
         position: relative;
@@ -45,15 +45,25 @@
       align-items: center;
       margin-top: 100px;
       position: static;
-      .box {
-        box-shadow: 8px 8px 10px -2px rgba(130, 130, 130, 1);
-      }
+
       img {
         width: 110px;
         height: 110px;
       }
     }
-
+    .content5 {
+      padding: 25px 10px 25px 10px;
+      .fifth {
+        padding: 10px;
+      }
+    }
+    .monopoly {
+      .sixth {
+        width: 100vw;
+        border-radius: 0;
+        padding: 10px;
+      }
+    }
     .box {
       position: static;
       margin: 0;
@@ -61,6 +71,7 @@
       height: auto;
       margin-top: 20px;
       margin-bottom: 12px;
+      box-shadow: none;
     }
 
     .arrow {
