@@ -40,10 +40,21 @@
 
       .arrow {
         background: url("/images/arrow-mirror.png") no-repeat;
-        margin-top: 40px;
+        margin-top: 52px;
         margin-bottom: -10px;
-        margin-left: -40px;
+        margin-left: -55px;
         transform: rotate(22deg);
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: rgb(248, 248, 248);
+        }
       }
     }
 
@@ -59,13 +70,24 @@
         background: url("/images/arrow.png") no-repeat;
         transform: rotate(-25deg);
         margin-left: 120px;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: rgb(248, 248, 248);
+        }
       }
     }
 
     & > :nth-child(9) {
       display: flex;
-      margin-top: -60px;
-      margin-bottom: -130px;
+      margin-top: -50px;
+      margin-bottom: -140px;
       justify-content: center;
       overflow: hidden;
 
@@ -73,6 +95,17 @@
         background: url("/images/arrow-mirror.png") no-repeat;
         margin-left: -24%;
         transform: rotate(30deg);
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: rgb(248, 248, 248);
+        }
       }
     }
 
@@ -300,7 +333,7 @@
     height: 250px;
     width: 150px;
     &::after {
-      transition: 1.5s cubic-bezier(0.33, 0.96, 0.33, 0.96); //cubic-bezier(.22,.96,.22,.96);
+      transition: 1.7s cubic-bezier(0.33, 0.96, 0.33, 0.96); //cubic-bezier(.22,.96,.22,.96);
     }
     &:hover {
       &::after {
