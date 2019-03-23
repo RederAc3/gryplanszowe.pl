@@ -18,6 +18,17 @@
         background: url("/images/arrow.png") no-repeat;
         margin-right: 27%;
         transform: rotate(20deg);
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: rgb(248, 248, 248);
+        }
       }
     }
 
@@ -288,6 +299,14 @@
   .arrow {
     height: 250px;
     width: 150px;
+    &::after {
+      transition: 1.5s cubic-bezier(0.33, 0.96, 0.33, 0.96); //cubic-bezier(.22,.96,.22,.96);
+    }
+    &:hover {
+      &::after {
+        height: 0 !important;
+      }
+    }
   }
 }
 //koniec .container
