@@ -1,25 +1,25 @@
 @media (max-width: 1170px) {
-  .arrow:nth-child(3) {
-    img {
+  .arrowbox:nth-child(3) {
+    .arrow {
       position: relative;
       right: -40px;
     }
   }
-  .arrow:nth-child(9) {
+  .arrowbox:nth-child(9) {
     position: relative;
     right: 20px;
   }
 }
 
 @media (max-width: 1120px) {
-  .arrow:nth-child(3) {
-    img {
+  .arrowbox:nth-child(3) {
+    .arrow {
       position: relative;
       right: -70px;
     }
   }
 
-  .arrow:nth-child(9) {
+  .arrowbox:nth-child(9) {
     position: relative;
     right: 45px;
   }
@@ -32,33 +32,33 @@
     position: relative;
     left: 10px;
 
-    img {
+    .arrow {
       position: relative;
       left: 20px;
     }
   }
 }
 @media (max-width: 1040px) {
-  .arrow:nth-child(5) {
+  .arrowbox:nth-child(5) {
     position: relative;
-    left: -15px;
+    left: -11px;
   }
 
-  .arrow:nth-child(9) {
+  .arrowbox:nth-child(9) {
     position: relative;
     right: 65px;
   }
 }
 
 @media (max-width: 1000px) {
-  .arrow:nth-child(3) {
-    img {
+  .arrowbox:nth-child(3) {
+    .arrow {
       position: relative;
       right: -100px;
     }
   }
 
-  .arrow:nth-child(9) {
+  .arrowbox:nth-child(9) {
     position: relative;
     right: 80px;
   }
