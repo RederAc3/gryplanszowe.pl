@@ -35,13 +35,16 @@
     }
 
     & > :nth-child(7) {
+      width: 100%;
+      padding-bottom: 30px;
       display: flex;
       margin: -120px 100px -10px 0;
       justify-content: center;
       overflow: hidden;
 
       img {
-        transform: rotate(-16deg);
+        transform: rotate(-25deg);
+        margin-left: 100px;
       }
     }
 
