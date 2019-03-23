@@ -14,7 +14,8 @@
       justify-content: flex-end;
       overflow: hidden;
 
-      img {
+      .arrow {
+        background: url("/images/arrow.png") no-repeat;
         margin-right: 27%;
         transform: rotate(20deg);
       }
@@ -26,7 +27,8 @@
       // justify-content: flex-start;
       overflow: hidden;
 
-      img {
+      .arrow {
+        background: url("/images/arrow-mirror.png") no-repeat;
         margin-top: 40px;
         margin-bottom: -10px;
         margin-left: -40px;
@@ -42,20 +44,22 @@
       justify-content: center;
       overflow: hidden;
 
-      img {
+      .arrow {
+        background: url("/images/arrow.png") no-repeat;
         transform: rotate(-25deg);
-        margin-left: 100px;
+        margin-left: 120px;
       }
     }
 
     & > :nth-child(9) {
       display: flex;
       margin-top: -60px;
-      margin-bottom: -120px;
+      margin-bottom: -130px;
       justify-content: center;
       overflow: hidden;
 
-      img {
+      .arrow {
+        background: url("/images/arrow-mirror.png") no-repeat;
         margin-left: -24%;
         transform: rotate(30deg);
       }
@@ -282,12 +286,8 @@
     }
   }
   .arrow {
-    // display: flex;
-    // justify-content: center;
-    &::after {
-    }
-    //float: left;
-    //background: #000;
+    height: 250px;
+    width: 150px;
   }
 }
 //koniec .container
