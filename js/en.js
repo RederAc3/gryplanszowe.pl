@@ -2,18 +2,18 @@ window.onload = function () {
 
     // ####-SECTION--NAV-####
 
-    document.getElementById('nav-title-1').innerHTML = 'GRY';
-    document.getElementById('nav-title-2').innerHTML = 'plnanszowe.pl';
-    document.getElementById('nav-home').innerHTML = 'Strona główna';
-    document.getElementById('nav-shop').innerHTML = 'Sklep';
+    document.getElementById('nav-title-1').innerHTML = 'BOARD';
+    document.getElementById('nav-title-2').innerHTML = 'games.eu';
+    document.getElementById('nav-home').innerHTML = 'Home Page ew Home';
+    document.getElementById('nav-shop').innerHTML = 'Shop';
     document.getElementById('nav-quiz').innerHTML = 'Quiz';
-    document.getElementById('nav-author').innerHTML = 'O Autorach';
+    document.getElementById('nav-author').innerHTML = 'About us';
 
     // ####-SECTION-TOP-####
 
-    document.getElementById('top-title').innerHTML = 'Gry planszowe';
-    document.getElementById('top-text').innerHTML = 'Poznaj historie gier planszowych i odkryj te, których jeszcze nieznałeś';
-    document.getElementById('top-button-text').innerHTML = 'Zaczynamy';
+    document.getElementById('top-title').innerHTML = 'Board games';
+    document.getElementById('top-text').innerHTML = 'Learn the stories of board games and discover the ones you have not known yet';
+    document.getElementById('top-button-text').innerHTML = "Let's start";
 
     // ####-SECTION-HISORY-####
 
@@ -35,11 +35,11 @@ window.onload = function () {
 
     // ####-SECTIONS-GAMES-####
 
-    document.getElementById('game-title-1').innerHTML = 'Szachy';
-    document.getElementById('game-contents-1').innerHTML = 'Szachy powstały w VI w. n.e. w Indiach. Do Europy trafiły w okolicach VIII/IX w. n.e. i osiadły tu na dobre, chociaż na ich fenomen trzeba było jeszcze sporo poczekać. Aż do XVIw. Wtedy to wprowadzony kilka istotnych zmian w rozgrywce, które uatrakcyjniły całość. Wprowaszono wtedy m.in. roszadę.';
+    document.getElementById('game-title-1').innerHTML = 'Chess';
+    document.getElementById('game-contents-1').innerHTML = 'Chess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga some time before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi, janggi, and shogi. Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania. The pieces assumed their current powers in Spain in the late 15th century with the introduction of "Mad Queen Chess"; the modern rules were standardized in the 19th century.';
     
     document.getElementById('game-title-2').innerHTML = 'Scrable';
-    document.getElementById('game-contents-2').innerHTML = 'To właśnie Indiom zawdzięczamy powstanie tej gry. W grę tę grano stulecio w Indiach, po czym "przyszła" ona do Anglii. Poza aspektem rozgrywkowym gra posiadała również walory edukacyjne. Drabiny symbolizowały cnotę dzięki, którym można zajść daleko. Węże były zaś reprezentacją grzechów, które mogą sprowadzić ludzi na samo dno.';
+    document.getElementById('game-contents-2').innerHTML = 'Scrabble is a word game in which two to four players score points by placing tiles bearing a single letter onto a board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns, and be included in a standard dictionary or lexicon.';
     
     document.getElementById('game-title-3').innerHTML = 'Chińczyk';
     document.getElementById('game-contents-3').innerHTML = 'Stara hinduska gra planszowa pachisi jest znana i uprawiana w Indiach do dziś. Oparte na niej gry znane są szeroko w Azji, a także na terenie obydwu Ameryk. Josef Friedrich Schmidt upraszczając znacznie tę grę stworzył chińczyka znanego nam we współczesnej postaci. Począwszy od pierwszego wydania w 1914 roku, na całym świecie sprzedano ponad 70 milionów egzemplarzy, a jej zasady pozostają niezmienione.';
