@@ -3,7 +3,7 @@ window.onload = function () {
     // ####-SECTION--NAV-####
 
     document.getElementById('nav-title-1').innerHTML = 'BOARD';
-    document.getElementById('nav-title-2').innerHTML = 'games.eu';
+    document.getElementById('nav-title-2').innerHTML = "games.eu";
     document.getElementById('nav-home').innerHTML = 'Home Page ew Home';
     document.getElementById('nav-shop').innerHTML = 'Shop';
     document.getElementById('nav-quiz').innerHTML = 'Quiz';
