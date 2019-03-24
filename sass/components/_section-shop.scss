@@ -5,6 +5,8 @@
 }
 .section-shop {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
     .container-shop {
         display: flex;
         flex-wrap: wrap;

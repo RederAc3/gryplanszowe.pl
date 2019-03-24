@@ -3,7 +3,7 @@ var buy = document.querySelectorAll('.buy-button');
 var title = document.querySelectorAll('.title-product');
 var modal = document.getElementById('modal');
 
-// WYWALA NON STOP NaN NWM CCO Z TYM ZROBIĆ
+// WYWALA NON STOP NaN NWM CO Z TYM ZROBIĆ
 // var allPrince = 0;
 var getInfo = function() {
     for ( var i = 0; i <= buy.length; i++) {
@@ -29,9 +29,7 @@ var getInfo = function() {
             exitModal.addEventListener('click', function() {
                 modal.classList.add('none');
             });
-
             // return allPrince;
-
         });
     }
 };
