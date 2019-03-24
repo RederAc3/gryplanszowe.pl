@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: $montserrat;
 }
 
 a {
@@ -40,9 +41,11 @@ body {
   @import "components/section-go-game";
   @import "components/section-bottom";
   @import "components/section-footer"; 
+  @import "components/section-shop"; 
 
   // ############--PRELOADER--############
   @import "components/preloader"; 
+
 
   // @media (max-width: 820px) {
   //   @import "media-queries/section-nav";
