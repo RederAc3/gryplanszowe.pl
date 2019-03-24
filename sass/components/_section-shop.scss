@@ -1,4 +1,10 @@
+#modal {
+    background: #ffa800;
+    width: 400px;
+    height: 200px;
+}
 .section-shop {
+    margin-top: 50px;
     .container-shop {
         display: flex;
         flex-wrap: wrap;
@@ -15,6 +21,7 @@
                 height: 250px;
                 background: #000;
                 overflow: hidden;
+                order: 1;
             }
 
             .title-product {
@@ -24,6 +31,7 @@
                 // background: #000999;
                 // text-align: center;
                 // width: 90%;
+                order: 2;
                 
 
             }
@@ -35,6 +43,7 @@
                 // text-align: center;
                 padding-bottom: 20px;
                 border-bottom: 2px solid #444;
+                order: 3;
                 .prince-text {
                     font-weight: 700;
                     margin-right: 10px;
@@ -54,6 +63,7 @@
                 color: #ffa800;
                 border: 2px solid #ffa800;
                 transition: .5s;
+                order: 4;
                 
                 &:hover {
                     background: #ffa800;
