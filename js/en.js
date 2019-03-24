@@ -17,20 +17,20 @@ window.onload = function () {
 
     // ####-SECTION-HISORY-####
     // Ula, too hard for me there
-    document.getElementById('history-header').innerHTML = 'Jak to się zaczęło? // How did it start?';
+    //document.getElementById('history-header').innerHTML = 'Jak to się zaczęło? How did it start?';
     // document.getElementById('history-title-article-1').innerHTML = 'Some history';
     // document.getElementById('history-contents-article-1').innerHTML = 'Najstarsze elementy do gier planszowych liczą sobie ponad 5000 lat! Chodzi tutaj o 49 ociosanych i pomalowanych kamyczków,które znalezione zostały na terenach południowo - wschodniejTurcji.Podobne zostały znalezione również w Iraku i Syrii, copozwala wyciągnąć wniosek, że gry planszowe wywodzą sięz terenówtzw. Żyznego Półksiężca';
 
-    document.getElementById('history-title-article-2').innerHTML = 'However, not the first?';
+    //document.getElementById('history-title-article-2').innerHTML = 'However, not the first?';
     // document.getElementById('history-contents-article-2').innerHTML = 'Inną popularną wtedy grą był tzw. Senet. Pochodził on z krainypiramid, czyli ze starożytnego Egiptu.Senetbył znany już w 3 tys. p.n.e. i cieszył się popularnościązarówno wśród wyższych jak i niższych warstw społecznych. Zracji tego, że w swoim założeniu w dużej mierze opierał się naelemencie szczęścia, zaczęto przypisywać mu wyższe znaczenie iczęsto kończył on jako wyposażenie grobowców.';
 
     // document.getElementById('history-title-article-3').innerHTML = 'Jednak nie pierwsza?';
     // document.getElementById('history-contents-article-3').innerHTML = 'Inną popularną wtedy grą był tzw. Senet. Pochodził on z krainypiramid, czyli ze starożytnego Egiptu.Senetbył znany już w 3 tys. p.n.e. i cieszył się popularnościązarówno wśród wyższych jak i niższych warstw społecznych. Zracji tego, że w swoim założeniu w dużej mierze opierał się naelemencie szczęścia, zaczęto przypisywać mu wyższe znaczenie i często kończył on jako wyposażenie grobowców.';
 
-    document.getElementById('history-title-article-4').innerHTML = 'Other games';
+    //document.getElementById('history-title-article-4').innerHTML = 'Other games';
     // document.getElementById('history-contents-article-4').innerHTML = 'Rzymianie z kolei mieli tzw. Ludus duodecim scriptorum, gręuznawaną za przodka Backgammona, znanego w Polsce pod nazwąTryktrak. Niektórzy uważają, że to właśnie do tej gry odnosiłsię Juliusz Cezar wypowiadając słynne słowa: „Kości zostałyrzucone”. Oprócz tego Rzymianie grali również w Tabula Rusolia.Rozgrywka miała miejsce na okrągłej planszy, a celem każdegogracza było ustawienie trzech swoich pionów w jednej linii.';
 
-    document.getElementById('history-title-article-1').innerHTML = "Nine men's morris";
+    //document.getElementById('history-title-article-1').innerHTML = "Nine men's morris";
     // document.getElementById('history-contents-article-1').innerHTML = "pracając jeszcze do czasów średniowiecza i początków czasównowożytnych to ogólnie rzecz biorąc wiele gier, w którezagrywano się w Europie miało starożytne korzenie. Jedną z takich gier jest młynek, a wspominał o niej sam Szekspir. Gra,której angielska nazwa brzmi Nine Nen's Norris wywodzi swoje korzenie ze starożytnego Rzymu, a możliwe, że nawet z Egiptu. Wiadomo jednak, że jak wielu innym grom starożytnym przypisywano jej wyższe znaczenie, a sama plansza pełniła nawet rolę amuletu. Założenia gry przypominają te znane z Rzymskiej Tabula Rusolia. Dzięki ustawieniu 3 pionów w 1 linii możemy zdjąć z planszy pionprzeciwnika. Przegrywa osoba, która zostanie jedynie z 2 pionamiz początkowych 9.";
 
     // ####-SECTIONS-GAMES-####
@@ -103,6 +103,6 @@ window.onload = function () {
 
     // ####-SECTION-FOOTER-####
 
-    document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl | All rights reserved.';
+    document.getElementById('footer-text').innerHTML = '&copy; 2019 | zszarki.pl | All rights reserved.';
 
 }
