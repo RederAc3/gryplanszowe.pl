@@ -16,7 +16,7 @@ window.onload = function () {
     document.getElementById('top-button-text').innerHTML = "Let's start";
 
     // ####-SECTION-HISORY-####
-
+    // Ula, too hard for me there
     // document.getElementById('history-header').innerHTML = 'Jak to się zaczęło?  ';
     // document.getElementById('history-title-article-1').innerHTML = 'Trochę historii';
     // document.getElementById('history-contents-article-1').innerHTML = 'Najstarsze elementy do gier planszowych liczą sobie ponad 5000lat! Chodzi tutaj o 49 ociosanych i pomalowanych kamyczków,które znalezione zostały na terenach południowo - wschodniejTurcji.Podobne zostały znalezione również w Iraku i Syrii, copozwala wyciągnąć wniosek, że gry planszowe wywodzą sięz terenówtzw. Żyznego Półksiężca';
@@ -51,51 +51,58 @@ window.onload = function () {
     document.getElementById('game-contents-5').innerHTML = 'Rummikub is a tile-based game for two to 4 players, combining elements of the card game rummy and mahjong. There are 104 number tiles in the game (valued 1 to 13 in four different colors, two copies of each) and two jokers. Players have 14 or 16 tiles initially and take turns putting down tiles from their racks into sets (groups or runs) of at least three, drawing a tile if they cannot play.';
     
     document.getElementById('game-title-6').innerHTML = 'Twister';
-    document.getElementById('game-contents-6').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-contents-6').innerHTML = 'Twister is a game of physical skill, produced by Milton Bradley Company and Winning Moves, that has been inducted into the American National Toy Hall of Fame. It is played on a large plastic mat that is spread on the floor or ground. The mat has six rows of large colored circles on it with a different color in each row: red, yellow, green, and blue. A spinner is attached to a square board and is used to determine where the player has to put their hand or foot. ';
     
-    document.getElementById('game-title-7').innerHTML = 'Osadnicy z Catanu';
-    document.getElementById('game-contents-7').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-title-7').innerHTML = 'The Settlers of Catan';
+    document.getElementById('game-contents-7').innerHTML = 'The Settlers of Catan, sometimes shortened to Catan or to Settlers, is a multiplayer board game designed by Klaus Teuber and first published in 1995 in Germany by Franckh-Kosmos Verlag (Kosmos) as Die Siedler von Catan. Players assume the roles of settlers, each attempting to build and develop holdings while trading and acquiring resources. Players gain points as their settlements grow; the first to reach a set number of points, typically 10, wins.';
     
-    document.getElementById('game-title-8').innerHTML = 'Bierki';
-    document.getElementById('game-contents-8').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-title-8').innerHTML = 'Spillikins';
+    document.getElementById('game-contents-8').innerHTML = 'Pick-up sticks or pick-a-stick is a game of physical and mental skill in which a bundle of "sticks", between 8 and 20 centimeters long, are dropped as a loose bunch onto a table top, jumbling into a random pile. Each player in turn tries to remove a stick from the pile without disturbing any of the others.';
 
     // ####-SECTION-CURIOSITES-####
 
-    document.getElementById('curiosities-title').innerHTML = 'Ciekawostki';
+    document.getElementById('curiosities-title').innerHTML = 'Curiosities';
 
-    document.getElementById('curiosities-contents-1').innerHTML = 'Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61godzin i 2 minuty!';
-    document.getElementById('curiosities-contents-2').innerHTML = '30. listopada 2016 roku Holendrzy stworzyli największą na świecie planszę do gry w Monopoly! Jej powierzchnia wynosi aż 900 m²';
+    document.getElementById('curiosities-contents-1').innerHTML = 'The Guinness World Record for the longest marathon of board games in history lasted as many as 61 hours and 2 minutes!';
+    document.getElementById('curiosities-contents-2').innerHTML = "On November 30, 2016, the Dutch created the world's largest Monopoly game board! Its area is up to 900 m²";
     document.getElementById('curiosities-contents-3').innerHTML = '30. listopada 2016 roku Holendrzy stworzyli największą na świecie planszę do gry w Monopoly! Jej powierzchnia wynosi aż 900 m²';
     document.getElementById('curiosities-contents-4').innerHTML = '30. listopada 2016 roku Holendrzy stworzyli największą na świecie planszę do gry w Monopoly! Jej powierzchnia wynosi aż 900 m²';
     document.getElementById('curiosities-contents-5').innerHTML = '30. listopada 2016 roku Holendrzy stworzyli największą na świecie planszę do gry w Monopoly! Jej powierzchnia wynosi aż 900 m²';
 
     // ####-SECTION-QUIZ-####
 
-    document.getElementById('quiz-title').innerHTML = 'Sprawdź swoją wiedzę! <br /> Weź udział w quizie składającym się z 20 pytań.';
-    document.getElementById('quiz-button').innerHTML = 'Biorę udział';
+    document.getElementById('quiz-title').innerHTML = "Check your knowledge! <br />Take part in a quiz of 20 questions.";
+
+    document.getElementById('quiz-button').innerHTML = "Let's try!";
 
     // ####-SECTION-GO-GAME-####
 
-    document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską grę planszową.';
-    document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
-    document.getElementById('go-game-button').innerHTML = 'Kliknij mnie';
+    // document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską grę planszową.';
+
+    // document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską grę planszową.';
+
+    document.getElementById('go-game-contents').innerHTML = 'You probably think that you already know everything about board games? Got you! We have something special. We present our unique and original board game.';
+
+
+    document.getElementById('go-game-text').innerHTML = 'Why unique? See for yourself ;)';
+    document.getElementById('go-game-button').innerHTML = 'Click on me???';
 
     // ####-SETION-BOTTOM-####
 
-    document.getElementById('bottom-title-1').innerHTML = 'O projekcie';
-    document.getElementById('bottom-text-1').innerHTML = 'Projekt współfinansowany z Europejskiego Funduszu "Ciekawe skąd wziął na to pieniązki"';
-    document.getElementById('bottom-title-2').innerHTML = 'Współpraca';
-    document.getElementById('bottom-text-2').innerHTML = 'Sprzedarz';
-    document.getElementById('bottom-text-3').innerHTML = 'Reklama';
-    document.getElementById('bottom-text-4').innerHTML = 'Coś się wymyśli';
-    document.getElementById('bottom-title-3').innerHTML = 'Nawigacja';
-    document.getElementById('bottom-text-5').innerHTML = 'Naprzód';
-    document.getElementById('bottom-text-6').innerHTML = 'W tył';
-    document.getElementById('bottom-text-7').innerHTML = 'Obróć się ';
+    document.getElementById('bottom-title-1').innerHTML = 'About project';
+    document.getElementById('bottom-text-1').innerHTML = 'Project co-financed from the European Fund of "Ciekawe skąd wziął na to pieniązki"';
+    document.getElementById('bottom-title-2').innerHTML = 'Collaboration';
+    document.getElementById('bottom-text-2').innerHTML = 'Sale';
+    document.getElementById('bottom-text-3').innerHTML = 'Advertisement';
+    document.getElementById('bottom-text-4').innerHTML = 'Coś się wymyśli - XDD';
+    document.getElementById('bottom-title-3').innerHTML = 'Navigation';
+    document.getElementById('bottom-text-5').innerHTML = 'Forward';
+    document.getElementById('bottom-text-6').innerHTML = 'Backward';
+    document.getElementById('bottom-text-7').innerHTML = 'Turn around';
     document.getElementById('bottom-social-media').innerHTML = 'social media';
 
     // ####-SECTION-FOOTER-####
 
-    document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl Wszelkie prawa zastrzeżone';
+    document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl | All rights reserved.';
 
 }
