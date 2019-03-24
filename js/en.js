@@ -41,14 +41,14 @@ window.onload = function () {
     document.getElementById('game-title-2').innerHTML = 'Scrable';
     document.getElementById('game-contents-2').innerHTML = 'Scrabble is a word game in which two to four players score points by placing tiles bearing a single letter onto a board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns, and be included in a standard dictionary or lexicon.';
     
-    document.getElementById('game-title-3').innerHTML = 'Chińczyk';
-    document.getElementById('game-contents-3').innerHTML = 'Stara hinduska gra planszowa pachisi jest znana i uprawiana w Indiach do dziś. Oparte na niej gry znane są szeroko w Azji, a także na terenie obydwu Ameryk. Josef Friedrich Schmidt upraszczając znacznie tę grę stworzył chińczyka znanego nam we współczesnej postaci. Począwszy od pierwszego wydania w 1914 roku, na całym świecie sprzedano ponad 70 milionów egzemplarzy, a jej zasady pozostają niezmienione.';
+    document.getElementById('game-title-3').innerHTML = 'Ludo';
+    document.getElementById('game-contents-3').innerHTML = "Ludo, from Latin ludo, meaning 'I play') is a strategy board game for two to four players, in which the players race their four tokens from start to finish according to the rolls of a single die. Like other cross and circle games, Ludo is derived from the Indian game Pachisi, but simpler. The game and its variations are popular in many countries and under various names.";
     
     document.getElementById('game-title-4').innerHTML = 'Monopoly';
-    document.getElementById('game-contents-4').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-contents-4').innerHTML = 'Monopoly is a board game that is currently published by Hasbro. In the game, players roll two six-sided dice to move around the game board, buying and trading properties, and developing them with houses and hotels. Players collect rent from their opponents, with the goal being to drive them into bankruptcy. Money can also be gained or lost through Chance and Community Chest cards, and tax squares; players can end up in jail, which they cannot move from until they have met one of several conditions.';
     
-    document.getElementById('game-title-5').innerHTML = '';
-    document.getElementById('game-contents-5').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-title-5').innerHTML = 'Rummikub';
+    document.getElementById('game-contents-5').innerHTML = 'Rummikub is a tile-based game for two to 4 players, combining elements of the card game rummy and mahjong. There are 104 number tiles in the game (valued 1 to 13 in four different colors, two copies of each) and two jokers. Players have 14 or 16 tiles initially and take turns putting down tiles from their racks into sets (groups or runs) of at least three, drawing a tile if they cannot play.';
     
     document.getElementById('game-title-6').innerHTML = 'Twister';
     document.getElementById('game-contents-6').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
