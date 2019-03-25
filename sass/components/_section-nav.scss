@@ -9,6 +9,7 @@
       height: 100%;
 
     .top-logo {
+      background: #ffa800;
       .logo {
         display: flex;
         align-items: center;
@@ -46,6 +47,7 @@
         font-family: $montserrat;
         font-size: 15px;
         font-weight: 700;
+        background: #ffa800;
         
         li {
           display: flex;
