@@ -2,7 +2,7 @@
   width: 100vw;
   background: #ffa800;
   z-index: 1000;
-  
+
   a {
     color: black;
   }
@@ -57,9 +57,16 @@
         display: flex;
         align-items: center;
         height: 100%;
-        padding: 0 20px;
         transition: 0.5s;
+        position: relative;
 
+        a {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          padding: 0 20px;
+        }
         &:hover {
           background: #ff8500;
           cursor: pointer;
@@ -67,6 +74,7 @@
 
         &:last-child {
           background: #f2a000;
+          padding: 0 20px;
         }
 
         .polish {
@@ -82,4 +90,3 @@
     }
   }
 }
-
