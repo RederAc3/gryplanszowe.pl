@@ -1,111 +1,125 @@
 .section-games {
-    //min-height: 800px;
-    // height: 800px;
-    background: rgb(236, 236, 236);
+  //min-height: 800px;
+  // height: 800px;
+  background: rgb(236, 236, 236);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0;
+  .container-games {
+    position: relative;
+    // min-width: 100%;
+    // width: 100%;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 10% 0;
-    .container-games {
-        position: relative;
-        // min-width: 100%;
-        // width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        font-family: $montserrat;
+    overflow: hidden;
+    font-family: $montserrat;
 
-        // & > .text-section-games{
-        //     position: absolute;
-        //     top: 0;
-        //     left: 50%;
-        // }
+    // & > .text-section-games{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 50%;
+    // }
+  }
+  .box-game {
+    // game-first second third fourth
+    position: relative;
+    width: 360px;
+    height: 500px; // padding: 200px 20px;
+    display: flex; // align-items: center;
+    flex-direction: column; // justify-content: center;
+    //margin: 0px 24px 0px 0px;
+    //overflow: hidden;
+    text-align: center;
+    box-shadow: -5px 5px 15px -3px #544d4d;
+    margin: 10px 5px;
+    p {
+      position: relative;
+      color: #fff;
+      text-shadow: 0 0 6px #000;
+      top: 100px;
     }
-    .box-game {
-        // game-first second third fourth
-        position: relative;
-        width: 360px;
-        height: 500px; // padding: 200px 20px;
-        display: flex; // align-items: center;
-        flex-direction: column; // justify-content: center; 
-        //margin: 0px 24px 0px 0px;
-        //overflow: hidden;
-        text-align: center;
-        box-shadow: -5px 5px 15px -3px #544d4d;
-        margin: 10px 5px;
-        p {
-            position: relative;
-            color: #fff;
-            text-shadow: 0 0 6px #000;
-            top: 100px;
-        }
-        p.article-upper {
-            font-size: 54px;
-            margin: 0px 0px 14%;
-        }
-        p.article-downner {
-            font-size: 18px;
-            margin: 0px 10px;
-            font-weight: 500;
-        } // .article-upper {
-        //     font-weight: 900;
-        // }
-        // .article-downner {
-        //     font-weight: 600;
-        // } // &::before {
-        //     content: '';
-        //     position: absolute;
-        //     //width: 110px;
-        //     top: -2px;
-        //     left: -2px;
-        //     right: -2px;
-        //     bottom: -2px; //background: #ace;
-        //     z-index: -1;
-        //     border: 28px solid #000000;
-        //     transform: skew(2deg, 2deg); //z-index: 2; //zindex nie dziala
-        //     //transform: skew(1deg, 1deg);
-        // } //parzyste
+    p.article-upper {
+      font-size: 54px;
+      margin: 0px 0px 14%;
     }
-    /*div:nth-child(even) {
+    p.article-downner {
+      font-size: 18px;
+      margin: 0px 10px;
+      font-weight: 500;
+    } // .article-upper {
+    //     font-weight: 900;
+    // }
+    // .article-downner {
+    //     font-weight: 600;
+    // } // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     //width: 110px;
+    //     top: -2px;
+    //     left: -2px;
+    //     right: -2px;
+    //     bottom: -2px; //background: #ace;
+    //     z-index: -1;
+    //     border: 28px solid #000000;
+    //     transform: skew(2deg, 2deg); //z-index: 2; //zindex nie dziala
+    //     //transform: skew(1deg, 1deg);
+    // } //parzyste
+  }
+  /*div:nth-child(even) {
               background: red;
           }*/ // nieparzyste
-    /*div:nth-child(odd) {
+  /*div:nth-child(odd) {
               background: teal;
           }*/
-    //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
-    .game-first {
-        //background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg"); 
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/szachy3.jpg") no-repeat center;
-    }
-    .game-second {
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/scrable.jpg") no-repeat center;
-    }
-    .game-third {
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/chinczyk.jpg") no-repeat center;
-    }
-    .game-fourth {
-        z-index: 1;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/monopoly2.jpg") no-repeat center;
-    }
-    .game-fifth {
-        // z-index: 1;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/Rummikub2.jpg") no-repeat center;
-    }
-    .game-sixth {
-        // z-index: 1;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/twister.jpg") no-repeat center;
-    }
-    .game-seventh {
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/osadnicyzcatanu.jpg") no-repeat center;
-    }
-    .game-eighth {
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/bier3.jpg") no-repeat center;
-    } // .game-first,
-    // .game-second,
-    // .game-third {
-    //     margin: 0px 12px 0px 12px;
-    // }
+  //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
+
+  &:nth-child(even) {
+  }
+
+  .game-first {
+    //background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url("../images/background.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/szachy3.jpg") no-repeat center;
+  }
+  .game-second {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/scrable.jpg") no-repeat center;
+  }
+  .game-third {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/chinczyk.jpg") no-repeat center;
+  }
+  .game-fourth {
+    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/dixit2.jpg") no-repeat center;
+    background-size: cover;
+  }
+  .game-fifth {
+    // z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/Rummikub2.jpg") no-repeat center;
+  }
+  .game-sixth {
+    // z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/warcaby.jpg") no-repeat center;
+  }
+  .game-seventh {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/osadnicyzcatanu.jpg") no-repeat center;
+  }
+  .game-eighth {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url("../images/pociag.jpg") no-repeat center;
+    background-size: cover;
+  } // .game-first,
+  // .game-second,
+  // .game-third {
+  //     margin: 0px 12px 0px 12px;
+  // }
 }
