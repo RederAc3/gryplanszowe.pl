@@ -78,7 +78,6 @@
   //TUTAJ MAM PROBLEM JAK SIE DODA FIXED< TLO SIE JAKOS DZIWNIE PRZESOWA NIE WIEM CZEMU HELP PANOWIE, swoja droga dogralem pare obrazków jak cos
 
   &:nth-child(even) {
-    
   }
 
   .game-first {
@@ -97,7 +96,8 @@
   .game-fourth {
     z-index: 1;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
-      url("../images/monopoly2.jpg") no-repeat center;
+      url("../images/dixit2.jpg") no-repeat center;
+    background-size: cover;
   }
   .game-fifth {
     // z-index: 1;
@@ -107,7 +107,7 @@
   .game-sixth {
     // z-index: 1;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
-      url("../images/twister.jpg") no-repeat center;
+      url("../images/warcaby.jpg") no-repeat center;
   }
   .game-seventh {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
@@ -115,7 +115,8 @@
   }
   .game-eighth {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
-      url("../images/bier3.jpg") no-repeat center;
+      url("../images/pociag.jpg") no-repeat center;
+    background-size: cover;
   } // .game-first,
   // .game-second,
   // .game-third {
