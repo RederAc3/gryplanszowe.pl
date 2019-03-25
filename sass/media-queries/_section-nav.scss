@@ -1,7 +1,7 @@
 .section-nav {
   background: none;
   position: fixed;
-  border-bottom: 2px solid #333;
+  // border-bottom: 2px solid #333;
   & > .container-nav {
     flex-direction: column;
     .top-logo {
@@ -45,7 +45,7 @@
       flex-direction: column;
       transition: .5s linear;
       z-index: 10;
-
+      
       // height: 85vh;
       li {
         // display: block;

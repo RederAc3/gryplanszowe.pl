@@ -17,7 +17,8 @@
   right: calc(1.3% + 25px);
   opacity: 0;
   transition: 0.5s;
-
+  overflow: hidden;
+  color: black;
   &:hover {
     cursor: pointer;
     background: rgb(204, 136, 0);
