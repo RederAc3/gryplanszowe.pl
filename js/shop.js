@@ -36,6 +36,7 @@ var getInfo = function() {
                 setTimeout(function() {
                     modal.classList.add('modal-none');
                     console.log(window.navigator.languages);
+                    console.log(window.navigator.userLanguage);
                 }, 3000);
                 // return allPrince;
         });

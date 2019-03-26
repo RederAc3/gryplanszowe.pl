@@ -1,29 +1,29 @@
-var prince = document.querySelectorAll('.prince-number');
-var buy = document.querySelectorAll('.buy-button');
-var title = document.querySelectorAll('.title-product');
+var princeEl = document.querySelectorAll('.prince-number');
+var buyEl = document.querySelectorAll('.buy-button');
+var titleEl = document.querySelectorAll('.title-product');
 var modal = document.getElementById('modal');
 var scrollTop = document.documentElement.scrollTop;
 console.log(scrollTop);
 // WYWALA NON STOP NaN NWM CO Z TYM ZROBIĆ
 // var allPrince = 0;
 var getInfo = function() {
-    for ( var i = 0; i <= buy.length; i++) {
+    for ( var i = 0; i <= buyEl.length; i++) {
         var i = i;
-        buy[i].addEventListener('click', function() {
+        buyEl[i].addEventListener('click', function() {
             // console.log(title[i].innerText);
-            var addPrince = this.previousElementSibling.innerText.replace('zł', '');
-            var addTitle = this.nextElementSibling.innerText.trim();
-            // var parsePrince = parseInt(addPrince, allPrince);
-            // var allPrince = parsePrince ;
+            var Prince = this.previousElementSibling.innerText.replace('zł', '');
+            var Title = this.nextElementSibling.innerText.trim();
+            var parsePrince = parseInt(Prince);
+            var allPrince = parsePrince ;
 
-            // allPrince = allPrince + parsePrince ; 
+            allPrince = allPrince + parsePrince ; 
             
             // console.log(typeof(allPrince), allPrince);
             console.log(this.previousElementSibling.innerText.replace('zł', ''));
             console.log(this.nextElementSibling.innerText.trim());
 
             modal.classList.remove('modal-none');
-            modal.innerHTML = '<div id="exit"></div>' + '<p>Dodano do koszyka: ' + addTitle + '</p>' + addPrince + '<p>Razem: ' + typeof(allPrince) +'zł </p>';
+            modal.innerHTML = '<div id="exit"></div>' + '<p>Dodano do koszyka: ' + Title + '</p>' + Prince + '<p>Razem: ' + allPrince + 'zł </p>';
 
             var exitModal = document.getElementById('exit');
 
@@ -31,12 +31,13 @@ var getInfo = function() {
                 modal.classList.add('modal-none');
             });
 
-            if (modal.classList.contains('modal-none') = true) {
+            // console.log(!modal.classList.contains('modal-none'));
+
                 setTimeout(function() {
                     modal.classList.add('modal-none');
+                    console.log(window.navigator.languages);
                 }, 3000);
                 // return allPrince;
-            }
         });
     }
 };
