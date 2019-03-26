@@ -47,10 +47,6 @@ body {
   @import "components/preloader"; 
 
 
-  // @media (max-width: 820px) {
-  //   @import "media-queries/section-nav";
-  // }
-
   @media (max-width: 700px) {
     @import "media-queries/section-bottom-700";
   }
@@ -68,14 +64,11 @@ body {
     @import "media-queries/section-quiz";
     @import "media-queries/section-go-game";
     @import "media-queries/section-bottom";
+    @import "components/section-shop";
 
     .hide-el {
       transform: scaleY(0);
-      // transform-origin: 50% 0;
       height: 0;
-      // position: relative;
-      // top: -500px;
-      // left: 0;
     }
 
     .show-el {

@@ -43,9 +43,11 @@ hamburger[0].addEventListener('click', function () {
 
 
 // ARROWS
-var arrow = document.getElementById('arrow');
-console.log(arrow.style.height);
-arrow.style.height = window.scroll;
+// var arrow = document.getElementById('arrow');
+// console.log(arrow.style.height);
+// arrow.style.height = window.scroll;
+
+
 
 
 
