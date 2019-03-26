@@ -28,6 +28,7 @@
   </head>
 
   <body>
+    <!-- <script src="js/pl.js"></script> -->                       <!--################ PL JS ###############-->
     <!-- <module href="./modules/scrollup.html"></module>
     <module href="./modules/section-nav.html"></module>
     <module href="./modules/section-top.html"></module>
@@ -49,7 +50,9 @@
         <div class="top-logo">
           <div class="logo">
             <img src="images/logo.png" alt="logo image" />
-            <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
+            <span id="nav-title-1" style="color: black; font-weight: 600;"
+              >GRY</span
+            ><span id="nav-title-2">planszowe.pl</span>
             <a href="index.html"></a>
           </div>
         </div>
@@ -59,35 +62,59 @@
           <div class="el-hamburger"></div>
         </div>
         <ul class="ul hide-el" id="ul">
-          <li>
-            <a href="index.html">
-              <p id="nav-home">Strona główna</p>
-            </a>
-          </li>
-          <li>
-            <a href="shop.html">
-              <p id="nav-shop">Sklep</p>
-            </a>
-          </li>
-          <li>
-            <a href="quiz.html">
-              <p id="nav-shop">Quiz</p>
-            </a>
-          </li>
-          <li>
-            <a href="oautorach.html">
-              <p id="nav-home">O projekcie</p>
-            </a>
-          </li>
-          <li>
-            <p>
-              <span class="polish">PL</span> /
-              <span class="english">EN</span>
-            </p>
-          </li>
-        </ul>
+            <li>
+              <a href="index.html">
+                <p id="nav-home">Strona główna</p>
+              </a>
+            </li>
+            <li>
+              <a href="shop.html">
+                <p id="nav-shop">Sklep</p>
+              </a>
+            </li>
+            <li>
+                <a href="quiz.html">
+                    <p id="nav-shop">Quiz</p>
+                </a>
+            </li>
+            <li>
+              <a href="oautorach.html">
+                <p id="nav-home">O projekcie</p>
+              </a>
+            </li>
+            <li>
+              <p>
+                <span class="polish">PL</span> /
+                <span class="english">EN</span>
+              </p>
+            </li>
+          </ul>
       </div>
     </section>
+
+    <section class="project container">
+      <div class="content-kim">
+          <div class="logo-kim"> <h1>KIM JESTEŚMY?</h1>
+          <div class="article-kim">
+            <p>Nazywam się Jakub Nakielski, moim współtwórcą witryny jest Andrzej Kot. Razem od jakiegoś czasu tworzymy zgrany zespół.
+               Naszą pasją do kodowania zaraziliśmy się około rok temu. Od tego czasu staramy się z dnia na dzień być coraz lepszym.</p>
+          </div>
+          </div>
+      </div>
+
+      <div class="content-aboutproject">
+          <div class="logo-kim"> <h1>KIM JESTEŚMY?</h1>
+          <div class="article-kim">
+            <p>Nazywam się Jakub Nakielski, moim współtwórcą witryny jest Andrzej Kot. Razem od jakiegoś czasu tworzymy zgrany zespół.
+               Naszą pasją do kodowania zaraziliśmy się około rok temu. Od tego czasu staramy się z dnia na dzień być coraz lepszym.</p>
+      </div>
+      </div>
+      </div>
+
+    </section>
+
+
+    
     <section class="section-bottom">
       <div class="container container-nav">
         <div class="nav-bottom">
@@ -162,8 +189,8 @@
     </section>
     <section class="section-footer">
       <div class="container">
-        <p class="footer-text">
-          Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
+        <p class="footer-text" id="footer-text">
+          &copy; 2019 zszarki.pl Wszelkie prawa zastrzeżone
         </p>
       </div>
     </section>
