@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>GRY-planszowe.pl</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--później pobrać i wrzucić do folderu vendor-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <meta name="theme-color" content="#ffa800" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- <module href="./modules/scrollup.html"></module>
     <module href="./modules/section-nav.html"></module>
     <module href="./modules/section-top.html"></module>
@@ -41,9 +32,9 @@
     <module href="./modules/preloader.html"></module> -->
 
     <a href="#" id="scrollup">
-      <i class="fas fa-angle-up"></i>
+        <i class="fas fa-angle-up"></i>
     </a>
-
+<div class="modal-none" id="modal"></div>
     <section class="section-nav">
       <div class="container container-nav">
         <div class="top-logo">
@@ -87,6 +78,107 @@
           </li>
         </ul>
       </div>
+    </section>
+    <section class="section-shop">
+        <div class="container container-shop">
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-logiczna-szachy-b-iext34507813.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">100zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Szachy</p>
+
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://s.znak.com.pl//files/covers/card/f1/osadnicy.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">260zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Osadnicy z catanu</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">120zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Warcaby</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-rodzinna-chinczyk-gra-dla-6-osob-w-iext46002468.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">160zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Chinczyk</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">100zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Szachy</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">260zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Osadnicy z catanu</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">120zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Warcaby</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">160zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Chinczyk</p>
+            </div>
+        </div>
     </section>
     <section class="section-bottom">
       <div class="container container-nav">
@@ -161,11 +253,11 @@
       </div>
     </section>
     <section class="section-footer">
-      <div class="container">
-        <p class="footer-text">
-          Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
-        </p>
-      </div>
+        <div class="container">
+            <p class="footer-text">
+                Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
+            </p>
+        </div>
     </section>
     <div id="loader-wrapper">
       <div class="load">
@@ -179,5 +271,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/script.js"></script>
-  </body>
+    <script src="js/shop.js"></script>
+</body>
 </html>

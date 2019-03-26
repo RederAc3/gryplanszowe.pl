@@ -161,7 +161,7 @@
         margin-top: 80px;
         margin-bottom: 50px;
         margin-right: 60px;
-        // transform: translateX(-30px);
+        transform: translateX(-30px);
       }
     }
 
@@ -188,6 +188,17 @@
       justify-content: center;
       margin-top: 150px;
       // min-height: 350px;
+      font-size: 14px;
+      padding: 20px;
+    }
+
+    .monopoly {
+      position: relative;
+      margin: 150px 0 75px 0;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+
       font-size: 14px;
       padding: 20px;
     }
@@ -269,6 +280,21 @@
     background-attachment: fixed;
 
     .sixth {
+
+//       width: 96.5%;
+//       // height: 500px;
+//       //padding: 150px;
+//       background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+//         url(../images/monopoly.jpg);
+//       background-size: cover;
+//       color: white;
+//       padding: 20px;
+//       border-radius: 10px;
+//       line-height: 30px;
+//       text-align: justify;
+//       box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.75);
+//       margin: 50px 0 50px 0;
+
       width: 1200px;
       color: white;
       border-radius: 10px;
@@ -276,6 +302,7 @@
       text-align: justify;
       // box-shadow: 0px 0px 34px 0px rgba(0, 0, 0, 0.75);
       margin: 20px 0 20px 0;
+
       .article {
         .article-upper {
           text-shadow: 0 0 16px #000;

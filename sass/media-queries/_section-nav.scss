@@ -2,6 +2,7 @@
   background: none;
   position: fixed;
   // border-bottom: 2px solid #333;
+  
   & > .container-nav {
     flex-direction: column;
     .top-logo {
@@ -44,13 +45,21 @@
       left: 0;
       flex-direction: column;
       transition: 0.5s linear;
-      z-index: 10;
+
 
       // height: 85vh;
       li {
-        // display: block;
-        text-align: center;
-        // padding: 20px;
+        transition: all 0.5s linear;
+        padding: 20px;
+
+//       z-index: 10;
+
+//       // height: 85vh;
+//       li {
+//         // display: block;
+//         text-align: center;
+//         // padding: 20px;
+
         width: 100%;
         // position: relative;
         // display: flex;
