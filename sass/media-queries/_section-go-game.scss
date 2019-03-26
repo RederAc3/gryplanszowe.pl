@@ -1,43 +1,42 @@
 .section-go-game {
-
-    & > .container {
+  & > .container {
+    width: 100vw;
+    .img-text {
+      //   width: 100vw;
+      //   justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      & > img {
+        width: 100px;
+        height: 105px;
+        margin: 0;
+      }
+      .text-image {
+        margin-right: 0;
         width: 100vw;
-      .img-text {
-        //   width: 100vw;
-        //   justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin: 0 auto;
-        &>img {
-            width: 100px;
-          height: 105px;
-            margin: 0;
-        }
-        .text-image {
-            width: 100vw;
-            text-align: center;
-            padding: 20px;
-        }
+        text-align: center;
+        padding: 20px;
+      }
+    }
+
+    .div-buttons {
+      flex-direction: column;
+      // width: 100vw;
+
+      .text-buttons {
+        text-align: center;
+        padding: 10px 10px 30px;
       }
 
-      .div-buttons {
-        flex-direction: column;
-        // width: 100vw;
-
-        .text-buttons {
-            text-align: center;
-            padding: 10px 10px 30px;
-        }
-
-        .button-go-game {
-            margin: 0 auto;
-            font-size: 20px;
-          padding: 10px;
-          width: 180px;
-          &:hover {
-
-          }
+      .button-go-game {
+        margin: 0 auto;
+        font-size: 20px;
+        padding: 10px;
+        width: 180px;
+        &:hover {
         }
       }
     }
   }
+}

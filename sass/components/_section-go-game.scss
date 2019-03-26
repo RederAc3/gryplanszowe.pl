@@ -1,60 +1,65 @@
 .section-go-game {
-    width: 100vw;
-    // height: 200px;
-    padding: 40px 0;
-    background: #ffa800;
-    // display: none;
-    
-    & > .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100%;
+  width: 100vw;
+  // height: 200px;
+  padding: 40px 0;
+  background: #ffa800;
+  // display: none;
 
-      .img-text {
-        margin-left: 50px;
-        display: flex;
-        img {
-          width: 80px;
-          height: 75px;
-          // float: left;
-          margin: 0 20px 0 0;
-        }
-        .text-image {
-          // width: 700px;
-          font-family: $montserrat;
-          font-size: 18px;
-          font-weight: 700;
-        }
+  & > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100%;
+    align-items: flex-start;
+
+    .toshop {
+      // height: 50px;
+      background: #503500;
+      color: #fff;
+      font-size: 17px;
+      padding: 10px 20px 10px 20px;
+      // width: 150px;
+      transition: 0.4s;
+      margin: 30px;
+      // margin-left: 80px;
+      text-align: center;
+
+      &:hover {
+        background: #63450a;
+        cursor: pointer;
       }
+    }
 
-      .div-buttons {
-        display: flex;
-        // width: 800px;
-        justify-content: space-around;
+    .img-text {
+      // margin-left: 100px;
+      display: flex;
+      img {
+        width: 100px;
+        height: 100%;
+        // float: left;
+        margin: 0 40px 0 100px;
+      }
+      .text-image {
+        // width: 700px;
+        margin-right: 50px;
+        font-family: $montserrat;
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
 
-        .text-buttons {
-          font-family: $montserrat;
-          font-size: 18px;
-          font-weight: 700;
-          color: #fff;
-          margin-top: 10px;
-        }
+    .div-buttons {
+      display: flex;
+      // width: 800px;
+      justify-content: space-around;
 
-        .button-go-game {
-          border: none;
-          background: #503500;
-          color: #fff;
-          font-size: 17px;
-          padding: 7px;
-          width: 150px;
-          transition: 0.4s;
-
-          &:hover {
-            background: #63450a;
-            cursor: pointer;
-          }
-        }
+      .text-buttons {
+        font-family: $montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 10px;
       }
     }
   }
+}

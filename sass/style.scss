@@ -75,8 +75,8 @@ body {
     @import "components/section-footer";
 
     // ################## Podstrona O projekcie ##################
-    @import "components/section-project";
-
+    @import "components/section-project"; 
+  
     // ############--PRELOADER--############
     @import "components/preloader";
 
@@ -90,6 +90,11 @@ body {
 
     //MEDIA - ARROWS//
     @import "media-queries/arrows.scss";
+
+    // MEDIA O projekcie
+    @media (max-width: 950px) {
+      @import "media-queries/section-project";
+  }
 
     @media (max-width: 950px) {
         @import "media-queries/section-history";
