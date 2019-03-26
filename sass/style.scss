@@ -43,6 +43,9 @@ body {
   @import "components/section-footer"; 
   @import "components/section-shop"; 
 
+  // ################## Podstrona O projekcie ##################
+  @import "components/section-project";
+
   // ############--PRELOADER--############
   @import "components/preloader"; 
 
@@ -70,16 +73,28 @@ body {
     @import "media-queries/section-bottom";
 
     .hide-el {
-      transform: scaleY(0);
+      // transform: scaleY(0);
       // transform-origin: 50% 0;
-      height: 0;
+      // height: 0;
       // position: relative;
-      // top: -500px;
+      top: -300px;
       // left: 0;
     }
 
     .show-el {
-      height: 40vh;
+      top: 0;
+    }
+  }
+  //displaying section-top on very small devices
+  @media (max-height: 640px) {
+    .section-top {
+      .header {
+        .header-container {
+          .header-rd {
+            margin: 0;
+          }
+        }
+      }
     }
   }
   //displaying section-top on very small devices
