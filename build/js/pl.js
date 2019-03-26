@@ -1,4 +1,4 @@
-window.onload = function () {
+var pl = window.onload = function () {
 
     // ####-SECTION--NAV-####
 
@@ -99,3 +99,5 @@ window.onload = function () {
     document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl Wszelkie prawa zastrzeżone';
 
 }
+
+exports.print = pl;
