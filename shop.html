@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="pl">
 
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-  <title>GRY-planszowe.pl</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!--później pobrać i wrzucić do folderu vendor-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
-  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
-  <meta name="theme-color" content="#ffa800" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>GRY-planszowe.pl</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!--później pobrać i wrzucić do folderu vendor-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <meta name="theme-color" content="#ffa800" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800" />
 </head>
 
 <body>
-  <!-- <module href="./modules/scrollup.html"></module>
+    <!-- <module href="./modules/scrollup.html"></module>
     <module href="./modules/section-nav.html"></module>
     <module href="./modules/section-top.html"></module>
     <module href="./modules/section-history.html"></module>
@@ -30,154 +31,242 @@
     <module href="./modules/section-bottom.html"></module>
     <module href="./modules/section-footer.html"></module>
     <module href="./modules/preloader.html"></module> -->
-
-  <a href="#" id="scrollup">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <section class="section-nav">
-    <div class="container container-nav">
-      <div class="top-logo">
-        <div class="logo">
-          <img src="images/logo.png" alt="logo image" />
-          <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
-          <a href="index.html"></a>
+  
+    <a href="#" id="scrollup">
+        <i class="fas fa-angle-up"></i>
+    </a>
+<div class="modal-none" id="modal"></div>
+    <section class="section-nav">
+      <div class="container container-nav">
+        <div class="top-logo">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo image" />
+            <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
+            <a href="index.html"></a>
+          </div>
         </div>
+        <div class="hamburger">
+          <div class="el-hamburger"></div>
+          <div class="el-hamburger"></div>
+          <div class="el-hamburger"></div>
+        </div>
+        <ul class="ul hide-el" id="ul">
+          <li>
+            <a href="index.html">
+              <p id="nav-home">Strona główna</p>
+            </a>
+          </li>
+          <li>
+            <a href="shop.html">
+              <p id="nav-shop">Sklep</p>
+            </a>
+          </li>
+          <li>
+            <a href="quiz.html">
+              <p id="nav-shop">Quiz</p>
+            </a>
+          </li>
+          <li>
+            <a href="oautorach.html">
+              <p id="nav-home">O projekcie</p>
+            </a>
+          </li>
+          <li>
+            <p>
+              <span class="polish">PL</span> /
+              <span class="english">EN</span>
+            </p>
+          </li>
+        </ul>
       </div>
-      <div class="hamburger">
-        <div class="el-hamburger"></div>
-        <div class="el-hamburger"></div>
-        <div class="el-hamburger"></div>
-      </div>
-      <ul class="ul hide-el" id="ul">
-        <li>
-          <a href="index.html">
-            <p id="nav-home">Strona główna</p>
-          </a>
-        </li>
-        <li>
-          <a href="shop.html">
-            <p id="nav-shop">Sklep</p>
-          </a>
-        </li>
-        <li>
-          <a href="quiz.html">
-            <p id="nav-shop">Quiz</p>
-          </a>
-        </li>
-        <li>
-          <a href="oautorach.html">
-            <p id="nav-home">O projekcie</p>
-          </a>
-        </li>
-        <li>
-          <p>
-            <span class="polish">PL</span> /
-            <span class="english">EN</span>
-          </p>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section class="section-bottom">
-    <div class="container container-nav">
-      <div class="nav-bottom">
-        <div class="nav-section-project">
-          <ul><i>
+    </section>
+    <section class="section-shop">
+        <div class="container container-shop">
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-logiczna-szachy-b-iext34507813.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">100zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Szachy</p>
+
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://s.znak.com.pl//files/covers/card/f1/osadnicy.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">260zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Osadnicy z catanu</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">120zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Warcaby</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-rodzinna-chinczyk-gra-dla-6-osob-w-iext46002468.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">160zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Chinczyk</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">100zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Szachy</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">260zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Osadnicy z catanu</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">120zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Warcaby</p>
+            </div>
+            <div class="elements-shop">
+                <div class="image">
+
+                </div>
+                
+                <div class="prince">
+                    <p class="prince-text">Cena: </p>
+                    <p class="prince-number">160zł</p>
+                </div>
+                <button class="buy-button">Kup Teraz</button>
+                <p class="title-product">Chinczyk</p>
+            </div>
+        </div>
+    </section>
+    <section class="section-bottom">
+      <div class="container container-nav">
+        <div class="nav-bottom">
+          <div class="nav-section-project">
+            <ul><i>
               <li style="font-weight: 300; line-height: 24px;" id="bottom-text-1">
-                <!--Nie wiem czy to jest poprawnie po polsku, po ang to jest:
+              <!--Nie wiem czy to jest poprawnie po polsku, po ang to jest:
                  The goal is to win, but it is the goal that is important, not the winning.-->
-                <i style="font-size: 7px; vertical-align: sub;" class="fas fa-quote-right"></i>
+                 <i style="font-size: 7px; vertical-align: sub;" class="fas fa-quote-right"></i>
                 Celem jest zwycięstwo, jest to cel ważny ale a nie wygrany sam
                 w sobie. <i style="font-size: 7px; vertical-align: super;" class="fas fa-quote-right"></i>
-              <li style="margin: -10px 0 0 -10px; font-weight: 600;" id="bottom-title-1">~ Reiner Knizia</li>
-            </i>
-            </li>
-          </ul>
-        </div>
-        <div class="cooperation">
-          <ul>
-            <li id="bottom-title-2">Współpraca</li>
-            <a href="#">
+                <li style="margin: -10px 0 0 -10px; font-weight: 600;" id="bottom-title-1">~ Reiner Knizia</li>
+              </i>
+              </li>
+            </ul>
+          </div>
+          <div class="cooperation">
+            <ul>
+              <li id="bottom-title-2">Współpraca</li>
               <li id="bottom-text-2">Kontakt</li>
-            </a>
-            <a
-              href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=reder.ac3%40gmail.com&item_name=Rozwoj+w+kierunku+web-developmentu&currency_code=PLN&source=url">
-              <li id="bottom-text-3">Darowizna</li>
-            </a>
-            <a href="oautorach.html">
-              <li id="bottom-text-4">O projekcie</li>
-            </a>
-          </ul>
-        </div>
-        <div class="navigation">
-          <ul>
-            <li id="bottom-title-3">Nawigacja</li>
-            <a href="index.html">
+              <li id="bottom-text-3">O projekcie</li>
+              <li id="bottom-text-4">Donacje</li>
+            </ul>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li id="bottom-title-3">Nawigacja</li>
               <li id="bottom-text-5">Strona główna</li>
-            </a>
-            <a href="shop.html">
               <li id="bottom-text-6">Sklep</li>
-            </a>
-
-            <a href="quiz.html">
               <li id="bottom-text-7">Quiz</li>
-            </a>
-          </ul>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="social-media">
-        <p class="social-media-text" id="bottom-social-media">
-          social media
-        </p>
-        <div class="social-buttons">
-          <a href="https://vmajster.pl/yt" target="_blank">
-            <div class="btn yt-button">
+        <div class="social-media">
+          <p class="social-media-text" id="bottom-social-media">
+            social media
+          </p>
+          <div class="social-buttons">
+            <a href="https://vmajster.pl/yt" target="_blank"><div class="btn yt-button">
               <i class="fab fa-youtube"></i>
-            </div>
-          </a>
-          <a href="https://facebook.com/dserverpl/" target="_blank">
-            <div class="btn fb-button">
+            </div></a>
+            <a href="https://facebook.com/dserverpl/" target="_blank"><div class="btn fb-button">
               <i class="fab fa-facebook-f"></i>
-            </div>
-          </a>
-          <!-- <div class="social-media">
-                  <p class="social-media-text" id="bottom-social-media">
-                      social media
-                  </p>
-                  <div class="social-buttons">
-                      <div class="btn yt-button">
-                          <i class="fab fa-youtube"></i>
-                      </div>
-                      <div class="btn fb-button">
-                          <i class="fab fa-facebook-f"></i>
-                      </div>
-                      <div class="btn tw-button">
-                          <i class="fab fa-twitter"></i>
-                      </div>
-                      <div class="btn ig-button">
-                          <i class="fab fa-instagram"></i>
-                      </div>
-                  </div> -->
-          <a href="https://github.com/RederAc3/zszarki.pl" target="_blank">
-            <div class="btn tw-button">
-              <i class="fab fa-github"></i>
-            </div>
-          </a>
-          <a href="https://instagram.com/dserver.pl" target="_blank">
-            <div class="btn ig-button">
+            </div></a>
+            <!-- <div class="social-media">
+                <p class="social-media-text" id="bottom-social-media">
+                    social media
+                </p>
+                <div class="social-buttons">
+                    <div class="btn yt-button">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="btn fb-button">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="btn tw-button">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="btn ig-button">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div> -->
+            <a href="https://twitter.com/vmajster" target="_blank"><div class="btn tw-button">
+              <i class="fab fa-twitter"></i>
+            </div></a>
+            <a href="https://instagram.com/reder.ac3" target="_blank"><div class="btn ig-button">
               <i class="fab fa-instagram"></i>
-            </div>
-          </a>
+            </div></a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="section-footer">
-    <div class="container">
-      <p class="footer-text">
-        Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
-      </p>
+    </section>
+    <section class="section-footer">
+        <div class="container">
+            <p class="footer-text">
+                Strona w sieci od 2019 &copy; Wszelkie prawa zastrzeżone
+            </p>
+        </div>
+    </section>
+    <div id="loader-wrapper">
+      <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
     </div>
   </section>
   <div id="loader-wrapper">
@@ -193,5 +282,10 @@
   <script src="js/jquery.scrollTo.min.js"></script>
   <script src="js/script.js"></script>
 </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/shop.js"></script>
 
 </html>
