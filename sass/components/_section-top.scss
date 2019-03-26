@@ -7,6 +7,9 @@
     url("../images/background1.jpg") no-repeat center fixed;
   background-size: cover;
 
+  a {
+    color: white;
+  }
   .header {
     display: flex;
     font-family: $montserrat;

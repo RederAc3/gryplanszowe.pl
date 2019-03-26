@@ -27,43 +27,51 @@
     </a>
     <div class="modal-none" id="modal"></div>
     <section class="section-nav">
-        <div class="container container-nav">
-            <div class="top-logo">
-                <div class="logo">
-                    <img src="images/logo.png" alt="logo image">
-                    <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
-                    <a href="index.html"></a>
-                </div>
-            </div>
-            <div class="hamburger">
-                <div class="el-hamburger"></div>
-                <div class="el-hamburger"></div>
-                <div class="el-hamburger"></div>
-            </div>
-            <ul class="ul hide-el" id="ul">
-                <li>
-                    <p><a href="index.html">Strona główna</a></p>
-                </li>
-                <li>
-                    <p><a href="shop.html">Sklep</a></p>
-                </li>
-                <li>
-                    <p>Quiz</p>
-                </li>
-                <li>
-                    <p>O Autorach </p>
-                </li>
-                <li>
-                    <p id="card">Koszyk</p>
-                </li>
-                <li>
-                    <p>
-                        <span class="polish">PL</span>/
-                        <span class="english">EN</span>
-                    </p>
-                </li>
-            </ul>
+      <div class="container container-nav">
+        <div class="top-logo">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo image" />
+            <span style="color: black; font-weight: 600;">GRY</span>planszowe.pl
+            <a href="index.html"></a>
+          </div>
         </div>
+        <div class="hamburger">
+          <div class="el-hamburger"></div>
+          <div class="el-hamburger"></div>
+          <div class="el-hamburger"></div>
+        </div>
+        <ul class="ul hide-el" id="ul">
+          <li>
+            <a href="index.html">
+              <p id="nav-home">Strona główna</p>
+            </a>
+          </li>
+          <li>
+            <a href="shop.html">
+              <p id="nav-shop">Sklep</p>
+            </a>
+          </li>
+          <li>
+            <a href="quiz.html">
+              <p id="nav-shop">Quiz</p>
+            </a>
+          </li>
+          <li>
+            <a href="oautorach.html">
+              <p id="nav-home">O projekcie</p>
+            </a>
+          </li>
+          <li>
+                  <p id="card">Koszyk</p>
+              </li>
+          <li>
+            <p>
+              <span class="polish" id="pl">PL</span> /
+              <span class="english" id="en">EN</span>
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="container content-section">
         <div class="shop-items">
@@ -176,34 +184,51 @@
         <button class="btn btn-primary btn-purchase" type="button">Zamawiam</button>
     </section>
     <section class="section-bottom">
-        <div class="container container-nav">
-            <div class="nav-bottom">
-                <div class="nav-section-project">
-                    <ul>
-                        <li>O projekcie</li>
-                        <li>f glkjfdgfdg fdgfdgfdgf sdf dsfds fsd
-                        </li>
-                    </ul>
-                </div>
-                <div class="cooperation">
-                    <ul>
-                        <li>Współpraca</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                    </ul>
-                </div>
-                <div class="navigation">
-                    <ul>
-                        <li>Nawigacja</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                        <li>Donate</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="social-media">
-                <p class="social-media-text">
+      <div class="container container-nav">
+        <div class="nav-bottom">
+          <div class="nav-section-project">
+            <ul><i>
+              <li style="font-weight: 300; line-height: 24px;" id="bottom-text-1">
+              <!--Nie wiem czy to jest poprawnie po polsku, po ang to jest:
+                 The goal is to win, but it is the goal that is important, not the winning.-->
+                 <i style="font-size: 7px; vertical-align: sub;" class="fas fa-quote-right"></i>
+                Celem jest zwycięstwo, jest to cel ważny ale a nie wygrany sam
+                w sobie. <i style="font-size: 7px; vertical-align: super;" class="fas fa-quote-right"></i>
+                <li style="margin: -10px 0 0 -10px; font-weight: 600;" id="bottom-title-1">~ Reiner Knizia</li>
+              </i>
+              </li>
+            </ul>
+          </div>
+          <div class="cooperation">
+            <ul>
+              <li id="bottom-title-2">Współpraca</li>
+              <li id="bottom-text-2">Kontakt</li>
+              <li id="bottom-text-3">O projekcie</li>
+              <li id="bottom-text-4">Donacje</li>
+            </ul>
+          </div>
+          <div class="navigation">
+            <ul>
+              <li id="bottom-title-3">Nawigacja</li>
+              <li id="bottom-text-5">Strona główna</li>
+              <li id="bottom-text-6">Sklep</li>
+              <li id="bottom-text-7">Quiz</li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <p class="social-media-text" id="bottom-social-media">
+            social media
+          </p>
+          <div class="social-buttons">
+            <a href="https://vmajster.pl/yt" target="_blank"><div class="btn yt-button">
+              <i class="fab fa-youtube"></i>
+            </div></a>
+            <a href="https://facebook.com/dserverpl/" target="_blank"><div class="btn fb-button">
+              <i class="fab fa-facebook-f"></i>
+            </div></a>
+            <!-- <div class="social-media">
+                <p class="social-media-text" id="bottom-social-media">
                     social media
                 </p>
                 <div class="social-buttons">
@@ -219,9 +244,16 @@
                     <div class="btn ig-button">
                         <i class="fab fa-instagram"></i>
                     </div>
-                </div>
-            </div>
+                </div> -->
+            <a href="https://twitter.com/vmajster" target="_blank"><div class="btn tw-button">
+              <i class="fab fa-twitter"></i>
+            </div></a>
+            <a href="https://instagram.com/reder.ac3" target="_blank"><div class="btn ig-button">
+              <i class="fab fa-instagram"></i>
+            </div></a>
+          </div>
         </div>
+      </div>
     </section>
     <section class="section-footer">
         <div class="container">
@@ -231,12 +263,12 @@
         </div>
     </section>
     <div id="loader-wrapper">
-        <div class="load">
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-        </div>
+      <div class="load">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
