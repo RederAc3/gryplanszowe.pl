@@ -39,10 +39,13 @@ body {
   @import "components/section-quiz";
   @import "components/section-go-game";
   @import "components/section-bottom";
-  @import "components/section-footer"; 
+  @import "components/section-footer";
+
+  // ################## Podstrona O projekcie ##################
+  @import "components/section-project";
 
   // ############--PRELOADER--############
-  @import "components/preloader"; 
+  @import "components/preloader";
 
   // @media (max-width: 820px) {
   //   @import "media-queries/section-nav";
