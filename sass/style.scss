@@ -28,10 +28,9 @@ a {
 }
 
 body {
-  &::-webkit-scrollbar {
-    width: 0;
-  }
-
+  // &::-webkit-scrollbar {
+  //   width: 0;
+  // }
 
   @import "components/scrollup";
   @import "components/section-nav";
@@ -41,9 +40,6 @@ body {
 
   /*cały container z klasy .section-top*/
 
-
-  // scroll indicator
-  // @import "components/scroll-indicator";
 
   /* The progress container (grey background) */
   .progress-container {
