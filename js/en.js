@@ -73,18 +73,18 @@ en.addEventListener('click', function () {
 
         // ####-SECTION-CURIOSITES-####
 
-        document.getElementById('curiosities-title').innerHTML = 'Ciekawostki';
+        document.getElementById('curiosities-title').innerHTML = 'Curiosities';
 
-        document.getElementById('curiosities-contents-1').innerHTML = 'Rekord Guinessa na najdłuższy maraton planszówek w historii trwał aż 61godzin i 2 minuty!';
-        document.getElementById('curiosities-contents-2').innerHTML = 'Najdroższą sprzedaną grą jest zestaw szachowy firmy Jewel Royale, wykonany on został ze złota oraz platyny. Sprzedano go za 9.8 mln dolarów!';
-        document.getElementById('curiosities-contents-3').innerHTML = '30. listopada 2016 roku Holendrzy stworzyli największą na świecie planszę do gry w Monopoly! Jej powierzchnia wynosi aż 900 m²';
+        document.getElementById('curiosities-contents-1').innerHTML = 'The Guinness World record for the longest board marathon in history lasted as many as 61 hours and 2 minutes!';
+        document.getElementById('curiosities-contents-2').innerHTML = 'The most expensive game sold is the Jewel Royale chess set, made of gold and platinum. It was sold for 9.8 million dollars!';
+        document.getElementById('curiosities-contents-3').innerHTML = "On November 30, 2016, the Dutch created the world's largest Monopoly game board! Its surface is up to 900 m²";
         document.getElementById('curiosities-contents-4').innerHTML = 'Jedną z osób, która stworzyła najwięcej gier planszowych jest Dr Reiner Knizia. Jest autorem przeszło 200 planszówek! Swoją pierwszą grę zaprojektował gdy miał 8 lat.';
         document.getElementById('curiosities-contents-5').innerHTML = 'W 1924 roku w Paryżu powstała Międzynarodowa Federacja Szachowa. Na ten sam rok datuje się pierwszą olimpiadę szachową.';
 
         // ####-SECTION-QUIZ-####
 
         document.getElementById('quiz-title').innerHTML = 'Check your knowledge! <br> Take part in a quiz of 20 questions.';
-        document.getElementById('quiz-button').innerHTML = 'Biorę udział';
+        document.getElementById('quiz-button').innerHTML = "Ok, let's try!";
 
         // ####-SECTION-GO-GAME-####
 
