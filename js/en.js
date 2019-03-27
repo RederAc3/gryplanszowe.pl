@@ -11,7 +11,7 @@ en.addEventListener('click', function () {
         document.getElementById('nav-home').innerHTML = 'Home Page ew Home';
         document.getElementById('nav-shop').innerHTML = 'Shop';
         document.getElementById('nav-quiz').innerHTML = 'Quiz';
-        document.getElementById('nav-home').innerHTML = 'About us';
+        document.getElementById('nav-project').innerHTML = 'About us';
         pl.style.color = '#000';
         en.style.color = '#fff';
         // dopisać funkcję aby tylko raz zmieniać język i żeby był nma stałe  
