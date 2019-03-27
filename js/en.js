@@ -4,7 +4,7 @@ window.onload = function () {
 
     document.getElementById('nav-title-1').innerHTML = 'BOARD';
     document.getElementById('nav-title-2').innerHTML = 'games.eu';
-    document.getElementById('nav-home').innerHTML = 'Home Page ew Home';
+    document.getElementById('nav-home').innerHTML = 'Home page';
     document.getElementById('nav-shop').innerHTML = 'Shop';
     document.getElementById('nav-quiz').innerHTML = 'Quiz';
     document.getElementById('nav-author').innerHTML = 'About us';
@@ -36,16 +36,16 @@ window.onload = function () {
     // ####-SECTIONS-GAMES-####
 
     document.getElementById('game-title-1').innerHTML = 'Chess';
-    document.getElementById('game-contents-1').innerHTML = 'Chess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide. Chess is believed to be derived from the Indian game chaturanga some time before the 7th century. Chaturanga is also the likely ancestor of the Eastern strategy games xiangqi, janggi, and shogi. Chess reached Europe by the 9th century, due to the Umayyad conquest of Hispania. The pieces assumed their current powers in Spain in the late 15th century with the introduction of "Mad Queen Chess"; the modern rules were standardized in the 19th century.';
+    document.getElementById('game-contents-1').innerHTML = 'They were created in the 6th century, in India. They reached Europe in the vicinity of the 8th / 9th century and settled there for good. On their phenomenon they had to wait a bit until the 16th century. Then, some significant changes were introduced to the game, which made the whole thing more attractive and led to the popularization of the game. ';
     
     document.getElementById('game-title-2').innerHTML = 'Scrable';
-    document.getElementById('game-contents-2').innerHTML = 'Scrabble is a word game in which two to four players score points by placing tiles bearing a single letter onto a board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns, and be included in a standard dictionary or lexicon.';
+    document.getElementById('game-contents-2').innerHTML = 'This game was invented by the architect Alfred Butts in 1931, although it was not sold until 1946. It involves drawing tiles with letters and putting them on the board in words. . Over time, the game began to gain more and more popularity, resulting in over 100 million copies sold worldwide.';
     
     document.getElementById('game-title-3').innerHTML = 'Chińczyk';
     document.getElementById('game-contents-3').innerHTML = 'Stara hinduska gra planszowa pachisi jest znana i uprawiana w Indiach do dziś. Oparte na niej gry znane są szeroko w Azji, a także na terenie obydwu Ameryk. Josef Friedrich Schmidt upraszczając znacznie tę grę stworzył chińczyka znanego nam we współczesnej postaci. Począwszy od pierwszego wydania w 1914 roku, na całym świecie sprzedano ponad 70 milionów egzemplarzy, a jej zasady pozostają niezmienione.';
     
     document.getElementById('game-title-4').innerHTML = 'Monopoly';
-    document.getElementById('game-contents-4').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
+    document.getElementById('game-contents-4').innerHTML = "Modern board games are The Landlord's Game. On that game you have to move around the board in shape of a square, buy houses, train stations and you can also go to the prison. Sounds familiar ? Of course, this is a classic Monopoly. That game was created by Lizzie Magie, one of the first game designers from USA. At first Monopoly had dispirate appellation. The Landlord's Game was going to be a game with message. Lizzie was a feminist and opponent of business intership. Her game was supposed to be materialization of opposition to capitalism. In this game it was possible to play as a monopolist or antimonopolist. Monopoly has gained popularity over time and has begun to attract public attention. Unfortunately, the idea of ​​the game with the message was captured by Charles Darrow. He modified it, and then sold it to Parker Brothers (today's Hasbro) in 1935. This game since the 30's has become a real phenomenon that continues to this day. It is one of the most recognizable board games in the world. however, Monopoly ended up as a purely entertainment game and is currently devoid of its original message, which for Lizzie Magie was as important as the metaphorical reception of games by the ancients.";
     
     document.getElementById('game-title-5').innerHTML = '';
     document.getElementById('game-contents-5').innerHTML = 'To klasyczna gra planszowa, która polega na handlu nieruchomościami, gdzie gracze okrążają planszę, kupując i sprzedając nieruchomości, budując domy i hotele, a sukces zależy od trafnych spekulacji, udanych inwestycji i mądrze przeprowadzonych transakcji.';
