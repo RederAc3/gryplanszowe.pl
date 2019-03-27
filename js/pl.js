@@ -82,9 +82,9 @@ pl.addEventListener('click', function () {
 
         // ####-SECTION-GO-GAME-####
 
-        document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską grę planszową.';
-        document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
-        document.getElementById('go-game-button').innerHTML = 'Kliknij mnie';
+      //  document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br />autorską grę planszową.';
+       // document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
+       // document.getElementById('go-game-button').innerHTML = 'Kliknij mnie';
 
         // ####-SETION-BOTTOM-####
 
