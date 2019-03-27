@@ -8,7 +8,7 @@ en.addEventListener('click', function () {
 
         document.getElementById('nav-title-1').innerHTML = 'BOARD';
         document.getElementById('nav-title-2').innerHTML = 'games.eu';
-        document.getElementById('nav-home').innerHTML = 'Home Page ew Home';
+        document.getElementById('nav-home').innerHTML = 'Home';
         document.getElementById('nav-shop').innerHTML = 'Shop';
         document.getElementById('nav-quiz').innerHTML = 'Quiz';
         document.getElementById('nav-project').innerHTML = 'About us';
@@ -25,25 +25,25 @@ en.addEventListener('click', function () {
 
         // ####-SECTION-HISORY-####
 
-        // document.getElementById('history-header').innerHTML = 'How did it begin ?';
-        // document.getElementById('history-title-article-1').innerHTML = 'Some history';
-        // document.getElementById('history-contents-article-1').innerHTML = 'The oldest elements of board games are over 5000 years old. It is a series of 49 small carved painted stones which was found in southeast Turkey. Similar pieces have been found in Syria and Iraq and seem to point to board games having originated in the Fertile Crescent.';
+         document.getElementById('history-header').innerHTML = 'How did it begin ?';
+         document.getElementById('history-title-article-1').innerHTML = 'Some history';
+         document.getElementById('history-contents-article-1').innerHTML = 'The oldest elements of board games are over 5000 years old. It is a series of 49 small carved painted stones which was found in southeast Turkey. Similar pieces have been found in Syria and Iraq and seem to point to board games having originated in the Fertile Crescent.';
 
-        // document.getElementById('history-title-article-2').innerHTML = 'First game ?';
-        // document.getElementById('history-contents-article-2').innerHTML = 'Many researchers think that one of the first board games was dice. That game has changed for ages. Not only was it made of bones but also of teeth, antlers and tusks. Since ancient times people had looked for godlike element in it. In Rome they believed that Lady Luck, Fortuna can move the needle on results. People often accept a roll of the dice clearly reflect Gods volition.';
+         document.getElementById('history-title-article-2').innerHTML = 'First game ?';
+         document.getElementById('history-contents-article-2').innerHTML = 'Many researchers think that one of the first board games was dice. That game has changed for ages. Not only was it made of bones but also of teeth, antlers and tusks. Since ancient times people had looked for godlike element in it. In Rome they believed that Lady Luck, Fortuna can move the needle on results. People often accept a roll of the dice clearly reflect Gods volition.';
 
-        // document.getElementById('history-title-article-3').innerHTML = 'Senet';
-        // document.getElementById('history-contents-article-3').innerHTML = 'Inną starodawną grą był tzw. <b>Senet</b>. Pochodził on z krainy piramid, czyli ze starożytnego <b>Egiptu</b>. Senet znany był już w <b>3 tys. p.n.e.</b> i cieszył się popularnością zarówno wśród niższych jak i wyższych warstw społecznych. Z racji tego, że w swoim założeniu w dużej mierze opierał się na elemencie szczęścia, zaczęto przypisywać mu <b>wyższe znaczenie</b>, przez co często kończył on jako wyposażenie grobowców.';
+         document.getElementById('history-title-article-3').innerHTML = 'Senet';
+         document.getElementById('history-contents-article-3').innerHTML = 'Inną starodawną grą był tzw. <b>Senet</b>. Pochodził on z krainy piramid, czyli ze starożytnego <b>Egiptu</b>. Senet znany był już w <b>3 tys. p.n.e.</b> i cieszył się popularnością zarówno wśród niższych jak i wyższych warstw społecznych. Z racji tego, że w swoim założeniu w dużej mierze opierał się na elemencie szczęścia, zaczęto przypisywać mu <b>wyższe znaczenie</b>, przez co często kończył on jako wyposażenie grobowców.';
 
-        // document.getElementById('history-title-article-4').innerHTML = 'Inne gry';
-        // document.getElementById('history-contents-article-4').innerHTML = 'Rzymianie z kolei mieli tzw. <b>Ludus duodecim scriptorum</b>, grę uznawaną za przodka Backgammona, znanego w Polsce pod nazwą Tryktrak. Niektórzy uważają, że to właśnie do tej gry odnosił się Juliusz Cezar wypowiadając słynne słowa: <i>„Kości zostały rzucone”</i>. Oprócz tego Rzymianie grali również w <b>Tabula Rusolia</b>. Rozgrywka miała miejsce na okrągłej planszy, a celem każdego gracza było ustawienie trzech swoich pionów w jednej linii.';
+         document.getElementById('history-title-article-4').innerHTML = 'Inne gry';
+         document.getElementById('history-contents-article-4').innerHTML = 'Rzymianie z kolei mieli tzw. <b>Ludus duodecim scriptorum</b>, grę uznawaną za przodka Backgammona, znanego w Polsce pod nazwą Tryktrak. Niektórzy uważają, że to właśnie do tej gry odnosił się Juliusz Cezar wypowiadając słynne słowa: <i>„Kości zostały rzucone”</i>. Oprócz tego Rzymianie grali również w <b>Tabula Rusolia</b>. Rozgrywka miała miejsce na okrągłej planszy, a celem każdego gracza było ustawienie trzech swoich pionów w jednej linii.';
 
-        // document.getElementById('history-title-article-5').innerHTML = 'Młynek';
-        // document.getElementById('history-contents-article-5').innerHTML = "Biorąc pod uwagę czasy średniowiecza i początki czasów nowożytnych, ogólnie rzecz biorąc można powiedzieć, że wiele gier, w które zagrywano się w Europie miało starożytne korzenie. Jedną z takich gier jest chociażby młynek; o grze tej wspominał nawet sam <b>Szekspir.</b> Pochodzenie tej gry nie jest jednak dokładnie znane, choć wiele badaczy sądzi, że wywodzi się ona ze <b>starożytnego Egiptu.</b> Wiadomo też, że planszę do gry bardzo często wykonywano z torfu.  Jak wielu innym grom starożytnym, nierzadko przypisywano  jej wyższe znaczenie, a sama plansza często pełniła nawet <b>rolę amuletu.</b> Założenia gry przypominają te znane z rzymskiej Tabula Rusolia. Dzięki ustawieniu 3 pionów w 1 linii można było zdjąć z planszy pion przeciwnika. Przegrywała osoba zostająca jedynie z 2 pionami z początkowych 9.";
+         document.getElementById('history-title-article-5').innerHTML = 'Młynek';
+         //document.getElementById('history-contents-article-5').innerHTML = "Biorąc pod uwagę czasy średniowiecza i początki czasów nowożytnych, ogólnie rzecz biorąc można powiedzieć, że wiele gier, w które zagrywano się w Europie miało starożytne korzenie. Jedną z takich gier jest chociażby młynek; o grze tej wspominał nawet sam <b>Szekspir.</b> Pochodzenie tej gry nie jest jednak dokładnie znane, choć wiele badaczy sądzi, że wywodzi się ona ze <b>starożytnego Egiptu.</b> Wiadomo też, że planszę do gry bardzo często wykonywano z torfu.  Jak wielu innym grom starożytnym, nierzadko przypisywano  jej wyższe znaczenie, a sama plansza często pełniła nawet <b>rolę amuletu.</b> Założenia gry przypominają te znane z rzymskiej Tabula Rusolia. Dzięki ustawieniu 3 pionów w 1 linii można było zdjąć z planszy pion przeciwnika. Przegrywała osoba zostająca jedynie z 2 pionami z początkowych 9.";
 
 
-        // document.getElementById('history-title-article-6').innerHTML = 'Monopoly';
-        // document.getElementById('history-contents-article-6').innerHTML = "Jeśli chodzi o współczesne tytuły to na pewno trzeba wspomnieć o tzw. <b>„The Landlord's Game”.</b> W grze tej poruszamy się po planszy o kształcie kwadratu, wykupujemy posiadłości, dworce, a ponadto możemy trafić do więzienia. Brzmi znajomo? Oczywiście mowa tutaj o kultowym Monopoly. Gra ta została wymyślona przez <b>Lizzie Magie,</b> jedną z pierwszych projektantek gier plaszowych z USA. Początkowo Monopoly nosiło wcześniej już wspomniany odmienny tytuł. The Landlord's Game w swoim założeniu miało być grą z przekazem. Lizzie była feministką i przeciwniczką różnych praktyk biznesowych. Jej gra miała być materializacją sprzeciwu wobec kapitalizmu. W grze tej można było wcielić się w monopolistę lub antymonopolistę. Monopoly z czasem zyskało na popularności i zaczęło przyciągać uwagę społeczeństwa. Niestety pomysł gry z przekazem zgapił <b>Charles Darrow.</b> Delikatnie zmodyfikował go, po czym sprzedał do <b>Parker Brothers</b> (dzisiejsze Hasbro) w 1935 roku. Gra ta od lat 30-tych stała się prawdziwym fenomenem, który trwa aż do dziś. Jest ona jedną z najbardziej rozpoznawalnych gier planszowych na świecie. Monopoly skończyło jednak tylko jako gra czysto rozrywkowa i obecnie pozbawiona jest swojego pierwotnego przekazu, który dla samej Lizzie Magie miał tak duże znaczenie jak metaforyczny odbiór gier przez starożytnych.";
+         document.getElementById('history-title-article-6').innerHTML = 'Monopoly';
+         document.getElementById('history-contents-article-6').innerHTML = "Jeśli chodzi o współczesne tytuły to na pewno trzeba wspomnieć o tzw. <b>„The Landlord's Game”.</b> W grze tej poruszamy się po planszy o kształcie kwadratu, wykupujemy posiadłości, dworce, a ponadto możemy trafić do więzienia. Brzmi znajomo? Oczywiście mowa tutaj o kultowym Monopoly. Gra ta została wymyślona przez <b>Lizzie Magie,</b> jedną z pierwszych projektantek gier plaszowych z USA. Początkowo Monopoly nosiło wcześniej już wspomniany odmienny tytuł. The Landlord's Game w swoim założeniu miało być grą z przekazem. Lizzie była feministką i przeciwniczką różnych praktyk biznesowych. Jej gra miała być materializacją sprzeciwu wobec kapitalizmu. W grze tej można było wcielić się w monopolistę lub antymonopolistę. Monopoly z czasem zyskało na popularności i zaczęło przyciągać uwagę społeczeństwa. Niestety pomysł gry z przekazem zgapił <b>Charles Darrow.</b> Delikatnie zmodyfikował go, po czym sprzedał do <b>Parker Brothers</b> (dzisiejsze Hasbro) w 1935 roku. Gra ta od lat 30-tych stała się prawdziwym fenomenem, który trwa aż do dziś. Jest ona jedną z najbardziej rozpoznawalnych gier planszowych na świecie. Monopoly skończyło jednak tylko jako gra czysto rozrywkowa i obecnie pozbawiona jest swojego pierwotnego przekazu, który dla samej Lizzie Magie miał tak duże znaczenie jak metaforyczny odbiór gier przez starożytnych.";
 
         // ####-SECTIONS-GAMES-####
 
@@ -89,8 +89,8 @@ en.addEventListener('click', function () {
         // ####-SECTION-GO-GAME-####
 
         document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br /> grę planszową.';
-        document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
-        document.getElementById('go-game-button').innerHTML = 'Zagraj!';
+        //document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
+        //document.getElementById('go-game-button').innerHTML = 'Zagraj!';
 
         // ####-SETION-BOTTOM-####
 
