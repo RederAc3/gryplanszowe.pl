@@ -88,27 +88,29 @@ en.addEventListener('click', function () {
 
         // ####-SECTION-GO-GAME-####
 
-        document.getElementById('go-game-contents').innerHTML = 'A może myślisz, że grałeś już w sporo <br /> gier planszowych i już Ci wystarczy? <br /> Ha! My mamy coś ekstra. Prezentujemy naszą wyjątkową, <br /> grę planszową.';
+        document.getElementById('go-game-contents').innerHTML = 'Hungry for board games? <br> You say, and you have! <br> We invite you to our store, <br> where you can get different games';
         //document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
         //document.getElementById('go-game-button').innerHTML = 'Zagraj!';
 
+
+
         // ####-SETION-BOTTOM-####
 
-        document.getElementById('bottom-title-1').innerHTML = 'O projekcie';
+        document.getElementById('bottom-title-1').innerHTML = 'About us';
         document.getElementById('bottom-text-1').innerHTML = 'The goal is to win, but it is the goal that is important, not the winning.';
-        document.getElementById('bottom-title-2').innerHTML = 'Współpraca';
-        document.getElementById('bottom-text-2').innerHTML = 'Kontakt';
-        document.getElementById('bottom-text-3').innerHTML = 'O autorach';
-        document.getElementById('bottom-text-4').innerHTML = 'Donacje';
-        document.getElementById('bottom-title-3').innerHTML = 'Nawigacja';
-        document.getElementById('bottom-text-5').innerHTML = 'Strona główna';
-        document.getElementById('bottom-text-6').innerHTML = 'Sklep';
+        document.getElementById('bottom-title-2').innerHTML = 'Collaboration';
+        document.getElementById('bottom-text-2').innerHTML = 'Contact';
+        document.getElementById('bottom-text-3').innerHTML = 'About authors';
+        document.getElementById('bottom-text-4').innerHTML = 'Donation';
+        document.getElementById('bottom-title-3').innerHTML = 'Navigation';
+        document.getElementById('bottom-text-5').innerHTML = 'Home';
+        document.getElementById('bottom-text-6').innerHTML = 'Shop';
         document.getElementById('bottom-text-7').innerHTML = 'Quiz';
         document.getElementById('bottom-social-media').innerHTML = 'social media';
 
         // ####-SECTION-FOOTER-####
 
-        document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl Wszelkie prawa zastrzeżone';
+        document.getElementById('footer-text').innerHTML = '&copy; 2019 zszarki.pl All rights reserved';
         $("#loader-wrapper").fadeOut();
     }, 500);
 });
