@@ -72,6 +72,7 @@ body {
   @import "components/section-go-game";
   @import "components/section-bottom";
   @import "components/section-footer";
+  @import "components/section-shop";
 
   // ################## Podstrona O projekcie ##################
   @import "components/section-project";
@@ -88,7 +89,7 @@ body {
   }
 
   //MEDIA - ARROWS//
-  @import "media-queries/arrows.scss";
+  
   
   // MEDIA O projekcie    
   @media (max-width: 1010px) {  
@@ -136,4 +137,4 @@ body {
 }
 
 // }
-
+@import "media-queries/arrows";

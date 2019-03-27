@@ -51,8 +51,6 @@ window.onscroll = function () { myFunction() };
 
 
 
-<<<<<<< HEAD
-=======
 function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -72,6 +70,5 @@ function myFunction() {
 // var arrow = document.getElementById('arrow');
 // console.log(arrow.style.height);
 // arrow.style.height = window.scroll;
->>>>>>> 6e0ad57f2338768cd7fbb375a5924335fe8c0bfe
 
 
