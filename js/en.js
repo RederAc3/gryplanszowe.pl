@@ -78,8 +78,8 @@ en.addEventListener('click', function () {
         document.getElementById('curiosities-contents-1').innerHTML = 'The Guinness World record for the longest board marathon in history lasted as many as 61 hours and 2 minutes!';
         document.getElementById('curiosities-contents-2').innerHTML = 'The most expensive game sold is the Jewel Royale chess set, made of gold and platinum. It was sold for 9.8 million dollars!';
         document.getElementById('curiosities-contents-3').innerHTML = "On November 30, 2016, the Dutch created the world's largest Monopoly game board! Its surface is up to 900 m²";
-        document.getElementById('curiosities-contents-4').innerHTML = 'Jedną z osób, która stworzyła najwięcej gier planszowych jest Dr Reiner Knizia. Jest autorem przeszło 200 planszówek! Swoją pierwszą grę zaprojektował gdy miał 8 lat.';
-        document.getElementById('curiosities-contents-5').innerHTML = 'W 1924 roku w Paryżu powstała Międzynarodowa Federacja Szachowa. Na ten sam rok datuje się pierwszą olimpiadę szachową.';
+        document.getElementById('curiosities-contents-4').innerHTML = 'One of the people who created the most board games is Dr. Reiner Knizia. He is the author of over 200 board games! He designed his first game when he was 8 years old.';
+        document.getElementById('curiosities-contents-5').innerHTML = 'In 1924, the International Chess Federation was established in Paris. The first Chess Olympiad dates from the same year.';
 
         // ####-SECTION-QUIZ-####
 
