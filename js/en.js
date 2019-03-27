@@ -83,12 +83,13 @@ en.addEventListener('click', function () {
 
         // ####-SECTION-QUIZ-####
 
-        document.getElementById('quiz-title').innerHTML = 'Sprawdź swoją wiedzę! <br /> Weź udział w quizie składającym się z 20 pytań.';
+        document.getElementById('quiz-title').innerHTML = 'Check your knowledge! <br> Take part in a quiz of 20 questions.';
         document.getElementById('quiz-button').innerHTML = 'Biorę udział';
 
         // ####-SECTION-GO-GAME-####
 
         document.getElementById('go-game-contents').innerHTML = 'Hungry for board games? <br> You say, and you have! <br> We invite you to our store, <br> where you can get different games';
+        document.getElementById('to-shop').innerHTML = 'Click to go';
         //document.getElementById('go-game-text').innerHTML = 'Dlaczego wyjątkową? Przekonaj się sam ;)';
         //document.getElementById('go-game-button').innerHTML = 'Zagraj!';
 
