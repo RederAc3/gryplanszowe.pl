@@ -53,17 +53,17 @@ en.addEventListener('click', function () {
         document.getElementById('game-title-2').innerHTML = 'Scrable';
         document.getElementById('game-contents-2').innerHTML = 'Scrabble is a word game in which two to four players score points by placing tiles bearing a single letter onto a board divided into a 15×15 grid of squares. The tiles must form words that, in crossword fashion, read left to right in rows or downward in columns, and be included in a standard dictionary or lexicon.';
 
-        document.getElementById('game-title-3').innerHTML = 'Chińczyk';
-        document.getElementById('game-contents-3').innerHTML = 'Stara hinduska gra planszowa pachisi jest znana w Indiach do dziś. Josef Schmidt upraszczając znacznie tę grę stworzył chińczyka znanego nam we współczesnej postaci. Rozgrywka polega na dojściu wszystkimi pionkami do tzw. „domku”. Począwszy od pierwszego wydania w 1914r. na całym świecie zostało sprzedane jakieś 70 mln egzemplarzy.';
+        document.getElementById('game-title-3').innerHTML = 'Ludo';
+        document.getElementById('game-contents-3').innerHTML = "Ludo (from Latin ludo, meaning 'I play') is a strategy board game for two to four players, in which the players race their four tokens from start to finish according to the rolls of a single die. Like other cross and circle games, Ludo is derived from the Indian game Pachisi, but simpler. The game and its variations are popular in many countries and under various names.";
 
         document.getElementById('game-title-4').innerHTML = 'Dixit';
-        document.getElementById('game-contents-4').innerHTML = ' Stosunkowa nowa gra wydana w 2008 roku przez wydawnictwo Libellud.  Szczególną sławę zdobyła ona w 2010 roku kiedy to wygrała nagrodę „Spiel des Jahres” (gra roku). W założeniu Dixit jest grą w skojarzenia. Punkt zdobywamy wtedy gdy przynajmniej jedna osoba nie zgadnie, o który obrazek z karty nam chodzi.';
+        document.getElementById('game-contents-4').innerHTML = "Dixit is a card game created by Jean-Louis Roubira, illustrated by Marie Cardouat, and published by Libellud. Using a deck of cards illustrated with dreamlike images, players select cards that match a title suggested by the 'storyteller', and attempt to guess which card the 'storyteller' selected. The game was introduced in 2008. Dixit won the 2010 Spiel des Jahres award.";
 
         document.getElementById('game-title-5').innerHTML = 'Rummikub';
-        document.getElementById('game-contents-5').innerHTML = 'Historia Rummikuba sięga jakieś 70 lat wstecz. Została ona zaprojektowana przez Efraima Hertzano. Mężczyzna wymyślił, aby zastąpić tradycyjne karty używane w popularnej grze, kolorowymi płytkami. Gra ta w krótkim czasie stała się wielkim hitem. Celem gry jest jak najszybsze wyłożenie wszystkich kostek z tablicy na stół.';
+        document.getElementById('game-contents-5').innerHTML = "Rummikub is a tile-based game for two to 4 players, combining elements of the card game rummy and mahjong. There are 104 number tiles in the game (valued 1 to 13 in four different colors, two copies of each) and two jokers. Players have 14 or 16 tiles initially and take turns putting down tiles from their racks into sets (groups or runs) of at least three, drawing a tile if they cannot play.";
 
-        document.getElementById('game-title-6').innerHTML = 'Warcaby';
-        document.getElementById('game-contents-6').innerHTML = 'Warcaby historią swoją sięgają starożytnego Egiptu, lecz znane nam w obecnej formie powstały na Półwyspie Iberyjskim na przełomie XV/XVI w. Podobnie jak w szachach mamy tutaj planszę posiadającą 64 pola. Wygrywa osoba, która pierwsza zbije wszystkie 12 pionów przeciwnika.';
+        document.getElementById('game-title-6').innerHTML = 'Draughts';
+        document.getElementById('game-contents-6').innerHTML = "Draughts (British English) or checkers (American English) is a group of strategy board games for two players which involve diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces. Draughts developed from alquerque. The name derives from the verb to draw or to move.";
 
         document.getElementById('game-title-7').innerHTML = 'Osadnicy z Catanu';
         document.getElementById('game-contents-7').innerHTML = 'Przełomowa gra wydana niespełna 25 lat temu. Została ona zaprojektowana przez Klausa Teubera. Polega na pozyskiwaniu surowców, zakładaniu osad i miast oraz umiejętnym handlu z innymi graczami. Zwycięzcą jest osoba, która zdobędzie 10 pkt. dzięki wyżej wymienionym czynnościom.';
