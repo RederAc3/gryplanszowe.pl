@@ -44,6 +44,12 @@ hamburger[0].addEventListener('click', function () {
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function () { myFunction() };
 
+// ARROWS
+// var arrow = document.getElementById('arrow');
+// console.log(arrow.style.height);
+// arrow.style.height = window.scroll;
+
+
 
 function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

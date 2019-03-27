@@ -1,11 +1,15 @@
 @import "variables";
+
    
-@font-face {               
-  font-family: "Montserrat";   
+
+
+@font-face {
+  font-family: "Montserrat";
   src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
 }
- 
-* { 
+
+* {
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,6 +32,7 @@ body {
     width: 0;
   }
 
+
   @import "components/scrollup";
   @import "components/section-nav";
   /*klasa top zawiera treść gry planszowe, zaczynajmy*/
@@ -35,6 +40,7 @@ body {
   /*zrobiony, aby mozna bylo zrobic margin od gory*/
 
   /*cały container z klasy .section-top*/
+
 
   // scroll indicator
   // @import "components/scroll-indicator";
@@ -48,6 +54,7 @@ body {
     // background-color: #ddd;
     width: 100%;
     height: 8px;
+
   }
 
   /* The progress bar (scroll indicator) */
@@ -121,9 +128,12 @@ body {
       .header-container {
         .header-rd {
           margin: 0;
+
         }
       }
     }
   }
 }
+
 // }
+

@@ -28,18 +28,6 @@
   </head>
 
   <body>
-    <!-- <script src="js/pl.js"></script> -->                       <!--################ PL JS ###############-->
-    <!-- <module href="./modules/scrollup.html"></module>
-    <module href="./modules/section-nav.html"></module>
-    <module href="./modules/section-top.html"></module>
-    <module href="./modules/section-history.html"></module>
-    <module href="./modules/section-games.html"></module>
-    <module href="./modules/section-curiosities.html"></module>
-    <module href="./modules/section-quiz.html"></module>
-    <module href="./modules/section-go-game.html"></module>
-    <module href="./modules/section-bottom.html"></module>
-    <module href="./modules/section-footer.html"></module>
-    <module href="./modules/preloader.html"></module> -->
 
     <a href="#" id="scrollup">
       <i class="fas fa-angle-up"></i>
@@ -74,18 +62,18 @@
           </li>
           <li>
               <a href="quiz.html">
-                  <p id="nav-shop">Quiz</p>
+                  <p id="nav-quiz">Quiz</p>
               </a>
           </li>
           <li>
             <a href="oautorach.html">
-              <p id="nav-home">O projekcie</p>
+              <p id="nav-project">O projekcie</p>
             </a>
           </li>
           <li>
             <p>
-              <span class="polish">PL</span> /
-              <span class="english">EN</span>
+              <span class="polish" id="pl">PL</span> /
+              <span class="english" id="en">EN</span>
             </p>
           </li>
         </ul>
@@ -116,14 +104,14 @@
 
     <section id="history" class="section-history">
       <div class="container">
-        <p class="section-history-header">Jak to się zaczęło?</p>
+        <p class="section-history-header" id="history-header">Jak to się zaczęło?</p>
         <div class="content1">
           <img src="images/scroll.svg" alt="bulb" />
           <!--Or bulb.svg-->
           <div class="box first">
             <div class="article">
-              <p class="article-upper">Trochę historii</p>
-              <p class="article-downner">
+              <p class="article-upper" id="history-title-article-1">Trochę historii</p>
+              <p class="article-downner" id="history-contents-article-1">
                 Najstarsze elementy do gier planszowych liczą sobie ponad <b>5000
                 lat!</b> Chodzi tutaj o <b>49 kamyczków</b>, które zostały ociosane i pomalowane.
                 Znaleziono je na terenach południowo-wschodniej
@@ -134,17 +122,16 @@
             </div>
           </div>
         </div>
-        <!-- <img src="images/bulb.svg" alt="bulb image"> -->
+
 
         <div class="arrowbox">
           <div class="arrow" id="arrow"></div>
         </div>
         <div class="content2">
-          <!-- <img src="images/arrow-mirror.png" alt="arrow" /> -->
           <div class="box second">
             <div class="article">
-              <p class="article-upper">Pierwsza gra?</p>
-              <p class="article-downner">
+              <p class="article-upper" id="history-title-article-2">Pierwsza gra?</p>
+              <p class="article-downner" id="history-contents-article-2">
                 Wielu badaczy uważa, że jedną z pierwszych gier planszowych była
                 <b>gra w kości</b>. Gra ta przez wieki przeszła dużą metamorfozę. Na
                 przetrzeni lat wykonywano ją nie tylko z kości ale też z zębów,
@@ -163,12 +150,11 @@
         <div class="content3">
           <div class="box third">
             <div class="article">
-              <p class="article-upper">Senet</p>
-              <p class="article-downner">
+              <p class="article-upper" id="history-title-article-3">Senet</p>
+              <p class="article-downner" id="history-contents-article-3">
                 Inną starodawną grą był tzw. <b>Senet</b>. Pochodził on z krainy
                 piramid, czyli ze starożytnego <b>Egiptu</b>.
-                <!--Z racji swojego
-                        metaforycznego wymiaru był on wówczas bardzo popularny.-->Senet
+                Senet
                 znany był już w <b>3 tys. p.n.e.</b> i cieszył się popularnością
                 zarówno wśród niższych jak i wyższych warstw społecznych. Z
                 racji tego, że w swoim założeniu w dużej mierze opierał się na
@@ -191,8 +177,8 @@
 
           <div class="box fourth">
             <div class="article">
-              <p class="article-upper">Inne gry</p>
-              <p class="article-downner">
+              <p class="article-upper" id="history-title-article-4">Inne gry</p>
+              <p class="article-downner" id="history-contents-article-4">
                 Rzymianie z kolei mieli tzw. <b>Ludus duodecim scriptorum</b>, grę
                 uznawaną za przodka Backgammona, znanego w Polsce pod nazwą
                 Tryktrak. Niektórzy uważają, że to właśnie do tej gry odnosił
@@ -216,7 +202,7 @@
               <!-- <p class="article-upper">Młynek</p> -->
 
               <p class="article-downner"></p>
-              <p class="article-upper">Młynek</p>
+              <p class="article-upper" id="history-title-article-5">Młynek</p>
               <img src="images/mill-game.png" alt="mill-game" />
               Biorąc pod uwagę czasy średniowiecza i początki czasów nowożytnych,
               ogólnie rzecz biorąc można powiedzieć, że wiele gier, w które zagrywano się w Europie
@@ -241,8 +227,8 @@
       <div class="monopoly">
           <div class="sixth">
             <div class="article">
-              <p class="article-upper">Monopoly</p>
-              <p class="article-downner">
+              <p class="article-upper" id="history-title-article-6">Monopoly</p>
+              <p class="article-downner" id="history-contents-article-6">
                 Jeśli chodzi o współczesne tytuły to na pewno trzeba wspomnieć o
                 tzw. <b>„The Landlord's Game”.</b>
                 <!-- Może nic Ci nie mówi ta nazwa? -->
@@ -689,6 +675,7 @@
         <div class="img-text">
           <img src="images/cart.svg" alt="man" />
           <p class="text-image" id="go-game-contents">
+
             Głodny rozgrywek w gry planszowe?<br />
             Mówisz i masz! <br />
             Zapraszamy do naszego sklepu, <br /><!--autorską-->
@@ -696,6 +683,7 @@
             <a href="shop.html">
               <div class="toshop" id="to-shop">Do sklepu</div>
             </a>
+
           </p>
         </div>
         
@@ -704,7 +692,7 @@
             Dlaczego wyjątkową? Przekonaj się sam ;)
           </div>
           <button class="button-go-game">
-            <span id="go-game-button">Kliknij mnie</span>
+            <span id="go-game-button">Zagraj</span>
           </button>
         </div> -->
       </div>
@@ -714,12 +702,14 @@
         <div class="nav-bottom">
           <div class="nav-section-project">
             <ul><i>
+
                 <li style="font-weight: 300; line-height: 24px;" id="bottom-text-1">
                   <!--Nie wiem czy to jest poprawnie po polsku, po ang to jest:
                    The goal is to win, but it is the goal that is important, not the winning.-->
                   <i style="font-size: 7px; vertical-align: sub;" class="fas fa-quote-right"></i>
                   Celem jest zwycięstwo, jest to cel ważny ale a nie wygrany sam
                   w sobie. <i style="font-size: 7px; vertical-align: super;" class="fas fa-quote-right"></i>
+
                 <li style="margin: -10px 0 0 -10px; font-weight: 600;" id="bottom-title-1">~ Reiner Knizia</li>
               </i>
               </li>
@@ -822,6 +812,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/language.js"></script>
+    <script src="js/pl.js"></script>
+    <script src="js/en.js"></script>
   </body>
 </html>

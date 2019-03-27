@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
 
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,28 +13,19 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="shop.css"> -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <meta name="theme-color" content="#ffa800" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFA800" />
+
 </head>
 
 <body>
-    <!-- <module href="./modules/scrollup.html"></module>
-    <module href="./modules/section-nav.html"></module>
-    <module href="./modules/section-top.html"></module>
-    <module href="./modules/section-history.html"></module>
-    <module href="./modules/section-games.html"></module>
-    <module href="./modules/section-curiosities.html"></module>
-    <module href="./modules/section-quiz.html"></module>
-    <module href="./modules/section-go-game.html"></module>
-    <module href="./modules/section-bottom.html"></module>
-    <module href="./modules/section-footer.html"></module>
-    <module href="./modules/preloader.html"></module> -->
-  
+
     <a href="#" id="scrollup">
         <i class="fas fa-angle-up"></i>
     </a>
-<div class="modal-none" id="modal"></div>
+    <div class="modal-none" id="modal"></div>
     <section class="section-nav">
       <div class="container container-nav">
         <div class="top-logo">
@@ -63,123 +53,135 @@
           </li>
           <li>
             <a href="quiz.html">
-              <p id="nav-shop">Quiz</p>
+              <p id="nav-quiz">Quiz</p>
             </a>
           </li>
           <li>
             <a href="oautorach.html">
-              <p id="nav-home">O projekcie</p>
+              <p id="nav-project">O projekcie</p>
             </a>
           </li>
           <li>
+                  <p id="card">Koszyk</p>
+              </li>
+          <li>
             <p>
-              <span class="polish">PL</span> /
-              <span class="english">EN</span>
+              <span class="polish" id="pl">PL</span> /
+              <span class="english" id="en">EN</span>
             </p>
           </li>
         </ul>
       </div>
     </section>
-    <section class="section-shop">
-        <div class="container container-shop">
-            <div class="elements-shop">
-                <div class="image">
-                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-logiczna-szachy-b-iext34507813.jpg" alt="">
-                </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">100zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Szachy</p>
-
-            </div>
-            <div class="elements-shop">
-                <div class="image">
-                    <img style="width: 100%; height: 100%;" src="https://s.znak.com.pl//files/covers/card/f1/osadnicy.jpg" alt="">
-                </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">260zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Osadnicy z catanu</p>
-            </div>
-            <div class="elements-shop">
-                <div class="image">
-                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
-                </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">120zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Warcaby</p>
-            </div>
-            <div class="elements-shop">
-                <div class="image">
-                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-rodzinna-chinczyk-gra-dla-6-osob-w-iext46002468.jpg" alt="">
-                </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">160zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Chinczyk</p>
-            </div>
-            <div class="elements-shop">
-                <div class="image">
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://ecsmedia.pl/c/alexander-gra-logiczna-szachy-b-iext34507813.jpg">
+                <span class="shop-item-title">Szachy</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">50zł</span>
 
                 </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">100zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Szachy</p>
+                <button class=" shop-item-button" type="button" data-price="50" data-name="Szachy">Dodaj do koszyka</button>
             </div>
-            <div class="elements-shop">
-                <div class="image">
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://ecsmedia.pl/c/alexander-gra-rodzinna-chinczyk-gra-dla-6-osob-w-iext46002468.jpg">
+                <span class="shop-item-title">Chinczyk</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">50zł</span>
 
                 </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">260zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Osadnicy z catanu</p>
+                <button class=" shop-item-button" type="button" data-price="50" data-name="Chińczyk">Dodaj do koszyka</button>
             </div>
-            <div class="elements-shop">
-                <div class="image">
-                    <img style="width: 100%; height: 100%;" src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg" alt="">
-                </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">120zł</p>
-                </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Warcaby</p>
-            </div>
-            <div class="elements-shop">
-                <div class="image">
+
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJRy1tppDTNt40eGNKfKJPVsYTGLisBu5X52QVI1i3_HQfboN">
+                <span class="shop-item-title">Osadnicy z Catanu</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">100zł</span>
 
                 </div>
-                
-                <div class="prince">
-                    <p class="prince-text">Cena: </p>
-                    <p class="prince-number">160zł</p>
+                <button class=" shop-item-button" type="button" data-price="100" data-name="Osadnicy z Catanu">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://cdn.bonito.pl/zdjecia/4/d423083d13441-warcaby-mlynek.jpg">
+                <span class="shop-item-title">Młynek i Warcaby 2 w 1</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">60zł</span>
+
                 </div>
-                <button class="buy-button">Kup Teraz</button>
-                <p class="title-product">Chinczyk</p>
+                <button class=" shop-item-button" type="button" data-price="60" data-name="Młynek i Warcaby 2 w 1">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://image.ceneostatic.pl/data/products/14059457/f-hasbro-monopoly-polska-01610.jpg">
+                <span class="shop-item-title">Monopoly</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">90zł</span>
+
+                </div>
+                <button class=" shop-item-button" type="button" data-price="90" data-name="Monopoly">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkLc0Mdc3s6PczXAmXg-eeshGudAmkXusLjXM1GYc8SDjBz-GI">
+                <span class="shop-item-title">Scrabble</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">40zł</span>
+
+                </div>
+                <button class=" shop-item-button" type="button" data-price="40" data-name="Scrabble">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://image.ceneostatic.pl/data/products/40713239/f-rummikub.jpg">
+                <span class="shop-item-title">Rummikub</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">80zł</span>
+
+                </div>
+                <button class=" shop-item-button" type="button" data-price="80" data-name="Rummikub">Dodaj do koszyka</button>
+            </div>
+            <div class="shop-item">
+                <img class="shop-item-image"
+                    src="https://ecsmedia.pl/c/alexander-gra-planszowa-warcaby-12-gier-na-planszy-w-iext37530331.jpg">
+                <span class="shop-item-title">Warcaby</span>
+                <div class="shop-item-details">
+                    <span class="prince-text-item">Cena: </span>
+                    <span class="shop-item-price">50zł</span>
+                </div>
+                <button class=" shop-item-button" type="button" data-price="50" data-name="Warcaby">Dodaj do koszyka</button>
             </div>
         </div>
+    </section>
+
+    <section class="container content-section container-card hide-card" id="card-container">
+        <div class="exit" id="card-exit"><i class="fas fa-times"></i></div>
+        <h2 class="section-header">Koszyk</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Produkt</span>
+            <span class="cart-price cart-header cart-column">Cena</span>
+            <span class="cart-quantity cart-header cart-column">Ilość</span>
+        </div>
+        <div class="cart-items">
+            
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Razem: </strong>
+            <span class="cart-total-price">0zł</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Zamawiam</button>
     </section>
     <section class="section-bottom">
       <div class="container container-nav">
@@ -290,24 +292,15 @@
         <hr />
       </div>
     </div>
-  </section>
-  <div id="loader-wrapper">
-    <div class="load">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-    </div>
-  </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/store.js"></script>
     <script src="js/shop.js"></script>
+    <script src="js/pl.js"></script>
+    <script src="js/en.js"></script>
+
+
+</body>
 
 </html>
