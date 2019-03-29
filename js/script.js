@@ -69,33 +69,33 @@ function myFunction() {
         var arrow2 = document.querySelector('#arrow-cover2');
         var arrow3 = document.querySelector('#arrow-cover3');
         var arrow4 = document.querySelector('#arrow-cover4');
+        console.log(winScroll);
 
-        if ($(this).scrollTop() > 800) {
-            console.log(winScroll);
+        if ($(this).scrollTop() >= 879) {
             setTimeout(function () {
                 arrow1.style.height = '0';
-            }, 800);
+            }, 400);
 
         }
 
-        if ($(this).scrollTop() > 1200) {
+        if ($(this).scrollTop() >= 1284) {
             setTimeout(function () {
                 arrow2.style.height = '0';
-            }, 800);
+            }, 400);
 
         }
 
-        if ($(this).scrollTop() > 1600) {
+        if ($(this).scrollTop() >= 1810) {
             setTimeout(function () {
                 arrow3.style.height = '0';
-            }, 800);
+            }, 400);
 
         }
 
-        if ($(this).scrollTop() > 2250) {
+        if ($(this).scrollTop() >= 2226) {
             setTimeout(function () {
                 arrow4.style.height = '0';
-            }, 800);
+            }, 400);
 
         }
     });
