@@ -12,7 +12,7 @@
             justify-content: flex-end;
             overflow: hidden;
             .arrow {
-                background: url("/images/arrow.png") no-repeat;
+                background: url("../images/arrow.png") no-repeat;
                 margin-right: 27%;
                 transform: rotate(20deg);
                 position: relative;
@@ -23,7 +23,7 @@
             margin-top: -145px; // justify-content: flex-start;
             overflow: hidden;
             .arrow {
-                background: url("/images/arrow-mirror.png") no-repeat;
+                background: url("../images/arrow-mirror.png") no-repeat;
                 margin-top: 52px;
                 margin-bottom: -10px;
                 margin-left: -50px;
@@ -39,7 +39,7 @@
             justify-content: center;
             overflow: hidden;
             .arrow {
-                background: url("/images/arrow.png") no-repeat;
+                background: url("../images/arrow.png") no-repeat;
                 transform: rotate(-25deg);
                 margin-left: 120px;
                 position: relative;
@@ -52,7 +52,7 @@
             justify-content: center;
             overflow: hidden;
             .arrow {
-                background: url("/images/arrow-mirror.png") no-repeat;
+                background: url("../images/arrow-mirror.png") no-repeat;
                 margin-left: -30%;
                 transform: rotate(30deg);
                 position: relative;
