@@ -57,13 +57,49 @@ function myFunction() {
     var heightTest = winScroll - 1289;
     var scrolled = (heightTest / height) * 100;
 
-    document.getElementById("myBar").style.width = scrolled + "%";
-
-
+    // document.getElementById("myBar").style.width = scrolled + "%";
 
     if (document.documentElement.scrollTop < 1281) {
-        document.getElementById("myBar").style.width = "0";
+        // document.getElementById("myBar").style.width = "0";
     }
+
+
+    $(window).scroll(function () {
+        var arrow1 = document.querySelector('#arrow-cover1');
+        var arrow2 = document.querySelector('#arrow-cover2');
+        var arrow3 = document.querySelector('#arrow-cover3');
+        var arrow4 = document.querySelector('#arrow-cover4');
+
+        if ($(this).scrollTop() > 800) {
+            console.log(winScroll);
+            setTimeout(function () {
+                arrow1.style.height = '0';
+            }, 800);
+
+        }
+
+        if ($(this).scrollTop() > 1200) {
+            setTimeout(function () {
+                arrow2.style.height = '0';
+            }, 800);
+
+        }
+
+        if ($(this).scrollTop() > 1600) {
+            setTimeout(function () {
+                arrow3.style.height = '0';
+            }, 800);
+
+        }
+
+        if ($(this).scrollTop() > 2250) {
+            setTimeout(function () {
+                arrow4.style.height = '0';
+            }, 800);
+
+        }
+    });
+
 }
 
 // ARROWS

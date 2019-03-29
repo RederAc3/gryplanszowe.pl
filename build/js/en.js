@@ -25,15 +25,15 @@ en.addEventListener('click', function () {
 
         // ####-SECTION-HISORY-####
 
-         document.getElementById('history-header').innerHTML = 'How did it begin ?';
+         document.getElementById('history-header').innerHTML = 'How did it begin?';
          document.getElementById('history-title-article-1').innerHTML = 'Some history';
          document.getElementById('history-contents-article-1').innerHTML = 'The oldest elements of board games are over 5000 years old. It is a series of 49 small carved painted stones which was found in southeast Turkey. Similar pieces have been found in Syria and Iraq and seem to point to board games having originated in the Fertile Crescent.';
 
-         document.getElementById('history-title-article-2').innerHTML = 'First game ?';
+         document.getElementById('history-title-article-2').innerHTML = 'First game?';
          document.getElementById('history-contents-article-2').innerHTML = 'Many researchers think that one of the first board games was dice. That game has changed for ages. Not only was it made of bones but also of teeth, antlers and tusks. Since ancient times people had looked for godlike element in it. In Rome they believed that Lady Luck, Fortuna can move the needle on results. People often accept a roll of the dice clearly reflect Gods volition.';
 
          document.getElementById('history-title-article-3').innerHTML = 'Senet';
-         document.getElementById('history-contents-article-3').innerHTML = "Senet is one of the oldest known board games. Fragmentary boards that could be senet have been found in First Dynasty burials in Egypt. A hieroglyph resembling a senet board appears in the tomb of Merknera (3300–2700 BC). The first unequivocal painting of this ancient game is from the Third Dynasty tomb of Hesy. People are depicted playing senet in a painting in the tomb of Rashepes, as well as from other tombs of the Fifth and Sixth Dynasties.";
+         document.getElementById('history-contents-article-3').innerHTML = "Senet is one of the oldest known board games. Fragmentary boards that could be senet have been found in First Dynasty burials in Egypt. A hieroglyph resembling a senet board appears in the tomb of Merkner. The first unequivocal painting of this ancient game is from the Third Dynasty tomb of Hesy. People are depicted playing senet in a painting in the tomb of Rashepes, as well as from other tombs of the Fifth and Sixth Dynasties.";
 
          document.getElementById('history-title-article-4').innerHTML = 'Other games';
          document.getElementById('history-contents-article-4').innerHTML = "The Romans, in turn, had so-called Ludus duodecim scriptorum, a game considered to be the ancestor of Backgammon, known in Poland under the name Tryktrak. Some believe that it was to this game that Julius Caesar referred to the famous words: 'The bones were thrown.' In addition, the Romans also played in Tabula Rusolia. The game took place on a round board, and the goal of each player was to set three of his risers in one line.";
