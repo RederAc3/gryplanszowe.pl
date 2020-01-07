@@ -32,8 +32,8 @@
       .cooperation {
         &::before {
         }
-        &::after {
-          display: none !important;
+        &::before {
+          width: 20px;
         }
       }
       .navigation {

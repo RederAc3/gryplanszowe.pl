@@ -9,6 +9,9 @@
       .nav-section-project,
       .cooperation,
       .navigation {
+        &::after {
+          width: 20px;
+        }
         ul {
           li {
             &:nth-child(1) {
@@ -31,9 +34,6 @@
       .navigation,
       .cooperation {
         &::before {
-        }
-        &::after {
-          display: none !important;
         }
       }
       .navigation {

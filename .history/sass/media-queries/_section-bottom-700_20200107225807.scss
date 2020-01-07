@@ -3,7 +3,7 @@
     flex-direction: column;
     .nav-bottom {
       margin: 20px auto;
-      order: 2;
+      flex-direction: column;
       li {
       }
       .nav-section-project,
@@ -30,11 +30,9 @@
       }
       .navigation,
       .cooperation {
-        &::before {
-        }
-        &::after {
-          display: none !important;
-        }
+        // &::after {
+        display: none;
+        // }
       }
       .navigation {
       }
@@ -48,7 +46,6 @@
     width: auto;
     border: none;
     padding: 0 0 20px;
-    order: 1;
     .social-media-text {
     }
     .social-buttons {

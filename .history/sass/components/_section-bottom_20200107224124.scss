@@ -1,4 +1,5 @@
 .section-bottom {
+  border-bottom: 1px solid rgb(20, 20, 20);
   background: #444;
   color: #e3e3e3;
   font-family: $montserrat;
@@ -21,7 +22,7 @@
       .navigation {
         position: relative;
         width: 250px;
-        font-size: 14px;
+        font-size: 16px;
 
         ul {
           padding: 10px;
@@ -53,7 +54,7 @@
         ul {
           a {
             font-weight: 300 !important;
-            transition: 0.1s ease-out;
+            transition: 0.2s ease-out;
 
             &:hover {
               color: #f8aa00;
@@ -70,7 +71,7 @@
           display: block;
           height: 100px;
           width: 1px;
-          background: #333;
+          background: #222;
         }
         &:last-child::after {
           position: absolute;
@@ -80,7 +81,7 @@
           display: block;
           height: 100px;
           width: 1px;
-          background: #333;
+          background: #222;
         }
       }
 

@@ -32,9 +32,6 @@
       .cooperation {
         &::before {
         }
-        &::after {
-          display: none !important;
-        }
       }
       .navigation {
       }
@@ -68,4 +65,8 @@
     .ig-button {
     }
   }
+}
+
+.cooperation::before {
+  width: 20px;
 }

@@ -32,11 +32,11 @@
       .cooperation {
         &::before {
         }
-        &::after {
-          display: none !important;
-        }
       }
       .navigation {
+        &::after {
+          width: 20px;
+        }
       }
       ul {
         li {
