@@ -47,9 +47,8 @@ en.addEventListener("click", function() {
 
     document.getElementById("history-title-article-5").innerHTML =
       "Nine Men's Morris";
-    document.getElementById(
-      "history-contents-article-5"
-    ).innerHTML = `<img src="images/mill-game.png" alt="mill-game" />Nine men's morris is a strategy board game for two players dating at least to the Roman Empire. The game is also known as nine-man morris, mill, mills, the mill game, merels, merrills, merelles, marelles, morelles and ninepenny marl in English. The game has also been called cowboy checkers and is sometimes printed on the back of checkerboards. Nine men's morris is a solved game – one in which either player can force the game into a draw. Its name derives from the Latin word merellus, 'gamepiece'. Three main alternative variations of the game are three, six, and twelve men's morris.`;
+    document.getElementById("history-contents-article-5").innerHTML =
+      "Nine men's morris is a strategy board game for two players dating at least to the Roman Empire. The game is also known as nine-man morris, mill, mills, the mill game, merels, merrills, merelles, marelles, morelles and ninepenny marl in English. The game has also been called cowboy checkers and is sometimes printed on the back of checkerboards. Nine men's morris is a solved game – one in which either player can force the game into a draw. Its name derives from the Latin word merellus, 'gamepiece'. Three main alternative variations of the game are three, six, and twelve men's morris.";
 
     document.getElementById("history-title-article-6").innerHTML = "Monopoly";
     document.getElementById("history-contents-article-6").innerHTML =
