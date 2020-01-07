@@ -57,10 +57,15 @@
       }
     }
     .content5 {
-      margin-top: 250px;
+      img {
+        display: none;
+      }
       padding: 25px 10px 25px 10px;
       .fifth {
-        padding: 0 5px;
+        img {
+          //   display: none;
+        }
+        padding: 20px 10px 0 10px;
       }
     }
     .monopoly {
