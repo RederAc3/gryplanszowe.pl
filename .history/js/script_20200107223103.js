@@ -76,25 +76,25 @@ function myFunction() {
     if ($(this).scrollTop() >= 879) {
       setTimeout(function() {
         arrow1.style.height = "0";
-      }, 150);
+      }, 400);
     }
 
-    if ($(this).scrollTop() >= 1200) {
+    if ($(this).scrollTop() >= 1284) {
       setTimeout(function() {
         arrow2.style.height = "0";
-      }, 150);
+      }, 400);
     }
 
-    if ($(this).scrollTop() >= 1700) {
+    if ($(this).scrollTop() >= 1810) {
       setTimeout(function() {
         arrow3.style.height = "0";
-      }, 150);
+      }, 400);
     }
 
-    if ($(this).scrollTop() >= 2180) {
+    if ($(this).scrollTop() >= 2226) {
       setTimeout(function() {
         arrow4.style.height = "0";
-      }, 150);
+      }, 400);
     }
   });
 }
