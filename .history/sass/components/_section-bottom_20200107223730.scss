@@ -62,20 +62,11 @@
           }
         }
 
-        &::before {
-          position: absolute;
-          top: 45px;
-          left: 0;
-          content: "";
-          display: block;
-          height: 100px;
-          width: 1px;
-          background: #222;
-        }
+        &::before,
         &:last-child::after {
           position: absolute;
           top: 45px;
-          right: 0;
+          left: 0;
           content: "";
           display: block;
           height: 100px;

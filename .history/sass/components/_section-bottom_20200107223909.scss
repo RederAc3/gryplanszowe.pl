@@ -72,16 +72,6 @@
           width: 1px;
           background: #222;
         }
-        &:last-child::after {
-          position: absolute;
-          top: 45px;
-          right: 0;
-          content: "";
-          display: block;
-          height: 100px;
-          width: 1px;
-          background: #222;
-        }
       }
 
       .navigation {
@@ -100,7 +90,7 @@
     text-align: center;
     width: 500px;
     background: #444;
-    // border-left: 1px solid #999;
+    border-left: 1px solid #999;
 
     a {
       color: white;

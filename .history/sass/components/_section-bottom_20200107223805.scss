@@ -72,10 +72,10 @@
           width: 1px;
           background: #222;
         }
-        &:last-child::after {
+        &::after {
           position: absolute;
           top: 45px;
-          right: 0;
+          left: 0;
           content: "";
           display: block;
           height: 100px;

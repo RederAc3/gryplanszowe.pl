@@ -72,16 +72,6 @@
           width: 1px;
           background: #222;
         }
-        &:last-child::after {
-          position: absolute;
-          top: 45px;
-          right: 0;
-          content: "";
-          display: block;
-          height: 100px;
-          width: 1px;
-          background: #222;
-        }
       }
 
       .navigation {
