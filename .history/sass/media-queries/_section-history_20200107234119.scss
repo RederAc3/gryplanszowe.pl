@@ -1,0 +1,82 @@
+.section-history {
+  .container {
+    .arrow {
+      display: noen;
+    }
+    .content1 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+    .content2 {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 100px;
+      position: static;
+      img {
+        width: 120px;
+        height: 120px;
+        transform: translateY(0);
+      }
+    }
+    .content3 {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 100px;
+      position: static;
+      img {
+        margin: 0;
+        position: relative;
+        left: 0;
+        transform: translateX(0);
+        width: 110px;
+        height: 110px;
+      }
+    }
+    .content4 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+      position: static;
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+    .content5 {
+      img {
+        display: none;
+      }
+      padding: 25px 10px 25px 10px;
+      .fifth {
+        img {
+          display: none;
+        }
+        padding: 20px 10px 0 10px;
+      }
+    }
+    .monopoly {
+      .sixth {
+        width: 100vw;
+        border-radius: 0;
+        padding: 10px;
+      }
+    }
+    .box {
+      position: static;
+      margin: 0;
+      width: 95%;
+      height: auto;
+      margin-top: 20px;
+      margin-bottom: 12px;
+      box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.7);
+    }
+    .arrowbox {
+      // display: none;
+    }
+  }
+}

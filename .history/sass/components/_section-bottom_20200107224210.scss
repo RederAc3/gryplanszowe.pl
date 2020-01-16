@@ -1,0 +1,180 @@
+.section-bottom {
+  border-bottom: 1px solid rgb(20, 20, 20);
+  background: #444;
+  color: #e3e3e3;
+  font-family: $montserrat;
+
+  // display: none;
+  & > .container {
+    display: flex;
+
+    .nav-bottom {
+      display: flex;
+      text-align: center;
+
+      li {
+        list-style: none;
+        padding: 10px;
+      }
+
+      .nav-section-project,
+      .cooperation,
+      .navigation {
+        position: relative;
+        width: 250px;
+        font-size: 15px;
+
+        ul {
+          padding: 10px;
+
+          &:first-child {
+            font-weight: 700;
+          }
+        }
+
+        .nav-section-project {
+          & > ul {
+            & > li {
+              width: 100px;
+            }
+          }
+        }
+
+        .cooperation {
+        }
+
+        ul {
+          li {
+          }
+        }
+      }
+
+      .navigation,
+      .cooperation {
+        ul {
+          a {
+            font-weight: 300 !important;
+            transition: 0.2s ease-out;
+
+            &:hover {
+              color: #f8aa00;
+              cursor: pointer;
+            }
+          }
+        }
+
+        &::before {
+          position: absolute;
+          top: 45px;
+          left: 0;
+          content: "";
+          display: block;
+          height: 100px;
+          width: 1px;
+          background: #222;
+        }
+        &:last-child::after {
+          position: absolute;
+          top: 45px;
+          right: 0;
+          content: "";
+          display: block;
+          height: 100px;
+          width: 1px;
+          background: #222;
+        }
+      }
+
+      .navigation {
+        position: relative; // display: flex;
+        align-items: center;
+      }
+
+      ul {
+        li {
+        }
+      }
+    }
+  }
+
+  .social-media {
+    text-align: center;
+    width: 500px;
+    background: #444;
+    // border-left: 1px solid #999;
+
+    a {
+      color: white;
+    }
+
+    .social-media-text {
+      padding: 20px;
+      text-transform: uppercase;
+    }
+
+    .social-buttons {
+      display: flex;
+      justify-content: center;
+
+      .btn {
+        display: flex;
+        justify-content: center;
+      }
+
+      .fab {
+        margin: auto 0;
+      }
+
+      .btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin: 20px 15px;
+      }
+
+      .yt-button {
+        background: #ff0000;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(0.9);
+          opacity: 0.6;
+          cursor: pointer;
+        }
+      }
+
+      .fb-button {
+        background: #4267b2;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(0.9);
+          opacity: 0.6;
+          cursor: pointer;
+        }
+      }
+
+      .tw-button {
+        background: rgb(23, 26, 29);
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(0.9);
+          opacity: 0.6;
+          cursor: pointer;
+        }
+      }
+
+      .ig-button {
+        background: #6d483e;
+        transition: 0.3s;
+
+        &:hover {
+          transform: scale(0.9);
+          opacity: 0.6;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
