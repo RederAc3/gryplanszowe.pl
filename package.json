@@ -33,7 +33,7 @@
   "homepage": "https://github.com/RederAc3/zszarki.pl#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.27.10",
     "globstar": "^1.0.0",
     "node-sass": "^4.9.3",
     "npm-run-all": "^4.1.3",
